@@ -1,0 +1,180 @@
+[
+  {
+    "file": "family_01.mp3",
+    "text": "This is my mother.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_02.mp3",
+    "text": "My father is a teacher.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_03.mp3",
+    "text": "I have one brother.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_04.mp3",
+    "text": "My sister is ten years old.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_05.mp3",
+    "text": "My grandmother is very kind.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_06.mp3",
+    "text": "I love my family.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_07.mp3",
+    "text": "My parents live in London.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_08.mp3",
+    "text": "My brother likes football.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_09.mp3",
+    "text": "My sister goes to school.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_10.mp3",
+    "text": "We are a happy family.",
+    "type": "sentence"
+  },
+  {
+    "file": "family_dialogue_1_q1.mp3",
+    "text": "How many brothers does Person B have?",
+    "answer": "Two brothers.",
+    "options": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "family_dialogue_1_q2.mp3",
+    "text": "What does the father do?",
+    "answer": "He is a doctor.",
+    "options": [
+      "Teacher",
+      "Doctor",
+      "Driver"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "family_dialogue_1.mp3",
+    "text": "Person A: Do you have a big family?\nPerson B: Yes, I have two brothers and one sister.\nPerson A: What does your father do?\nPerson B: He is a doctor.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "How many brothers does Person B have?",
+        "answer": "Two brothers.",
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ]
+      },
+      {
+        "question": "What does the father do?",
+        "answer": "He is a doctor.",
+        "options": [
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "family_dialogue_2_q1.mp3",
+    "text": "How old is the sister?",
+    "answer": "Eight years old.",
+    "options": [
+      "Seven",
+      "Eight",
+      "Nine"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "family_dialogue_2_q2.mp3",
+    "text": "Does the sister like school?",
+    "answer": "Yes, she loves it.",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "family_dialogue_2.mp3",
+    "text": "Person A: How old is your sister?\nPerson B: She is eight years old.\nPerson A: Does she like school?\nPerson B: Yes, she loves it!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "How old is the sister?",
+        "answer": "Eight years old.",
+        "options": [
+          "Seven",
+          "Eight",
+          "Nine"
+        ]
+      },
+      {
+        "question": "Does the sister like school?",
+        "answer": "Yes, she loves it.",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "family_question_1.mp3",
+    "text": "How many brothers does the person have?",
+    "answer": "Two brothers.",
+    "options": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "family_question_2.mp3",
+    "text": "What does the father do?",
+    "answer": "He is a doctor.",
+    "options": [
+      "Teacher",
+      "Doctor",
+      "Driver"
+    ],
+    "type": "question"
+  }
+]

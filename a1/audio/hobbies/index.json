@@ -1,0 +1,180 @@
+[
+  {
+    "file": "hobbies_01.mp3",
+    "text": "I like reading books.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_02.mp3",
+    "text": "She plays tennis every weekend.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_03.mp3",
+    "text": "He enjoys cooking.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_04.mp3",
+    "text": "I watch movies on Friday nights.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_05.mp3",
+    "text": "My hobby is photography.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_06.mp3",
+    "text": "They like swimming in the summer.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_07.mp3",
+    "text": "I listen to music every day.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_08.mp3",
+    "text": "She paints beautiful pictures.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_09.mp3",
+    "text": "He plays the guitar.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_10.mp3",
+    "text": "We play video games together.",
+    "type": "sentence"
+  },
+  {
+    "file": "hobbies_dialogue_1_q1.mp3",
+    "text": "What does Person B like to do?",
+    "answer": "Read books.",
+    "options": [
+      "Play sports",
+      "Read books",
+      "Watch movies"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "hobbies_dialogue_1_q2.mp3",
+    "text": "What sports does Person A play?",
+    "answer": "Basketball and tennis.",
+    "options": [
+      "Soccer and tennis",
+      "Basketball and tennis",
+      "Basketball only"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "hobbies_dialogue_1.mp3",
+    "text": "Person A: What do you do in your free time?\nPerson B: I like to read books. What about you?\nPerson A: I enjoy playing sports.\nPerson B: What sports do you play?\nPerson A: I play basketball and tennis.\nPerson B: That's great!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What does Person B like to do?",
+        "answer": "Read books.",
+        "options": [
+          "Play sports",
+          "Read books",
+          "Watch movies"
+        ]
+      },
+      {
+        "question": "What sports does Person A play?",
+        "answer": "Basketball and tennis.",
+        "options": [
+          "Soccer and tennis",
+          "Basketball and tennis",
+          "Basketball only"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "hobbies_dialogue_2_q1.mp3",
+    "text": "What kind of movie is it?",
+    "answer": "A comedy.",
+    "options": [
+      "A comedy",
+      "A drama",
+      "A horror movie"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "hobbies_dialogue_2_q2.mp3",
+    "text": "What time does the movie start?",
+    "answer": "Eight o'clock.",
+    "options": [
+      "Seven o'clock",
+      "Eight o'clock",
+      "Nine o'clock"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "hobbies_dialogue_2.mp3",
+    "text": "Person A: Do you want to go to the movies tonight?\nPerson B: What movie?\nPerson A: It's a comedy. It's very funny.\nPerson B: Sounds good! What time?\nPerson A: It starts at eight o'clock.\nPerson B: Perfect. I'll meet you there.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What kind of movie is it?",
+        "answer": "A comedy.",
+        "options": [
+          "A comedy",
+          "A drama",
+          "A horror movie"
+        ]
+      },
+      {
+        "question": "What time does the movie start?",
+        "answer": "Eight o'clock.",
+        "options": [
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "hobbies_question_1.mp3",
+    "text": "What does the person like to do in free time?",
+    "answer": "Read books.",
+    "options": [
+      "Watch TV",
+      "Read books",
+      "Play sports"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "hobbies_question_2.mp3",
+    "text": "What time does the movie start?",
+    "answer": "Eight o'clock.",
+    "options": [
+      "Seven o'clock",
+      "Eight o'clock",
+      "Nine o'clock"
+    ],
+    "type": "question"
+  }
+]

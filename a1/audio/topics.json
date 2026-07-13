@@ -2,5 +2,57 @@
   {
     "id": "greetings",
     "name": "Greetings & Introductions"
+  },
+  {
+    "id": "family",
+    "name": "Family"
+  },
+  {
+    "id": "food",
+    "name": "Food & Drinks"
+  },
+  {
+    "id": "daily_routine",
+    "name": "Daily Routine"
+  },
+  {
+    "id": "shopping",
+    "name": "Shopping"
+  },
+  {
+    "id": "travel",
+    "name": "Travel & Directions"
+  },
+  {
+    "id": "weather",
+    "name": "Weather"
+  },
+  {
+    "id": "health",
+    "name": "Health & Doctor"
+  },
+  {
+    "id": "numbers",
+    "name": "Numbers & Counting"
+  },
+  {
+    "id": "colors",
+    "name": "Colors"
+  },
+  {
+    "id": "time",
+    "name": "Time & Schedules"
+  },
+  {
+    "id": "work",
+    "name": "Work & Jobs"
+  },
+  {
+    "id": "hobbies",
+    "name": "Hobbies & Free Time"
+  },
+  {
+    "id": "animals",
+    "name": "Animals & Pets"
   }
 ]

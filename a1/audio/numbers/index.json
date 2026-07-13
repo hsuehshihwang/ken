@@ -1,0 +1,159 @@
+[
+  {
+    "file": "numbers_01.mp3",
+    "text": "I have three cats.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_02.mp3",
+    "text": "There are twenty students in the class.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_03.mp3",
+    "text": "My phone number is five five five, one two three four.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_04.mp3",
+    "text": "I need ten apples.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_05.mp3",
+    "text": "The bus comes at seven fifteen.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_06.mp3",
+    "text": "I live on the third floor.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_07.mp3",
+    "text": "She has fifty dollars.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_08.mp3",
+    "text": "There are one hundred people here.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_09.mp3",
+    "text": "My birthday is on the twenty-first.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_10.mp3",
+    "text": "I wake up at six thirty every day.",
+    "type": "sentence"
+  },
+  {
+    "file": "numbers_dialogue_1_q1.mp3",
+    "text": "How many people are coming to the party?",
+    "answer": "Eight people.",
+    "options": [
+      "Six",
+      "Eight",
+      "Ten"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "numbers_dialogue_1_q2.mp3",
+    "text": "How many people should they order food for?",
+    "answer": "Ten people.",
+    "options": [
+      "Eight",
+      "Ten",
+      "Twelve"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "numbers_dialogue_1.mp3",
+    "text": "Person A: How many people are coming to the party?\nPerson B: Let me see. Eight people.\nPerson A: Should we order more food?\nPerson B: Yes, let's order for ten people.\nPerson A: Good idea.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "How many people are coming to the party?",
+        "answer": "Eight people.",
+        "options": [
+          "Six",
+          "Eight",
+          "Ten"
+        ]
+      },
+      {
+        "question": "How many people should they order food for?",
+        "answer": "Ten people.",
+        "options": [
+          "Eight",
+          "Ten",
+          "Twelve"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "numbers_dialogue_2_q1.mp3",
+    "text": "What is Person B's phone number?",
+    "answer": "Zero one two, three four five, six seven eight nine.",
+    "options": [
+      "Zero one two, three four five, six seven eight nine",
+      "One two three, four five six, seven eight nine zero",
+      "Zero nine eight, seven six five, four three two one"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "numbers_dialogue_2.mp3",
+    "text": "Person A: What's your phone number?\nPerson B: It's zero one two, three four five, six seven eight nine.\nPerson A: Let me write that down. Zero one two...\nPerson B: Three four five, six seven eight nine.\nPerson A: Thank you!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What is Person B's phone number?",
+        "answer": "Zero one two, three four five, six seven eight nine.",
+        "options": [
+          "Zero one two, three four five, six seven eight nine",
+          "One two three, four five six, seven eight nine zero",
+          "Zero nine eight, seven six five, four three two one"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "numbers_question_1.mp3",
+    "text": "How many people are coming to the party?",
+    "answer": "Eight people.",
+    "options": [
+      "Six",
+      "Eight",
+      "Ten"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "numbers_question_2.mp3",
+    "text": "What floor does the person live on?",
+    "answer": "The third floor.",
+    "options": [
+      "First floor",
+      "Second floor",
+      "Third floor"
+    ],
+    "type": "question"
+  }
+]

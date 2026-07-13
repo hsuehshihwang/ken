@@ -1,0 +1,180 @@
+[
+  {
+    "file": "daily_routine_01.mp3",
+    "text": "I wake up at seven o'clock.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_02.mp3",
+    "text": "I brush my teeth every morning.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_03.mp3",
+    "text": "I have breakfast at eight.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_04.mp3",
+    "text": "I go to work by bus.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_05.mp3",
+    "text": "I eat lunch at twelve.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_06.mp3",
+    "text": "I come home at six o'clock.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_07.mp3",
+    "text": "I watch TV in the evening.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_08.mp3",
+    "text": "I go to bed at ten.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_09.mp3",
+    "text": "I take a shower every day.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_10.mp3",
+    "text": "She reads a book before bed.",
+    "type": "sentence"
+  },
+  {
+    "file": "daily_routine_dialogue_1_q1.mp3",
+    "text": "What time does Person B wake up?",
+    "answer": "Six thirty.",
+    "options": [
+      "Six o'clock",
+      "Six thirty",
+      "Seven o'clock"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "daily_routine_dialogue_1_q2.mp3",
+    "text": "How does Person B go to work?",
+    "answer": "By train.",
+    "options": [
+      "By bus",
+      "By train",
+      "By car"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "daily_routine_dialogue_1.mp3",
+    "text": "Person A: What time do you wake up?\nPerson B: I wake up at six thirty.\nPerson A: Do you have breakfast?\nPerson B: Yes, I have coffee and toast.\nPerson A: How do you go to work?\nPerson B: I go by train.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What time does Person B wake up?",
+        "answer": "Six thirty.",
+        "options": [
+          "Six o'clock",
+          "Six thirty",
+          "Seven o'clock"
+        ]
+      },
+      {
+        "question": "How does Person B go to work?",
+        "answer": "By train.",
+        "options": [
+          "By bus",
+          "By train",
+          "By car"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "daily_routine_dialogue_2_q1.mp3",
+    "text": "What does Person B do in the evening?",
+    "answer": "Watch TV and cook dinner.",
+    "options": [
+      "Read books",
+      "Watch TV and cook dinner",
+      "Go out"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "daily_routine_dialogue_2_q2.mp3",
+    "text": "What time does Person B go to bed?",
+    "answer": "About eleven.",
+    "options": [
+      "Ten o'clock",
+      "About eleven",
+      "Midnight"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "daily_routine_dialogue_2.mp3",
+    "text": "Person A: What do you do in the evening?\nPerson B: I watch TV and cook dinner.\nPerson A: What time do you go to bed?\nPerson B: I go to bed at about eleven.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What does Person B do in the evening?",
+        "answer": "Watch TV and cook dinner.",
+        "options": [
+          "Read books",
+          "Watch TV and cook dinner",
+          "Go out"
+        ]
+      },
+      {
+        "question": "What time does Person B go to bed?",
+        "answer": "About eleven.",
+        "options": [
+          "Ten o'clock",
+          "About eleven",
+          "Midnight"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "daily_routine_question_1.mp3",
+    "text": "What time does the person wake up?",
+    "answer": "At six thirty.",
+    "options": [
+      "Six o'clock",
+      "Six thirty",
+      "Seven o'clock"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "daily_routine_question_2.mp3",
+    "text": "How does the person go to work?",
+    "answer": "By train.",
+    "options": [
+      "By bus",
+      "By train",
+      "By car"
+    ],
+    "type": "question"
+  }
+]

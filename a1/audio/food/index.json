@@ -1,0 +1,180 @@
+[
+  {
+    "file": "food_01.mp3",
+    "text": "I would like some water, please.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_02.mp3",
+    "text": "I like apples and bananas.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_03.mp3",
+    "text": "She drinks coffee every morning.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_04.mp3",
+    "text": "We eat lunch at twelve o'clock.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_05.mp3",
+    "text": "The food is very delicious.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_06.mp3",
+    "text": "I don't like vegetables.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_07.mp3",
+    "text": "Can I have some bread?",
+    "type": "sentence"
+  },
+  {
+    "file": "food_08.mp3",
+    "text": "I want an orange juice.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_09.mp3",
+    "text": "This pizza is really good.",
+    "type": "sentence"
+  },
+  {
+    "file": "food_10.mp3",
+    "text": "Do you want some tea?",
+    "type": "sentence"
+  },
+  {
+    "file": "food_dialogue_1_q1.mp3",
+    "text": "What does Person B want to eat?",
+    "answer": "A sandwich.",
+    "options": [
+      "Pizza",
+      "A sandwich",
+      "Salad"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "food_dialogue_1_q2.mp3",
+    "text": "What does Person B want to drink?",
+    "answer": "Orange juice.",
+    "options": [
+      "Water",
+      "Orange juice",
+      "Coffee"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "food_dialogue_1.mp3",
+    "text": "Person A: What would you like to eat?\nPerson B: I'd like a sandwich, please.\nPerson A: Would you like something to drink?\nPerson B: Yes, a glass of orange juice.\nPerson A: Anything else?\nPerson B: No, thank you.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What does Person B want to eat?",
+        "answer": "A sandwich.",
+        "options": [
+          "Pizza",
+          "A sandwich",
+          "Salad"
+        ]
+      },
+      {
+        "question": "What does Person B want to drink?",
+        "answer": "Orange juice.",
+        "options": [
+          "Water",
+          "Orange juice",
+          "Coffee"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "food_dialogue_2_q1.mp3",
+    "text": "What food does Person B like?",
+    "answer": "Noodles.",
+    "options": [
+      "Rice",
+      "Noodles",
+      "Dumplings"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "food_dialogue_2_q2.mp3",
+    "text": "Where do they want to go?",
+    "answer": "To the Chinese restaurant.",
+    "options": [
+      "To a pizza shop",
+      "To the Chinese restaurant",
+      "Home"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "food_dialogue_2.mp3",
+    "text": "Person A: Do you like Chinese food?\nPerson B: Yes, I love it! I like noodles.\nPerson A: Me too! And I like rice.\nPerson B: Let's go to the Chinese restaurant.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What food does Person B like?",
+        "answer": "Noodles.",
+        "options": [
+          "Rice",
+          "Noodles",
+          "Dumplings"
+        ]
+      },
+      {
+        "question": "Where do they want to go?",
+        "answer": "To the Chinese restaurant.",
+        "options": [
+          "To a pizza shop",
+          "To the Chinese restaurant",
+          "Home"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "food_question_1.mp3",
+    "text": "What does the person want to eat?",
+    "answer": "A sandwich.",
+    "options": [
+      "Pizza",
+      "Sandwich",
+      "Salad"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "food_question_2.mp3",
+    "text": "Does the person like Chinese food?",
+    "answer": "Yes, she loves it.",
+    "options": [
+      "Yes, she loves it",
+      "No, she doesn't",
+      "Maybe"
+    ],
+    "type": "question"
+  }
+]

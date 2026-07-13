@@ -181,5 +181,2342 @@
         "type": "question"
       }
     ]
+  },
+  "family": {
+    "topic": "Family",
+    "files": [
+      {
+        "file": "family_01.mp3",
+        "text": "This is my mother.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_02.mp3",
+        "text": "My father is a teacher.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_03.mp3",
+        "text": "I have one brother.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_04.mp3",
+        "text": "My sister is ten years old.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_05.mp3",
+        "text": "My grandmother is very kind.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_06.mp3",
+        "text": "I love my family.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_07.mp3",
+        "text": "My parents live in London.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_08.mp3",
+        "text": "My brother likes football.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_09.mp3",
+        "text": "My sister goes to school.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_10.mp3",
+        "text": "We are a happy family.",
+        "type": "sentence"
+      },
+      {
+        "file": "family_dialogue_1_q1.mp3",
+        "text": "How many brothers does Person B have?",
+        "answer": "Two brothers.",
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "family_dialogue_1_q2.mp3",
+        "text": "What does the father do?",
+        "answer": "He is a doctor.",
+        "options": [
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "family_dialogue_1.mp3",
+        "text": "Person A: Do you have a big family?\nPerson B: Yes, I have two brothers and one sister.\nPerson A: What does your father do?\nPerson B: He is a doctor.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "How many brothers does Person B have?",
+            "answer": "Two brothers.",
+            "options": [
+              "One",
+              "Two",
+              "Three"
+            ]
+          },
+          {
+            "question": "What does the father do?",
+            "answer": "He is a doctor.",
+            "options": [
+              "Teacher",
+              "Doctor",
+              "Driver"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "family_dialogue_2_q1.mp3",
+        "text": "How old is the sister?",
+        "answer": "Eight years old.",
+        "options": [
+          "Seven",
+          "Eight",
+          "Nine"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "family_dialogue_2_q2.mp3",
+        "text": "Does the sister like school?",
+        "answer": "Yes, she loves it.",
+        "options": [
+          "Yes",
+          "No",
+          "Maybe"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "family_dialogue_2.mp3",
+        "text": "Person A: How old is your sister?\nPerson B: She is eight years old.\nPerson A: Does she like school?\nPerson B: Yes, she loves it!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "How old is the sister?",
+            "answer": "Eight years old.",
+            "options": [
+              "Seven",
+              "Eight",
+              "Nine"
+            ]
+          },
+          {
+            "question": "Does the sister like school?",
+            "answer": "Yes, she loves it.",
+            "options": [
+              "Yes",
+              "No",
+              "Maybe"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "family_question_1.mp3",
+        "text": "How many brothers does the person have?",
+        "answer": "Two brothers.",
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "family_question_2.mp3",
+        "text": "What does the father do?",
+        "answer": "He is a doctor.",
+        "options": [
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "food": {
+    "topic": "Food & Drinks",
+    "files": [
+      {
+        "file": "food_01.mp3",
+        "text": "I would like some water, please.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_02.mp3",
+        "text": "I like apples and bananas.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_03.mp3",
+        "text": "She drinks coffee every morning.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_04.mp3",
+        "text": "We eat lunch at twelve o'clock.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_05.mp3",
+        "text": "The food is very delicious.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_06.mp3",
+        "text": "I don't like vegetables.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_07.mp3",
+        "text": "Can I have some bread?",
+        "type": "sentence"
+      },
+      {
+        "file": "food_08.mp3",
+        "text": "I want an orange juice.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_09.mp3",
+        "text": "This pizza is really good.",
+        "type": "sentence"
+      },
+      {
+        "file": "food_10.mp3",
+        "text": "Do you want some tea?",
+        "type": "sentence"
+      },
+      {
+        "file": "food_dialogue_1_q1.mp3",
+        "text": "What does Person B want to eat?",
+        "answer": "A sandwich.",
+        "options": [
+          "Pizza",
+          "A sandwich",
+          "Salad"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "food_dialogue_1_q2.mp3",
+        "text": "What does Person B want to drink?",
+        "answer": "Orange juice.",
+        "options": [
+          "Water",
+          "Orange juice",
+          "Coffee"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "food_dialogue_1.mp3",
+        "text": "Person A: What would you like to eat?\nPerson B: I'd like a sandwich, please.\nPerson A: Would you like something to drink?\nPerson B: Yes, a glass of orange juice.\nPerson A: Anything else?\nPerson B: No, thank you.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What does Person B want to eat?",
+            "answer": "A sandwich.",
+            "options": [
+              "Pizza",
+              "A sandwich",
+              "Salad"
+            ]
+          },
+          {
+            "question": "What does Person B want to drink?",
+            "answer": "Orange juice.",
+            "options": [
+              "Water",
+              "Orange juice",
+              "Coffee"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "food_dialogue_2_q1.mp3",
+        "text": "What food does Person B like?",
+        "answer": "Noodles.",
+        "options": [
+          "Rice",
+          "Noodles",
+          "Dumplings"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "food_dialogue_2_q2.mp3",
+        "text": "Where do they want to go?",
+        "answer": "To the Chinese restaurant.",
+        "options": [
+          "To a pizza shop",
+          "To the Chinese restaurant",
+          "Home"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "food_dialogue_2.mp3",
+        "text": "Person A: Do you like Chinese food?\nPerson B: Yes, I love it! I like noodles.\nPerson A: Me too! And I like rice.\nPerson B: Let's go to the Chinese restaurant.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What food does Person B like?",
+            "answer": "Noodles.",
+            "options": [
+              "Rice",
+              "Noodles",
+              "Dumplings"
+            ]
+          },
+          {
+            "question": "Where do they want to go?",
+            "answer": "To the Chinese restaurant.",
+            "options": [
+              "To a pizza shop",
+              "To the Chinese restaurant",
+              "Home"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "food_question_1.mp3",
+        "text": "What does the person want to eat?",
+        "answer": "A sandwich.",
+        "options": [
+          "Pizza",
+          "Sandwich",
+          "Salad"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "food_question_2.mp3",
+        "text": "Does the person like Chinese food?",
+        "answer": "Yes, she loves it.",
+        "options": [
+          "Yes, she loves it",
+          "No, she doesn't",
+          "Maybe"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "daily_routine": {
+    "topic": "Daily Routine",
+    "files": [
+      {
+        "file": "daily_routine_01.mp3",
+        "text": "I wake up at seven o'clock.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_02.mp3",
+        "text": "I brush my teeth every morning.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_03.mp3",
+        "text": "I have breakfast at eight.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_04.mp3",
+        "text": "I go to work by bus.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_05.mp3",
+        "text": "I eat lunch at twelve.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_06.mp3",
+        "text": "I come home at six o'clock.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_07.mp3",
+        "text": "I watch TV in the evening.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_08.mp3",
+        "text": "I go to bed at ten.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_09.mp3",
+        "text": "I take a shower every day.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_10.mp3",
+        "text": "She reads a book before bed.",
+        "type": "sentence"
+      },
+      {
+        "file": "daily_routine_dialogue_1_q1.mp3",
+        "text": "What time does Person B wake up?",
+        "answer": "Six thirty.",
+        "options": [
+          "Six o'clock",
+          "Six thirty",
+          "Seven o'clock"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "daily_routine_dialogue_1_q2.mp3",
+        "text": "How does Person B go to work?",
+        "answer": "By train.",
+        "options": [
+          "By bus",
+          "By train",
+          "By car"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "daily_routine_dialogue_1.mp3",
+        "text": "Person A: What time do you wake up?\nPerson B: I wake up at six thirty.\nPerson A: Do you have breakfast?\nPerson B: Yes, I have coffee and toast.\nPerson A: How do you go to work?\nPerson B: I go by train.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What time does Person B wake up?",
+            "answer": "Six thirty.",
+            "options": [
+              "Six o'clock",
+              "Six thirty",
+              "Seven o'clock"
+            ]
+          },
+          {
+            "question": "How does Person B go to work?",
+            "answer": "By train.",
+            "options": [
+              "By bus",
+              "By train",
+              "By car"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "daily_routine_dialogue_2_q1.mp3",
+        "text": "What does Person B do in the evening?",
+        "answer": "Watch TV and cook dinner.",
+        "options": [
+          "Read books",
+          "Watch TV and cook dinner",
+          "Go out"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "daily_routine_dialogue_2_q2.mp3",
+        "text": "What time does Person B go to bed?",
+        "answer": "About eleven.",
+        "options": [
+          "Ten o'clock",
+          "About eleven",
+          "Midnight"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "daily_routine_dialogue_2.mp3",
+        "text": "Person A: What do you do in the evening?\nPerson B: I watch TV and cook dinner.\nPerson A: What time do you go to bed?\nPerson B: I go to bed at about eleven.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What does Person B do in the evening?",
+            "answer": "Watch TV and cook dinner.",
+            "options": [
+              "Read books",
+              "Watch TV and cook dinner",
+              "Go out"
+            ]
+          },
+          {
+            "question": "What time does Person B go to bed?",
+            "answer": "About eleven.",
+            "options": [
+              "Ten o'clock",
+              "About eleven",
+              "Midnight"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "daily_routine_question_1.mp3",
+        "text": "What time does the person wake up?",
+        "answer": "At six thirty.",
+        "options": [
+          "Six o'clock",
+          "Six thirty",
+          "Seven o'clock"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "daily_routine_question_2.mp3",
+        "text": "How does the person go to work?",
+        "answer": "By train.",
+        "options": [
+          "By bus",
+          "By train",
+          "By car"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "shopping": {
+    "topic": "Shopping",
+    "files": [
+      {
+        "file": "shopping_01.mp3",
+        "text": "How much is this shirt?",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_02.mp3",
+        "text": "I want to buy a new dress.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_03.mp3",
+        "text": "The shop opens at nine.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_04.mp3",
+        "text": "Do you accept credit cards?",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_05.mp3",
+        "text": "Can I try this on?",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_06.mp3",
+        "text": "This is too expensive.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_07.mp3",
+        "text": "I need a large size, please.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_08.mp3",
+        "text": "Where is the checkout?",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_09.mp3",
+        "text": "I'm just looking, thank you.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_10.mp3",
+        "text": "The sale starts tomorrow.",
+        "type": "sentence"
+      },
+      {
+        "file": "shopping_dialogue_1_q1.mp3",
+        "text": "What color shirt is Person B looking for?",
+        "answer": "Blue.",
+        "options": [
+          "Red",
+          "Blue",
+          "Green"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "shopping_dialogue_1_q2.mp3",
+        "text": "How much is the shirt?",
+        "answer": "Thirty-five dollars.",
+        "options": [
+          "Twenty-five",
+          "Thirty-five",
+          "Forty-five"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "shopping_dialogue_1.mp3",
+        "text": "Person A: Can I help you?\nPerson B: Yes, I'm looking for a blue shirt.\nPerson A: What size do you need?\nPerson B: Medium, please.\nPerson A: Here you are. The changing room is there.\nPerson B: Thank you. How much is it?\nPerson A: It's thirty-five dollars.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What color shirt is Person B looking for?",
+            "answer": "Blue.",
+            "options": [
+              "Red",
+              "Blue",
+              "Green"
+            ]
+          },
+          {
+            "question": "How much is the shirt?",
+            "answer": "Thirty-five dollars.",
+            "options": [
+              "Twenty-five",
+              "Thirty-five",
+              "Forty-five"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "shopping_dialogue_2_q1.mp3",
+        "text": "Why doesn't Person B want to buy the jacket at first?",
+        "answer": "It's expensive.",
+        "options": [
+          "It's ugly",
+          "It's expensive",
+          "It's too big"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "shopping_dialogue_2_q2.mp3",
+        "text": "What happens to the price?",
+        "answer": "It's fifty percent off.",
+        "options": [
+          "It goes up",
+          "It's fifty percent off",
+          "It stays the same"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "shopping_dialogue_2.mp3",
+        "text": "Person A: Do you like this jacket?\nPerson B: Yes, it's nice. But it's expensive.\nPerson A: It's on sale today - fifty percent off!\nPerson B: Great! I'll take it.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "Why doesn't Person B want to buy the jacket at first?",
+            "answer": "It's expensive.",
+            "options": [
+              "It's ugly",
+              "It's expensive",
+              "It's too big"
+            ]
+          },
+          {
+            "question": "What happens to the price?",
+            "answer": "It's fifty percent off.",
+            "options": [
+              "It goes up",
+              "It's fifty percent off",
+              "It stays the same"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "shopping_question_1.mp3",
+        "text": "What size shirt does the person want?",
+        "answer": "Medium.",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "shopping_question_2.mp3",
+        "text": "How much is the shirt?",
+        "answer": "Thirty-five dollars.",
+        "options": [
+          "Twenty-five",
+          "Thirty-five",
+          "Forty-five"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "travel": {
+    "topic": "Travel & Directions",
+    "files": [
+      {
+        "file": "travel_01.mp3",
+        "text": "Where is the train station?",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_02.mp3",
+        "text": "I need a ticket to Paris.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_03.mp3",
+        "text": "How long does the flight take?",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_04.mp3",
+        "text": "Turn left at the traffic lights.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_05.mp3",
+        "text": "The hotel is near the beach.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_06.mp3",
+        "text": "I have a reservation for two nights.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_07.mp3",
+        "text": "Where can I find a taxi?",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_08.mp3",
+        "text": "Is there a bus to the airport?",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_09.mp3",
+        "text": "I lost my passport.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_10.mp3",
+        "text": "The museum is across from the park.",
+        "type": "sentence"
+      },
+      {
+        "file": "travel_dialogue_1_q1.mp3",
+        "text": "Where is Person A going?",
+        "answer": "To the museum.",
+        "options": [
+          "To the park",
+          "To the museum",
+          "To the hotel"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "travel_dialogue_1_q2.mp3",
+        "text": "How long does it take to walk there?",
+        "answer": "About five minutes.",
+        "options": [
+          "Two minutes",
+          "About five minutes",
+          "Ten minutes"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "travel_dialogue_1.mp3",
+        "text": "Person A: Excuse me, where is the museum?\nPerson B: Go straight and turn left.\nPerson A: Is it far?\nPerson B: No, it's about five minutes.\nPerson A: Thank you very much!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "Where is Person A going?",
+            "answer": "To the museum.",
+            "options": [
+              "To the park",
+              "To the museum",
+              "To the hotel"
+            ]
+          },
+          {
+            "question": "How long does it take to walk there?",
+            "answer": "About five minutes.",
+            "options": [
+              "Two minutes",
+              "About five minutes",
+              "Ten minutes"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "travel_dialogue_2_q1.mp3",
+        "text": "How many nights does Person A want to stay?",
+        "answer": "Three nights.",
+        "options": [
+          "One night",
+          "Two nights",
+          "Three nights"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "travel_dialogue_2_q2.mp3",
+        "text": "What kind of room does Person A want?",
+        "answer": "A double room.",
+        "options": [
+          "A single room",
+          "A double room",
+          "A family room"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "travel_dialogue_2.mp3",
+        "text": "Person A: I'd like to book a room, please.\nPerson B: For how many nights?\nPerson A: Three nights, from Monday.\nPerson B: Would you like a single or double room?\nPerson A: A double room, please.\nPerson B: That's one hundred twenty dollars per night.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "How many nights does Person A want to stay?",
+            "answer": "Three nights.",
+            "options": [
+              "One night",
+              "Two nights",
+              "Three nights"
+            ]
+          },
+          {
+            "question": "What kind of room does Person A want?",
+            "answer": "A double room.",
+            "options": [
+              "A single room",
+              "A double room",
+              "A family room"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "travel_question_1.mp3",
+        "text": "Where is the museum?",
+        "answer": "Go straight and turn left.",
+        "options": [
+          "Turn right",
+          "Go straight and turn left",
+          "It's behind you"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "travel_question_2.mp3",
+        "text": "How many nights does the person want to stay?",
+        "answer": "Three nights.",
+        "options": [
+          "One night",
+          "Two nights",
+          "Three nights"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "weather": {
+    "topic": "Weather",
+    "files": [
+      {
+        "file": "weather_01.mp3",
+        "text": "It is sunny today.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_02.mp3",
+        "text": "I think it will rain tomorrow.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_03.mp3",
+        "text": "It's very cold outside.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_04.mp3",
+        "text": "The weather is nice today.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_05.mp3",
+        "text": "I need an umbrella.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_06.mp3",
+        "text": "It's hot and humid.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_07.mp3",
+        "text": "I like the snow.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_08.mp3",
+        "text": "The wind is very strong.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_09.mp3",
+        "text": "It's cloudy today.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_10.mp3",
+        "text": "Summer is my favorite season.",
+        "type": "sentence"
+      },
+      {
+        "file": "weather_dialogue_1_q1.mp3",
+        "text": "What's the weather like today?",
+        "answer": "Sunny and warm.",
+        "options": [
+          "Rainy",
+          "Sunny and warm",
+          "Cold"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "weather_dialogue_1_q2.mp3",
+        "text": "What should Person A bring?",
+        "answer": "Sunglasses.",
+        "options": [
+          "An umbrella",
+          "A jacket",
+          "Sunglasses"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "weather_dialogue_1.mp3",
+        "text": "Person A: How's the weather today?\nPerson B: It's sunny and warm.\nPerson A: Should I bring a jacket?\nPerson B: No, it's not cold. But bring sunglasses.\nPerson A: Good idea!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What's the weather like today?",
+            "answer": "Sunny and warm.",
+            "options": [
+              "Rainy",
+              "Sunny and warm",
+              "Cold"
+            ]
+          },
+          {
+            "question": "What should Person A bring?",
+            "answer": "Sunglasses.",
+            "options": [
+              "An umbrella",
+              "A jacket",
+              "Sunglasses"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "weather_dialogue_2_q1.mp3",
+        "text": "What's the weather like now?",
+        "answer": "It's raining.",
+        "options": [
+          "It's sunny",
+          "It's raining",
+          "It's snowing"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "weather_dialogue_2_q2.mp3",
+        "text": "What does the forecast say for tomorrow?",
+        "answer": "It will be sunny.",
+        "options": [
+          "It will rain",
+          "It will be sunny",
+          "It will snow"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "weather_dialogue_2.mp3",
+        "text": "Person A: I don't like this weather.\nPerson B: Me neither. It's raining again.\nPerson A: I hope it stops tomorrow.\nPerson B: The forecast says it will be sunny.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What's the weather like now?",
+            "answer": "It's raining.",
+            "options": [
+              "It's sunny",
+              "It's raining",
+              "It's snowing"
+            ]
+          },
+          {
+            "question": "What does the forecast say for tomorrow?",
+            "answer": "It will be sunny.",
+            "options": [
+              "It will rain",
+              "It will be sunny",
+              "It will snow"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "weather_question_1.mp3",
+        "text": "What's the weather like?",
+        "answer": "It's sunny and warm.",
+        "options": [
+          "Rainy and cold",
+          "Sunny and warm",
+          "Snowy"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "weather_question_2.mp3",
+        "text": "What will the weather be like tomorrow?",
+        "answer": "Sunny.",
+        "options": [
+          "Rainy",
+          "Cloudy",
+          "Sunny"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "health": {
+    "topic": "Health & Doctor",
+    "files": [
+      {
+        "file": "health_01.mp3",
+        "text": "I have a headache.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_02.mp3",
+        "text": "I need to see a doctor.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_03.mp3",
+        "text": "My stomach hurts.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_04.mp3",
+        "text": "Take this medicine three times a day.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_05.mp3",
+        "text": "How long have you been sick?",
+        "type": "sentence"
+      },
+      {
+        "file": "health_06.mp3",
+        "text": "I feel much better now.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_07.mp3",
+        "text": "You should rest for two days.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_08.mp3",
+        "text": "Do you have any allergies?",
+        "type": "sentence"
+      },
+      {
+        "file": "health_09.mp3",
+        "text": "I have a cold.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_10.mp3",
+        "text": "The doctor will see you now.",
+        "type": "sentence"
+      },
+      {
+        "file": "health_dialogue_1_q1.mp3",
+        "text": "What's wrong with Person B?",
+        "answer": "A bad headache.",
+        "options": [
+          "Stomachache",
+          "A bad headache",
+          "Toothache"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "health_dialogue_1_q2.mp3",
+        "text": "When did the headache start?",
+        "answer": "Since yesterday.",
+        "options": [
+          "Today",
+          "Since yesterday",
+          "Last week"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "health_dialogue_1.mp3",
+        "text": "Person A: Good morning. What's the problem?\nPerson B: I have a bad headache.\nPerson A: How long have you had it?\nPerson B: Since yesterday.\nPerson A: I'll give you some medicine.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What's wrong with Person B?",
+            "answer": "A bad headache.",
+            "options": [
+              "Stomachache",
+              "A bad headache",
+              "Toothache"
+            ]
+          },
+          {
+            "question": "When did the headache start?",
+            "answer": "Since yesterday.",
+            "options": [
+              "Today",
+              "Since yesterday",
+              "Last week"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "health_dialogue_2_q1.mp3",
+        "text": "What does Person B feel?",
+        "answer": "Sick.",
+        "options": [
+          "Happy",
+          "Tired",
+          "Sick"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "health_dialogue_2_q2.mp3",
+        "text": "What did Person B eat for dinner?",
+        "answer": "Seafood.",
+        "options": [
+          "Meat",
+          "Seafood",
+          "Vegetables"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "health_dialogue_2.mp3",
+        "text": "Person A: What's wrong?\nPerson B: I feel sick. My stomach hurts.\nPerson A: Did you eat something bad?\nPerson B: Maybe. I had seafood for dinner.\nPerson A: You should drink some water and rest.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What does Person B feel?",
+            "answer": "Sick.",
+            "options": [
+              "Happy",
+              "Tired",
+              "Sick"
+            ]
+          },
+          {
+            "question": "What did Person B eat for dinner?",
+            "answer": "Seafood.",
+            "options": [
+              "Meat",
+              "Seafood",
+              "Vegetables"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "health_question_1.mp3",
+        "text": "What's the patient's problem?",
+        "answer": "A bad headache.",
+        "options": [
+          "Stomachache",
+          "Headache",
+          "Back pain"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "health_question_2.mp3",
+        "text": "How long has the patient had the headache?",
+        "answer": "Since yesterday.",
+        "options": [
+          "Since today",
+          "Since yesterday",
+          "For a week"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "numbers": {
+    "topic": "Numbers & Counting",
+    "files": [
+      {
+        "file": "numbers_01.mp3",
+        "text": "I have three cats.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_02.mp3",
+        "text": "There are twenty students in the class.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_03.mp3",
+        "text": "My phone number is five five five, one two three four.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_04.mp3",
+        "text": "I need ten apples.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_05.mp3",
+        "text": "The bus comes at seven fifteen.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_06.mp3",
+        "text": "I live on the third floor.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_07.mp3",
+        "text": "She has fifty dollars.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_08.mp3",
+        "text": "There are one hundred people here.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_09.mp3",
+        "text": "My birthday is on the twenty-first.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_10.mp3",
+        "text": "I wake up at six thirty every day.",
+        "type": "sentence"
+      },
+      {
+        "file": "numbers_dialogue_1_q1.mp3",
+        "text": "How many people are coming to the party?",
+        "answer": "Eight people.",
+        "options": [
+          "Six",
+          "Eight",
+          "Ten"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "numbers_dialogue_1_q2.mp3",
+        "text": "How many people should they order food for?",
+        "answer": "Ten people.",
+        "options": [
+          "Eight",
+          "Ten",
+          "Twelve"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "numbers_dialogue_1.mp3",
+        "text": "Person A: How many people are coming to the party?\nPerson B: Let me see. Eight people.\nPerson A: Should we order more food?\nPerson B: Yes, let's order for ten people.\nPerson A: Good idea.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "How many people are coming to the party?",
+            "answer": "Eight people.",
+            "options": [
+              "Six",
+              "Eight",
+              "Ten"
+            ]
+          },
+          {
+            "question": "How many people should they order food for?",
+            "answer": "Ten people.",
+            "options": [
+              "Eight",
+              "Ten",
+              "Twelve"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "numbers_dialogue_2_q1.mp3",
+        "text": "What is Person B's phone number?",
+        "answer": "Zero one two, three four five, six seven eight nine.",
+        "options": [
+          "Zero one two, three four five, six seven eight nine",
+          "One two three, four five six, seven eight nine zero",
+          "Zero nine eight, seven six five, four three two one"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "numbers_dialogue_2.mp3",
+        "text": "Person A: What's your phone number?\nPerson B: It's zero one two, three four five, six seven eight nine.\nPerson A: Let me write that down. Zero one two...\nPerson B: Three four five, six seven eight nine.\nPerson A: Thank you!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What is Person B's phone number?",
+            "answer": "Zero one two, three four five, six seven eight nine.",
+            "options": [
+              "Zero one two, three four five, six seven eight nine",
+              "One two three, four five six, seven eight nine zero",
+              "Zero nine eight, seven six five, four three two one"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "numbers_question_1.mp3",
+        "text": "How many people are coming to the party?",
+        "answer": "Eight people.",
+        "options": [
+          "Six",
+          "Eight",
+          "Ten"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "numbers_question_2.mp3",
+        "text": "What floor does the person live on?",
+        "answer": "The third floor.",
+        "options": [
+          "First floor",
+          "Second floor",
+          "Third floor"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "colors": {
+    "topic": "Colors",
+    "files": [
+      {
+        "file": "colors_01.mp3",
+        "text": "The sky is blue.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_02.mp3",
+        "text": "I like the red dress.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_03.mp3",
+        "text": "My favorite color is green.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_04.mp3",
+        "text": "The cat is black and white.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_05.mp3",
+        "text": "I have a yellow banana.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_06.mp3",
+        "text": "The flowers are pink.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_07.mp3",
+        "text": "Please give me the orange ball.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_08.mp3",
+        "text": "The car is silver.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_09.mp3",
+        "text": "I see a purple butterfly.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_10.mp3",
+        "text": "The grass is green.",
+        "type": "sentence"
+      },
+      {
+        "file": "colors_dialogue_1_q1.mp3",
+        "text": "What color is Person B's new car?",
+        "answer": "Dark blue.",
+        "options": [
+          "Black",
+          "Dark blue",
+          "Silver"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "colors_dialogue_1_q2.mp3",
+        "text": "What color is Person A's car?",
+        "answer": "Silver.",
+        "options": [
+          "Blue",
+          "Silver",
+          "Red"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "colors_dialogue_1.mp3",
+        "text": "Person A: What color is your new car?\nPerson B: It's dark blue.\nPerson A: Nice! I like blue cars.\nPerson B: Thank you. What color is your car?\nPerson A: Mine is silver.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What color is Person B's new car?",
+            "answer": "Dark blue.",
+            "options": [
+              "Black",
+              "Dark blue",
+              "Silver"
+            ]
+          },
+          {
+            "question": "What color is Person A's car?",
+            "answer": "Silver.",
+            "options": [
+              "Blue",
+              "Silver",
+              "Red"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "colors_dialogue_2_q1.mp3",
+        "text": "Which pen does Person A want?",
+        "answer": "The red pen.",
+        "options": [
+          "Blue pen",
+          "Red pen",
+          "Green pen"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "colors_dialogue_2.mp3",
+        "text": "Person A: Can I have the red pen, please?\nPerson B: This one?\nPerson A: No, the red one. Not the blue one.\nPerson B: Oh, here you are.\nPerson A: Thank you!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "Which pen does Person A want?",
+            "answer": "The red pen.",
+            "options": [
+              "Blue pen",
+              "Red pen",
+              "Green pen"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "colors_question_1.mp3",
+        "text": "What color is the new car?",
+        "answer": "Dark blue.",
+        "options": [
+          "Black",
+          "Dark blue",
+          "Silver"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "colors_question_2.mp3",
+        "text": "Which pen does the person want?",
+        "answer": "The red pen.",
+        "options": [
+          "Blue pen",
+          "Red pen",
+          "Green pen"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "time": {
+    "topic": "Time & Schedules",
+    "files": [
+      {
+        "file": "time_01.mp3",
+        "text": "What time is it?",
+        "type": "sentence"
+      },
+      {
+        "file": "time_02.mp3",
+        "text": "It's nine o'clock.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_03.mp3",
+        "text": "The meeting starts at two thirty.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_04.mp3",
+        "text": "I have lunch at twelve.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_05.mp3",
+        "text": "The movie begins at seven in the evening.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_06.mp3",
+        "text": "I'm late for work.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_07.mp3",
+        "text": "The train leaves at eight fifteen.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_08.mp3",
+        "text": "School starts at nine in the morning.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_09.mp3",
+        "text": "I finish work at five.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_10.mp3",
+        "text": "Let's meet at half past three.",
+        "type": "sentence"
+      },
+      {
+        "file": "time_dialogue_1_q1.mp3",
+        "text": "What time is it now?",
+        "answer": "Ten forty-five.",
+        "options": [
+          "Ten thirty",
+          "Ten forty-five",
+          "Eleven o'clock"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "time_dialogue_1_q2.mp3",
+        "text": "What time is the appointment?",
+        "answer": "Eleven o'clock.",
+        "options": [
+          "Ten thirty",
+          "Ten forty-five",
+          "Eleven o'clock"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "time_dialogue_1.mp3",
+        "text": "Person A: Excuse me, what time is it?\nPerson B: It's ten forty-five.\nPerson A: Oh no! I'm late for my appointment.\nPerson B: What time is your appointment?\nPerson A: It's at eleven o'clock.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What time is it now?",
+            "answer": "Ten forty-five.",
+            "options": [
+              "Ten thirty",
+              "Ten forty-five",
+              "Eleven o'clock"
+            ]
+          },
+          {
+            "question": "What time is the appointment?",
+            "answer": "Eleven o'clock.",
+            "options": [
+              "Ten thirty",
+              "Ten forty-five",
+              "Eleven o'clock"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "time_dialogue_2_q1.mp3",
+        "text": "What time does the movie start?",
+        "answer": "Seven thirty.",
+        "options": [
+          "Seven o'clock",
+          "Seven fifteen",
+          "Seven thirty"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "time_dialogue_2_q2.mp3",
+        "text": "What time will Person A pick up Person B?",
+        "answer": "Seven o'clock.",
+        "options": [
+          "Seven o'clock",
+          "Seven fifteen",
+          "Seven thirty"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "time_dialogue_2.mp3",
+        "text": "Person A: What time does the movie start?\nPerson B: It starts at seven thirty.\nPerson A: Should we arrive early?\nPerson B: Yes, let's be there at seven fifteen.\nPerson A: Good. I'll pick you up at seven.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What time does the movie start?",
+            "answer": "Seven thirty.",
+            "options": [
+              "Seven o'clock",
+              "Seven fifteen",
+              "Seven thirty"
+            ]
+          },
+          {
+            "question": "What time will Person A pick up Person B?",
+            "answer": "Seven o'clock.",
+            "options": [
+              "Seven o'clock",
+              "Seven fifteen",
+              "Seven thirty"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "time_question_1.mp3",
+        "text": "What time is it?",
+        "answer": "Ten forty-five.",
+        "options": [
+          "Ten thirty",
+          "Ten forty-five",
+          "Eleven o'clock"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "time_question_2.mp3",
+        "text": "What time does the movie start?",
+        "answer": "Seven thirty.",
+        "options": [
+          "Seven o'clock",
+          "Seven fifteen",
+          "Seven thirty"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "work": {
+    "topic": "Work & Jobs",
+    "files": [
+      {
+        "file": "work_01.mp3",
+        "text": "I work in an office.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_02.mp3",
+        "text": "She is a nurse at the hospital.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_03.mp3",
+        "text": "He drives a taxi.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_04.mp3",
+        "text": "I start work at nine in the morning.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_05.mp3",
+        "text": "My boss is very nice.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_06.mp3",
+        "text": "I have a meeting this afternoon.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_07.mp3",
+        "text": "She works five days a week.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_08.mp3",
+        "text": "I need to send an email.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_09.mp3",
+        "text": "The office is downtown.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_10.mp3",
+        "text": "I like my job.",
+        "type": "sentence"
+      },
+      {
+        "file": "work_dialogue_1_q1.mp3",
+        "text": "What does Person B do?",
+        "answer": "She is a teacher.",
+        "options": [
+          "Doctor",
+          "Teacher",
+          "Nurse"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "work_dialogue_1_q2.mp3",
+        "text": "How does Person B get to work?",
+        "answer": "By bus.",
+        "options": [
+          "By car",
+          "By bus",
+          "By train"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "work_dialogue_1.mp3",
+        "text": "Person A: What do you do for work?\nPerson B: I'm a teacher. I teach English.\nPerson A: That sounds interesting. Where do you teach?\nPerson B: At the language school downtown.\nPerson A: How do you get to work?\nPerson B: I take the bus.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What does Person B do?",
+            "answer": "She is a teacher.",
+            "options": [
+              "Doctor",
+              "Teacher",
+              "Nurse"
+            ]
+          },
+          {
+            "question": "How does Person B get to work?",
+            "answer": "By bus.",
+            "options": [
+              "By car",
+              "By bus",
+              "By train"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "work_dialogue_2_q1.mp3",
+        "text": "What kind of job does Person A want?",
+        "answer": "In a restaurant.",
+        "options": [
+          "In an office",
+          "In a restaurant",
+          "At a school"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "work_dialogue_2_q2.mp3",
+        "text": "Can Person A cook?",
+        "answer": "Yes, very well.",
+        "options": [
+          "No",
+          "Yes, very well",
+          "A little"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "work_dialogue_2.mp3",
+        "text": "Person A: I'm looking for a job.\nPerson B: What kind of job do you want?\nPerson A: I want to work in a restaurant.\nPerson B: Can you cook?\nPerson A: Yes, I can cook very well.\nPerson B: Great! There's a restaurant near here.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What kind of job does Person A want?",
+            "answer": "In a restaurant.",
+            "options": [
+              "In an office",
+              "In a restaurant",
+              "At a school"
+            ]
+          },
+          {
+            "question": "Can Person A cook?",
+            "answer": "Yes, very well.",
+            "options": [
+              "No",
+              "Yes, very well",
+              "A little"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "work_question_1.mp3",
+        "text": "What does the person do for work?",
+        "answer": "She is a teacher.",
+        "options": [
+          "Doctor",
+          "Teacher",
+          "Nurse"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "work_question_2.mp3",
+        "text": "How does the teacher get to work?",
+        "answer": "By bus.",
+        "options": [
+          "By car",
+          "By bus",
+          "By train"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "hobbies": {
+    "topic": "Hobbies & Free Time",
+    "files": [
+      {
+        "file": "hobbies_01.mp3",
+        "text": "I like reading books.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_02.mp3",
+        "text": "She plays tennis every weekend.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_03.mp3",
+        "text": "He enjoys cooking.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_04.mp3",
+        "text": "I watch movies on Friday nights.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_05.mp3",
+        "text": "My hobby is photography.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_06.mp3",
+        "text": "They like swimming in the summer.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_07.mp3",
+        "text": "I listen to music every day.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_08.mp3",
+        "text": "She paints beautiful pictures.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_09.mp3",
+        "text": "He plays the guitar.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_10.mp3",
+        "text": "We play video games together.",
+        "type": "sentence"
+      },
+      {
+        "file": "hobbies_dialogue_1_q1.mp3",
+        "text": "What does Person B like to do?",
+        "answer": "Read books.",
+        "options": [
+          "Play sports",
+          "Read books",
+          "Watch movies"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "hobbies_dialogue_1_q2.mp3",
+        "text": "What sports does Person A play?",
+        "answer": "Basketball and tennis.",
+        "options": [
+          "Soccer and tennis",
+          "Basketball and tennis",
+          "Basketball only"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "hobbies_dialogue_1.mp3",
+        "text": "Person A: What do you do in your free time?\nPerson B: I like to read books. What about you?\nPerson A: I enjoy playing sports.\nPerson B: What sports do you play?\nPerson A: I play basketball and tennis.\nPerson B: That's great!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What does Person B like to do?",
+            "answer": "Read books.",
+            "options": [
+              "Play sports",
+              "Read books",
+              "Watch movies"
+            ]
+          },
+          {
+            "question": "What sports does Person A play?",
+            "answer": "Basketball and tennis.",
+            "options": [
+              "Soccer and tennis",
+              "Basketball and tennis",
+              "Basketball only"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "hobbies_dialogue_2_q1.mp3",
+        "text": "What kind of movie is it?",
+        "answer": "A comedy.",
+        "options": [
+          "A comedy",
+          "A drama",
+          "A horror movie"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "hobbies_dialogue_2_q2.mp3",
+        "text": "What time does the movie start?",
+        "answer": "Eight o'clock.",
+        "options": [
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "hobbies_dialogue_2.mp3",
+        "text": "Person A: Do you want to go to the movies tonight?\nPerson B: What movie?\nPerson A: It's a comedy. It's very funny.\nPerson B: Sounds good! What time?\nPerson A: It starts at eight o'clock.\nPerson B: Perfect. I'll meet you there.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What kind of movie is it?",
+            "answer": "A comedy.",
+            "options": [
+              "A comedy",
+              "A drama",
+              "A horror movie"
+            ]
+          },
+          {
+            "question": "What time does the movie start?",
+            "answer": "Eight o'clock.",
+            "options": [
+              "Seven o'clock",
+              "Eight o'clock",
+              "Nine o'clock"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "hobbies_question_1.mp3",
+        "text": "What does the person like to do in free time?",
+        "answer": "Read books.",
+        "options": [
+          "Watch TV",
+          "Read books",
+          "Play sports"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "hobbies_question_2.mp3",
+        "text": "What time does the movie start?",
+        "answer": "Eight o'clock.",
+        "options": [
+          "Seven o'clock",
+          "Eight o'clock",
+          "Nine o'clock"
+        ],
+        "type": "question"
+      }
+    ]
+  },
+  "animals": {
+    "topic": "Animals & Pets",
+    "files": [
+      {
+        "file": "animals_01.mp3",
+        "text": "I have a dog at home.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_02.mp3",
+        "text": "Cats are very cute.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_03.mp3",
+        "text": "The bird can fly high.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_04.mp3",
+        "text": "I like horses.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_05.mp3",
+        "text": "She has a small fish.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_06.mp3",
+        "text": "The lion is the king of animals.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_07.mp3",
+        "text": "Dogs are very friendly.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_08.mp3",
+        "text": "I see a rabbit in the garden.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_09.mp3",
+        "text": "The elephant is very big.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_10.mp3",
+        "text": "My cat likes to sleep.",
+        "type": "sentence"
+      },
+      {
+        "file": "animals_dialogue_1_q1.mp3",
+        "text": "What pets does Person B have?",
+        "answer": "A dog and two cats.",
+        "options": [
+          "A dog only",
+          "A cat and a dog",
+          "A dog and two cats"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "animals_dialogue_1_q2.mp3",
+        "text": "What is the dog's name?",
+        "answer": "Max.",
+        "options": [
+          "Tom",
+          "Max",
+          "Buddy"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 1
+      },
+      {
+        "file": "animals_dialogue_1.mp3",
+        "text": "Person A: Do you have any pets?\nPerson B: Yes, I have a dog and two cats.\nPerson A: What's your dog's name?\nPerson B: His name is Max.\nPerson A: Is he friendly?\nPerson B: Yes, he's very friendly!",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What pets does Person B have?",
+            "answer": "A dog and two cats.",
+            "options": [
+              "A dog only",
+              "A cat and a dog",
+              "A dog and two cats"
+            ]
+          },
+          {
+            "question": "What is the dog's name?",
+            "answer": "Max.",
+            "options": [
+              "Tom",
+              "Max",
+              "Buddy"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "animals_dialogue_2_q1.mp3",
+        "text": "What colors is the bird?",
+        "answer": "Blue and yellow.",
+        "options": [
+          "Red and green",
+          "Blue and yellow",
+          "Black and white"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "animals_dialogue_2_q2.mp3",
+        "text": "Can parrots talk?",
+        "answer": "Yes, some can.",
+        "options": [
+          "No",
+          "Yes, some can",
+          "All parrots can"
+        ],
+        "type": "dialogue_question",
+        "dialogue_index": 2
+      },
+      {
+        "file": "animals_dialogue_2.mp3",
+        "text": "Person A: Look at that bird! It's beautiful.\nPerson B: Yes, it's blue and yellow.\nPerson A: I think it's a parrot.\nPerson B: Can parrots talk?\nPerson A: Yes, some parrots can talk!\nPerson B: Wow, that's amazing.",
+        "type": "dialogue",
+        "voices": [
+          "male",
+          "female"
+        ],
+        "questions": [
+          {
+            "question": "What colors is the bird?",
+            "answer": "Blue and yellow.",
+            "options": [
+              "Red and green",
+              "Blue and yellow",
+              "Black and white"
+            ]
+          },
+          {
+            "question": "Can parrots talk?",
+            "answer": "Yes, some can.",
+            "options": [
+              "No",
+              "Yes, some can",
+              "All parrots can"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "animals_question_1.mp3",
+        "text": "How many pets does the person have?",
+        "answer": "Three pets.",
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "type": "question"
+      },
+      {
+        "file": "animals_question_2.mp3",
+        "text": "What colors is the bird?",
+        "answer": "Blue and yellow.",
+        "options": [
+          "Red and green",
+          "Blue and yellow",
+          "Black and white"
+        ],
+        "type": "question"
+      }
+    ]
   }
 }

@@ -1,0 +1,180 @@
+[
+  {
+    "file": "animals_01.mp3",
+    "text": "I have a dog at home.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_02.mp3",
+    "text": "Cats are very cute.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_03.mp3",
+    "text": "The bird can fly high.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_04.mp3",
+    "text": "I like horses.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_05.mp3",
+    "text": "She has a small fish.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_06.mp3",
+    "text": "The lion is the king of animals.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_07.mp3",
+    "text": "Dogs are very friendly.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_08.mp3",
+    "text": "I see a rabbit in the garden.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_09.mp3",
+    "text": "The elephant is very big.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_10.mp3",
+    "text": "My cat likes to sleep.",
+    "type": "sentence"
+  },
+  {
+    "file": "animals_dialogue_1_q1.mp3",
+    "text": "What pets does Person B have?",
+    "answer": "A dog and two cats.",
+    "options": [
+      "A dog only",
+      "A cat and a dog",
+      "A dog and two cats"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "animals_dialogue_1_q2.mp3",
+    "text": "What is the dog's name?",
+    "answer": "Max.",
+    "options": [
+      "Tom",
+      "Max",
+      "Buddy"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "animals_dialogue_1.mp3",
+    "text": "Person A: Do you have any pets?\nPerson B: Yes, I have a dog and two cats.\nPerson A: What's your dog's name?\nPerson B: His name is Max.\nPerson A: Is he friendly?\nPerson B: Yes, he's very friendly!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What pets does Person B have?",
+        "answer": "A dog and two cats.",
+        "options": [
+          "A dog only",
+          "A cat and a dog",
+          "A dog and two cats"
+        ]
+      },
+      {
+        "question": "What is the dog's name?",
+        "answer": "Max.",
+        "options": [
+          "Tom",
+          "Max",
+          "Buddy"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "animals_dialogue_2_q1.mp3",
+    "text": "What colors is the bird?",
+    "answer": "Blue and yellow.",
+    "options": [
+      "Red and green",
+      "Blue and yellow",
+      "Black and white"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "animals_dialogue_2_q2.mp3",
+    "text": "Can parrots talk?",
+    "answer": "Yes, some can.",
+    "options": [
+      "No",
+      "Yes, some can",
+      "All parrots can"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "animals_dialogue_2.mp3",
+    "text": "Person A: Look at that bird! It's beautiful.\nPerson B: Yes, it's blue and yellow.\nPerson A: I think it's a parrot.\nPerson B: Can parrots talk?\nPerson A: Yes, some parrots can talk!\nPerson B: Wow, that's amazing.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What colors is the bird?",
+        "answer": "Blue and yellow.",
+        "options": [
+          "Red and green",
+          "Blue and yellow",
+          "Black and white"
+        ]
+      },
+      {
+        "question": "Can parrots talk?",
+        "answer": "Yes, some can.",
+        "options": [
+          "No",
+          "Yes, some can",
+          "All parrots can"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "animals_question_1.mp3",
+    "text": "How many pets does the person have?",
+    "answer": "Three pets.",
+    "options": [
+      "One",
+      "Two",
+      "Three"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "animals_question_2.mp3",
+    "text": "What colors is the bird?",
+    "answer": "Blue and yellow.",
+    "options": [
+      "Red and green",
+      "Blue and yellow",
+      "Black and white"
+    ],
+    "type": "question"
+  }
+]

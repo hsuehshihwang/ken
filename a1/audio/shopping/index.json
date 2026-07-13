@@ -1,0 +1,180 @@
+[
+  {
+    "file": "shopping_01.mp3",
+    "text": "How much is this shirt?",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_02.mp3",
+    "text": "I want to buy a new dress.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_03.mp3",
+    "text": "The shop opens at nine.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_04.mp3",
+    "text": "Do you accept credit cards?",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_05.mp3",
+    "text": "Can I try this on?",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_06.mp3",
+    "text": "This is too expensive.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_07.mp3",
+    "text": "I need a large size, please.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_08.mp3",
+    "text": "Where is the checkout?",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_09.mp3",
+    "text": "I'm just looking, thank you.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_10.mp3",
+    "text": "The sale starts tomorrow.",
+    "type": "sentence"
+  },
+  {
+    "file": "shopping_dialogue_1_q1.mp3",
+    "text": "What color shirt is Person B looking for?",
+    "answer": "Blue.",
+    "options": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "shopping_dialogue_1_q2.mp3",
+    "text": "How much is the shirt?",
+    "answer": "Thirty-five dollars.",
+    "options": [
+      "Twenty-five",
+      "Thirty-five",
+      "Forty-five"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "shopping_dialogue_1.mp3",
+    "text": "Person A: Can I help you?\nPerson B: Yes, I'm looking for a blue shirt.\nPerson A: What size do you need?\nPerson B: Medium, please.\nPerson A: Here you are. The changing room is there.\nPerson B: Thank you. How much is it?\nPerson A: It's thirty-five dollars.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What color shirt is Person B looking for?",
+        "answer": "Blue.",
+        "options": [
+          "Red",
+          "Blue",
+          "Green"
+        ]
+      },
+      {
+        "question": "How much is the shirt?",
+        "answer": "Thirty-five dollars.",
+        "options": [
+          "Twenty-five",
+          "Thirty-five",
+          "Forty-five"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "shopping_dialogue_2_q1.mp3",
+    "text": "Why doesn't Person B want to buy the jacket at first?",
+    "answer": "It's expensive.",
+    "options": [
+      "It's ugly",
+      "It's expensive",
+      "It's too big"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "shopping_dialogue_2_q2.mp3",
+    "text": "What happens to the price?",
+    "answer": "It's fifty percent off.",
+    "options": [
+      "It goes up",
+      "It's fifty percent off",
+      "It stays the same"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "shopping_dialogue_2.mp3",
+    "text": "Person A: Do you like this jacket?\nPerson B: Yes, it's nice. But it's expensive.\nPerson A: It's on sale today - fifty percent off!\nPerson B: Great! I'll take it.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "Why doesn't Person B want to buy the jacket at first?",
+        "answer": "It's expensive.",
+        "options": [
+          "It's ugly",
+          "It's expensive",
+          "It's too big"
+        ]
+      },
+      {
+        "question": "What happens to the price?",
+        "answer": "It's fifty percent off.",
+        "options": [
+          "It goes up",
+          "It's fifty percent off",
+          "It stays the same"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "shopping_question_1.mp3",
+    "text": "What size shirt does the person want?",
+    "answer": "Medium.",
+    "options": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "shopping_question_2.mp3",
+    "text": "How much is the shirt?",
+    "answer": "Thirty-five dollars.",
+    "options": [
+      "Twenty-five",
+      "Thirty-five",
+      "Forty-five"
+    ],
+    "type": "question"
+  }
+]

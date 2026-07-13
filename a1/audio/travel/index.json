@@ -1,0 +1,180 @@
+[
+  {
+    "file": "travel_01.mp3",
+    "text": "Where is the train station?",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_02.mp3",
+    "text": "I need a ticket to Paris.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_03.mp3",
+    "text": "How long does the flight take?",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_04.mp3",
+    "text": "Turn left at the traffic lights.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_05.mp3",
+    "text": "The hotel is near the beach.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_06.mp3",
+    "text": "I have a reservation for two nights.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_07.mp3",
+    "text": "Where can I find a taxi?",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_08.mp3",
+    "text": "Is there a bus to the airport?",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_09.mp3",
+    "text": "I lost my passport.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_10.mp3",
+    "text": "The museum is across from the park.",
+    "type": "sentence"
+  },
+  {
+    "file": "travel_dialogue_1_q1.mp3",
+    "text": "Where is Person A going?",
+    "answer": "To the museum.",
+    "options": [
+      "To the park",
+      "To the museum",
+      "To the hotel"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "travel_dialogue_1_q2.mp3",
+    "text": "How long does it take to walk there?",
+    "answer": "About five minutes.",
+    "options": [
+      "Two minutes",
+      "About five minutes",
+      "Ten minutes"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "travel_dialogue_1.mp3",
+    "text": "Person A: Excuse me, where is the museum?\nPerson B: Go straight and turn left.\nPerson A: Is it far?\nPerson B: No, it's about five minutes.\nPerson A: Thank you very much!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "Where is Person A going?",
+        "answer": "To the museum.",
+        "options": [
+          "To the park",
+          "To the museum",
+          "To the hotel"
+        ]
+      },
+      {
+        "question": "How long does it take to walk there?",
+        "answer": "About five minutes.",
+        "options": [
+          "Two minutes",
+          "About five minutes",
+          "Ten minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "travel_dialogue_2_q1.mp3",
+    "text": "How many nights does Person A want to stay?",
+    "answer": "Three nights.",
+    "options": [
+      "One night",
+      "Two nights",
+      "Three nights"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "travel_dialogue_2_q2.mp3",
+    "text": "What kind of room does Person A want?",
+    "answer": "A double room.",
+    "options": [
+      "A single room",
+      "A double room",
+      "A family room"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "travel_dialogue_2.mp3",
+    "text": "Person A: I'd like to book a room, please.\nPerson B: For how many nights?\nPerson A: Three nights, from Monday.\nPerson B: Would you like a single or double room?\nPerson A: A double room, please.\nPerson B: That's one hundred twenty dollars per night.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "How many nights does Person A want to stay?",
+        "answer": "Three nights.",
+        "options": [
+          "One night",
+          "Two nights",
+          "Three nights"
+        ]
+      },
+      {
+        "question": "What kind of room does Person A want?",
+        "answer": "A double room.",
+        "options": [
+          "A single room",
+          "A double room",
+          "A family room"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "travel_question_1.mp3",
+    "text": "Where is the museum?",
+    "answer": "Go straight and turn left.",
+    "options": [
+      "Turn right",
+      "Go straight and turn left",
+      "It's behind you"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "travel_question_2.mp3",
+    "text": "How many nights does the person want to stay?",
+    "answer": "Three nights.",
+    "options": [
+      "One night",
+      "Two nights",
+      "Three nights"
+    ],
+    "type": "question"
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "file": "work_01.mp3",
+    "text": "I work in an office.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_02.mp3",
+    "text": "She is a nurse at the hospital.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_03.mp3",
+    "text": "He drives a taxi.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_04.mp3",
+    "text": "I start work at nine in the morning.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_05.mp3",
+    "text": "My boss is very nice.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_06.mp3",
+    "text": "I have a meeting this afternoon.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_07.mp3",
+    "text": "She works five days a week.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_08.mp3",
+    "text": "I need to send an email.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_09.mp3",
+    "text": "The office is downtown.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_10.mp3",
+    "text": "I like my job.",
+    "type": "sentence"
+  },
+  {
+    "file": "work_dialogue_1_q1.mp3",
+    "text": "What does Person B do?",
+    "answer": "She is a teacher.",
+    "options": [
+      "Doctor",
+      "Teacher",
+      "Nurse"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "work_dialogue_1_q2.mp3",
+    "text": "How does Person B get to work?",
+    "answer": "By bus.",
+    "options": [
+      "By car",
+      "By bus",
+      "By train"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "work_dialogue_1.mp3",
+    "text": "Person A: What do you do for work?\nPerson B: I'm a teacher. I teach English.\nPerson A: That sounds interesting. Where do you teach?\nPerson B: At the language school downtown.\nPerson A: How do you get to work?\nPerson B: I take the bus.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What does Person B do?",
+        "answer": "She is a teacher.",
+        "options": [
+          "Doctor",
+          "Teacher",
+          "Nurse"
+        ]
+      },
+      {
+        "question": "How does Person B get to work?",
+        "answer": "By bus.",
+        "options": [
+          "By car",
+          "By bus",
+          "By train"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "work_dialogue_2_q1.mp3",
+    "text": "What kind of job does Person A want?",
+    "answer": "In a restaurant.",
+    "options": [
+      "In an office",
+      "In a restaurant",
+      "At a school"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "work_dialogue_2_q2.mp3",
+    "text": "Can Person A cook?",
+    "answer": "Yes, very well.",
+    "options": [
+      "No",
+      "Yes, very well",
+      "A little"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "work_dialogue_2.mp3",
+    "text": "Person A: I'm looking for a job.\nPerson B: What kind of job do you want?\nPerson A: I want to work in a restaurant.\nPerson B: Can you cook?\nPerson A: Yes, I can cook very well.\nPerson B: Great! There's a restaurant near here.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What kind of job does Person A want?",
+        "answer": "In a restaurant.",
+        "options": [
+          "In an office",
+          "In a restaurant",
+          "At a school"
+        ]
+      },
+      {
+        "question": "Can Person A cook?",
+        "answer": "Yes, very well.",
+        "options": [
+          "No",
+          "Yes, very well",
+          "A little"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "work_question_1.mp3",
+    "text": "What does the person do for work?",
+    "answer": "She is a teacher.",
+    "options": [
+      "Doctor",
+      "Teacher",
+      "Nurse"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "work_question_2.mp3",
+    "text": "How does the teacher get to work?",
+    "answer": "By bus.",
+    "options": [
+      "By car",
+      "By bus",
+      "By train"
+    ],
+    "type": "question"
+  }
+]

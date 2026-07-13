@@ -270,10 +270,74 @@
             text-align: center;
             font-weight: 500;
         }
+        
+        /* Category Styles */
+        .category-section {
+            margin-bottom: 32px;
+        }
+        
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .category-icon {
+            font-size: 28px;
+        }
+        
+        .category-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        .topic-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+        
+        .topic-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .topic-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .topic-card-name {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        
+        .topic-card-click {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+        
+        /* Topic colors by category */
+        .category-section:nth-child(1) .topic-card { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .category-section:nth-child(2) .topic-card { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .category-section:nth-child(3) .topic-card { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .category-section:nth-child(4) .topic-card { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .category-section:nth-child(5) .topic-card { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #1f2937; }
+        .category-section:nth-child(6) .topic-card { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
     </style>
 </head>
 <body>
     <div class="container">
+        <a href="../index.html" style="display:inline-block;color:#1f2937;text-decoration:none;font-size:14px;margin-bottom:20px;">← Back to A1 English</a>
         <header>
             <h1>A1 English Listening Test</h1>
             <p>Select a topic and practice your listening skills</p>
@@ -329,44 +393,108 @@
             try {
                 const response = await fetch(`${audioBasePath}/topics.json`);
                 if (response.ok) {
-                    const topics = await response.json();
-                    topics.forEach(topic => {
-                        const option = document.createElement('option');
-                        option.value = topic.id;
-                        option.textContent = topic.name;
-                        topicSelect.appendChild(option);
-                    });
-                } else {
-                    // Fallback: try loading test_structure.json
-                    const response2 = await fetch(`${audioBasePath}/test_structure.json`);
-                    if (response2.ok) {
-                        const data = await response2.json();
-                        Object.keys(data).forEach(key => {
+                    const data = await response.json();
+                    
+                    // Check if data is categorized (array of categories) or flat (array of topics)
+                    if (data.length > 0 && data[0].topics) {
+                        // Categorized format - populate dropdown AND render cards
+                        window.categoriesData = data;
+                        
+                        // Add optgroups to dropdown
+                        data.forEach(category => {
+                            const optgroup = document.createElement('optgroup');
+                            optgroup.label = `${category.icon} ${category.name}`;
+                            
+                            category.topics.forEach(topic => {
+                                const option = document.createElement('option');
+                                option.value = topic.id;
+                                option.textContent = topic.name;
+                                optgroup.appendChild(option);
+                            });
+                            
+                            topicSelect.appendChild(optgroup);
+                        });
+                        
+                        renderCategories(data);
+                    } else {
+                        // Flat format - add all to select
+                        data.forEach(topic => {
                             const option = document.createElement('option');
-                            option.value = key;
-                            option.textContent = data[key].topic || key;
+                            option.value = topic.id;
+                            option.textContent = topic.name;
                             topicSelect.appendChild(option);
                         });
                     }
                 }
             } catch (e) {
-                console.log('No topics.json found, using directory listing');
+                console.log('No topics.json found');
             }
+        }
+        
+        // Render categories as cards
+        function renderCategories(categories) {
+            const contentDiv = document.getElementById('content');
+            let html = '';
+            
+            categories.forEach(category => {
+                html += `
+                    <div class="category-section">
+                        <div class="category-header">
+                            <span class="category-icon">${category.icon}</span>
+                            <span class="category-name">${category.name}</span>
+                        </div>
+                        <div class="topic-cards">
+                `;
+                
+                category.topics.forEach(topic => {
+                    html += `
+                        <div class="topic-card" onclick="selectTopic('${topic.id}')">
+                            <div class="topic-card-name">${topic.name}</div>
+                            <div class="topic-card-click">Click to practice →</div>
+                        </div>
+                    `;
+                });
+                
+                html += `
+                        </div>
+                    </div>
+                `;
+            });
+            
+            contentDiv.innerHTML = html;
+        }
+        
+        // Select a topic from card click
+        function selectTopic(topicId) {
+            topicSelect.value = topicId;
+            loadTopicContent(topicId);
         }
 
         // Load and display content for a topic
         async function loadTopic(topicId) {
             if (!topicId) {
-                contentDiv.innerHTML = `
-                    <div class="empty-state">
-                        <h2>Welcome!</h2>
-                        <p>Select a topic above to start practicing.</p>
-                    </div>
-                `;
+                // Show categories again
+                if (window.categoriesData) {
+                    renderCategories(window.categoriesData);
+                } else {
+                    contentDiv.innerHTML = `
+                        <div class="empty-state">
+                            <h2>Welcome!</h2>
+                            <p>Select a topic above to start practicing.</p>
+                        </div>
+                    `;
+                }
                 playAllBtn.disabled = true;
                 stopBtn.disabled = true;
                 return;
             }
+            
+            await loadTopicContent(topicId);
+        }
+        
+        // Load topic content
+        async function loadTopicContent(topicId) {
+            if (!topicId) return;
 
             contentDiv.innerHTML = '<div class="loading">Loading...</div>';
 

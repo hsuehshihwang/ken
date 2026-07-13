@@ -1,0 +1,180 @@
+[
+  {
+    "file": "health_01.mp3",
+    "text": "I have a headache.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_02.mp3",
+    "text": "I need to see a doctor.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_03.mp3",
+    "text": "My stomach hurts.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_04.mp3",
+    "text": "Take this medicine three times a day.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_05.mp3",
+    "text": "How long have you been sick?",
+    "type": "sentence"
+  },
+  {
+    "file": "health_06.mp3",
+    "text": "I feel much better now.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_07.mp3",
+    "text": "You should rest for two days.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_08.mp3",
+    "text": "Do you have any allergies?",
+    "type": "sentence"
+  },
+  {
+    "file": "health_09.mp3",
+    "text": "I have a cold.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_10.mp3",
+    "text": "The doctor will see you now.",
+    "type": "sentence"
+  },
+  {
+    "file": "health_dialogue_1_q1.mp3",
+    "text": "What's wrong with Person B?",
+    "answer": "A bad headache.",
+    "options": [
+      "Stomachache",
+      "A bad headache",
+      "Toothache"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "health_dialogue_1_q2.mp3",
+    "text": "When did the headache start?",
+    "answer": "Since yesterday.",
+    "options": [
+      "Today",
+      "Since yesterday",
+      "Last week"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "health_dialogue_1.mp3",
+    "text": "Person A: Good morning. What's the problem?\nPerson B: I have a bad headache.\nPerson A: How long have you had it?\nPerson B: Since yesterday.\nPerson A: I'll give you some medicine.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What's wrong with Person B?",
+        "answer": "A bad headache.",
+        "options": [
+          "Stomachache",
+          "A bad headache",
+          "Toothache"
+        ]
+      },
+      {
+        "question": "When did the headache start?",
+        "answer": "Since yesterday.",
+        "options": [
+          "Today",
+          "Since yesterday",
+          "Last week"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "health_dialogue_2_q1.mp3",
+    "text": "What does Person B feel?",
+    "answer": "Sick.",
+    "options": [
+      "Happy",
+      "Tired",
+      "Sick"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "health_dialogue_2_q2.mp3",
+    "text": "What did Person B eat for dinner?",
+    "answer": "Seafood.",
+    "options": [
+      "Meat",
+      "Seafood",
+      "Vegetables"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "health_dialogue_2.mp3",
+    "text": "Person A: What's wrong?\nPerson B: I feel sick. My stomach hurts.\nPerson A: Did you eat something bad?\nPerson B: Maybe. I had seafood for dinner.\nPerson A: You should drink some water and rest.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What does Person B feel?",
+        "answer": "Sick.",
+        "options": [
+          "Happy",
+          "Tired",
+          "Sick"
+        ]
+      },
+      {
+        "question": "What did Person B eat for dinner?",
+        "answer": "Seafood.",
+        "options": [
+          "Meat",
+          "Seafood",
+          "Vegetables"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "health_question_1.mp3",
+    "text": "What's the patient's problem?",
+    "answer": "A bad headache.",
+    "options": [
+      "Stomachache",
+      "Headache",
+      "Back pain"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "health_question_2.mp3",
+    "text": "How long has the patient had the headache?",
+    "answer": "Since yesterday.",
+    "options": [
+      "Since today",
+      "Since yesterday",
+      "For a week"
+    ],
+    "type": "question"
+  }
+]

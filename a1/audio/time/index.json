@@ -1,0 +1,180 @@
+[
+  {
+    "file": "time_01.mp3",
+    "text": "What time is it?",
+    "type": "sentence"
+  },
+  {
+    "file": "time_02.mp3",
+    "text": "It's nine o'clock.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_03.mp3",
+    "text": "The meeting starts at two thirty.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_04.mp3",
+    "text": "I have lunch at twelve.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_05.mp3",
+    "text": "The movie begins at seven in the evening.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_06.mp3",
+    "text": "I'm late for work.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_07.mp3",
+    "text": "The train leaves at eight fifteen.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_08.mp3",
+    "text": "School starts at nine in the morning.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_09.mp3",
+    "text": "I finish work at five.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_10.mp3",
+    "text": "Let's meet at half past three.",
+    "type": "sentence"
+  },
+  {
+    "file": "time_dialogue_1_q1.mp3",
+    "text": "What time is it now?",
+    "answer": "Ten forty-five.",
+    "options": [
+      "Ten thirty",
+      "Ten forty-five",
+      "Eleven o'clock"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "time_dialogue_1_q2.mp3",
+    "text": "What time is the appointment?",
+    "answer": "Eleven o'clock.",
+    "options": [
+      "Ten thirty",
+      "Ten forty-five",
+      "Eleven o'clock"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "time_dialogue_1.mp3",
+    "text": "Person A: Excuse me, what time is it?\nPerson B: It's ten forty-five.\nPerson A: Oh no! I'm late for my appointment.\nPerson B: What time is your appointment?\nPerson A: It's at eleven o'clock.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What time is it now?",
+        "answer": "Ten forty-five.",
+        "options": [
+          "Ten thirty",
+          "Ten forty-five",
+          "Eleven o'clock"
+        ]
+      },
+      {
+        "question": "What time is the appointment?",
+        "answer": "Eleven o'clock.",
+        "options": [
+          "Ten thirty",
+          "Ten forty-five",
+          "Eleven o'clock"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "time_dialogue_2_q1.mp3",
+    "text": "What time does the movie start?",
+    "answer": "Seven thirty.",
+    "options": [
+      "Seven o'clock",
+      "Seven fifteen",
+      "Seven thirty"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "time_dialogue_2_q2.mp3",
+    "text": "What time will Person A pick up Person B?",
+    "answer": "Seven o'clock.",
+    "options": [
+      "Seven o'clock",
+      "Seven fifteen",
+      "Seven thirty"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "time_dialogue_2.mp3",
+    "text": "Person A: What time does the movie start?\nPerson B: It starts at seven thirty.\nPerson A: Should we arrive early?\nPerson B: Yes, let's be there at seven fifteen.\nPerson A: Good. I'll pick you up at seven.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What time does the movie start?",
+        "answer": "Seven thirty.",
+        "options": [
+          "Seven o'clock",
+          "Seven fifteen",
+          "Seven thirty"
+        ]
+      },
+      {
+        "question": "What time will Person A pick up Person B?",
+        "answer": "Seven o'clock.",
+        "options": [
+          "Seven o'clock",
+          "Seven fifteen",
+          "Seven thirty"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "time_question_1.mp3",
+    "text": "What time is it?",
+    "answer": "Ten forty-five.",
+    "options": [
+      "Ten thirty",
+      "Ten forty-five",
+      "Eleven o'clock"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "time_question_2.mp3",
+    "text": "What time does the movie start?",
+    "answer": "Seven thirty.",
+    "options": [
+      "Seven o'clock",
+      "Seven fifteen",
+      "Seven thirty"
+    ],
+    "type": "question"
+  }
+]

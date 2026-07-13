@@ -1,0 +1,180 @@
+[
+  {
+    "file": "weather_01.mp3",
+    "text": "It is sunny today.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_02.mp3",
+    "text": "I think it will rain tomorrow.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_03.mp3",
+    "text": "It's very cold outside.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_04.mp3",
+    "text": "The weather is nice today.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_05.mp3",
+    "text": "I need an umbrella.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_06.mp3",
+    "text": "It's hot and humid.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_07.mp3",
+    "text": "I like the snow.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_08.mp3",
+    "text": "The wind is very strong.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_09.mp3",
+    "text": "It's cloudy today.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_10.mp3",
+    "text": "Summer is my favorite season.",
+    "type": "sentence"
+  },
+  {
+    "file": "weather_dialogue_1_q1.mp3",
+    "text": "What's the weather like today?",
+    "answer": "Sunny and warm.",
+    "options": [
+      "Rainy",
+      "Sunny and warm",
+      "Cold"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "weather_dialogue_1_q2.mp3",
+    "text": "What should Person A bring?",
+    "answer": "Sunglasses.",
+    "options": [
+      "An umbrella",
+      "A jacket",
+      "Sunglasses"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "weather_dialogue_1.mp3",
+    "text": "Person A: How's the weather today?\nPerson B: It's sunny and warm.\nPerson A: Should I bring a jacket?\nPerson B: No, it's not cold. But bring sunglasses.\nPerson A: Good idea!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What's the weather like today?",
+        "answer": "Sunny and warm.",
+        "options": [
+          "Rainy",
+          "Sunny and warm",
+          "Cold"
+        ]
+      },
+      {
+        "question": "What should Person A bring?",
+        "answer": "Sunglasses.",
+        "options": [
+          "An umbrella",
+          "A jacket",
+          "Sunglasses"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "weather_dialogue_2_q1.mp3",
+    "text": "What's the weather like now?",
+    "answer": "It's raining.",
+    "options": [
+      "It's sunny",
+      "It's raining",
+      "It's snowing"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "weather_dialogue_2_q2.mp3",
+    "text": "What does the forecast say for tomorrow?",
+    "answer": "It will be sunny.",
+    "options": [
+      "It will rain",
+      "It will be sunny",
+      "It will snow"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "weather_dialogue_2.mp3",
+    "text": "Person A: I don't like this weather.\nPerson B: Me neither. It's raining again.\nPerson A: I hope it stops tomorrow.\nPerson B: The forecast says it will be sunny.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What's the weather like now?",
+        "answer": "It's raining.",
+        "options": [
+          "It's sunny",
+          "It's raining",
+          "It's snowing"
+        ]
+      },
+      {
+        "question": "What does the forecast say for tomorrow?",
+        "answer": "It will be sunny.",
+        "options": [
+          "It will rain",
+          "It will be sunny",
+          "It will snow"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "weather_question_1.mp3",
+    "text": "What's the weather like?",
+    "answer": "It's sunny and warm.",
+    "options": [
+      "Rainy and cold",
+      "Sunny and warm",
+      "Snowy"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "weather_question_2.mp3",
+    "text": "What will the weather be like tomorrow?",
+    "answer": "Sunny.",
+    "options": [
+      "Rainy",
+      "Cloudy",
+      "Sunny"
+    ],
+    "type": "question"
+  }
+]

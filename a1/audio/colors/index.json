@@ -1,0 +1,159 @@
+[
+  {
+    "file": "colors_01.mp3",
+    "text": "The sky is blue.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_02.mp3",
+    "text": "I like the red dress.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_03.mp3",
+    "text": "My favorite color is green.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_04.mp3",
+    "text": "The cat is black and white.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_05.mp3",
+    "text": "I have a yellow banana.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_06.mp3",
+    "text": "The flowers are pink.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_07.mp3",
+    "text": "Please give me the orange ball.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_08.mp3",
+    "text": "The car is silver.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_09.mp3",
+    "text": "I see a purple butterfly.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_10.mp3",
+    "text": "The grass is green.",
+    "type": "sentence"
+  },
+  {
+    "file": "colors_dialogue_1_q1.mp3",
+    "text": "What color is Person B's new car?",
+    "answer": "Dark blue.",
+    "options": [
+      "Black",
+      "Dark blue",
+      "Silver"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "colors_dialogue_1_q2.mp3",
+    "text": "What color is Person A's car?",
+    "answer": "Silver.",
+    "options": [
+      "Blue",
+      "Silver",
+      "Red"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "colors_dialogue_1.mp3",
+    "text": "Person A: What color is your new car?\nPerson B: It's dark blue.\nPerson A: Nice! I like blue cars.\nPerson B: Thank you. What color is your car?\nPerson A: Mine is silver.",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What color is Person B's new car?",
+        "answer": "Dark blue.",
+        "options": [
+          "Black",
+          "Dark blue",
+          "Silver"
+        ]
+      },
+      {
+        "question": "What color is Person A's car?",
+        "answer": "Silver.",
+        "options": [
+          "Blue",
+          "Silver",
+          "Red"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "colors_dialogue_2_q1.mp3",
+    "text": "Which pen does Person A want?",
+    "answer": "The red pen.",
+    "options": [
+      "Blue pen",
+      "Red pen",
+      "Green pen"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "colors_dialogue_2.mp3",
+    "text": "Person A: Can I have the red pen, please?\nPerson B: This one?\nPerson A: No, the red one. Not the blue one.\nPerson B: Oh, here you are.\nPerson A: Thank you!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "Which pen does Person A want?",
+        "answer": "The red pen.",
+        "options": [
+          "Blue pen",
+          "Red pen",
+          "Green pen"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "colors_question_1.mp3",
+    "text": "What color is the new car?",
+    "answer": "Dark blue.",
+    "options": [
+      "Black",
+      "Dark blue",
+      "Silver"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "colors_question_2.mp3",
+    "text": "Which pen does the person want?",
+    "answer": "The red pen.",
+    "options": [
+      "Blue pen",
+      "Red pen",
+      "Green pen"
+    ],
+    "type": "question"
+  }
+]
