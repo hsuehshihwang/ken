@@ -1,0 +1,47 @@
+{
+  "source": "VOA Learning English",
+  "source_url": "https://learningenglish.voanews.com",
+  "last_updated": "2026-07-13T14:10:22.762529",
+  "articles": [
+    {
+      "id": "news_001",
+      "title": "The Brooklyn Bridge: A Symbol of New York City",
+      "date": "March 14, 2025",
+      "link": "https://learningenglish.voanews.com/a/8010609.html",
+      "audio_url": "https://voa-audio.voanews.eu/vle/2025/03/14/2fdbd895-2bc9-4610-08d8-08dd5c8b1668_hq.mp3",
+      "duration": "00:03:39"
+    },
+    {
+      "id": "news_002",
+      "title": "Japanese Barber, Age 108, Wins Guinness World Record",
+      "date": "March 10, 2025",
+      "link": "https://learningenglish.voanews.com/a/8005705.html",
+      "audio_url": "https://voa-audio.voanews.eu/vle/2025/03/10/4864dee6-ad3f-40f7-0466-08dd5c8b1668_hq.mp3",
+      "duration": "00:02:33"
+    },
+    {
+      "id": "news_003",
+      "title": "American Steve Fossett Set Flying and Sailing Records",
+      "date": "March 07, 2025",
+      "link": "https://learningenglish.voanews.com/a/8002933.html",
+      "audio_url": "https://voa-audio.voanews.eu/vle/2025/03/07/3540b33c-1053-4a04-0258-08dd5c8b1668_original.mp3",
+      "duration": "00:04:06"
+    },
+    {
+      "id": "news_004",
+      "title": "Buckminster Fuller: Designer and Thinker",
+      "date": "March 05, 2025",
+      "link": "https://learningenglish.voanews.com/a/7999225.html",
+      "audio_url": "https://voa-audio.voanews.eu/vle/2025/03/05/069465b9-680a-4d1a-906d-08dd5b02d8d7_hq.mp3",
+      "duration": "00:04:14"
+    },
+    {
+      "id": "news_005",
+      "title": "France Sets New Record in Hunt for Nuclear Fusion",
+      "date": "February 21, 2025",
+      "link": "https://learningenglish.voanews.com/a/7983311.html",
+      "audio_url": "https://voa-audio.voanews.eu/vle/2025/02/21/b056df7a-c49a-4f38-fe02-08dd4a817620_hq.mp3",
+      "duration": "00:05:01"
+    }
+  ]
+}

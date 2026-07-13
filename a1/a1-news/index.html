@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Simplified News - A1 English</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .back-link:hover {
+            opacity: 1;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+        
+        .update-info {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .news-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        
+        .card-number {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        
+        .card-date {
+            color: #6b7280;
+            font-size: 0.85rem;
+        }
+        
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        
+        .card-preview {
+            color: #6b7280;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .sentence-count {
+            color: #9ca3af;
+            font-size: 0.85rem;
+        }
+        
+        .play-badge {
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .source-badge {
+            display: inline-block;
+            background: #d1fae5;
+            color: #065f46;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 8px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .refresh-btn {
+            background: white;
+            color: #10b981;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .refresh-btn:hover {
+            background: #f3f4f6;
+        }
+        
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../index.html" class="back-link">← Back to A1 English</a>
+            <h1>A1 Simplified News</h1>
+            <p class="subtitle">Real news, simplified for A1 learners with TTS audio</p>
+            <p class="update-info" id="updateInfo">Loading...</p>
+        </div>
+        
+        <div id="content">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading simplified news...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let newsData = null;
+        
+        async function loadNews() {
+            const content = document.getElementById('content');
+            
+            try {
+                const response = await fetch('a1-news.json');
+                if (!response.ok) throw new Error('Failed to load news');
+                
+                newsData = await response.json();
+                renderNews();
+                
+            } catch (error) {
+                content.innerHTML = `
+                    <div class="error">
+                        <h3>Could not load simplified news</h3>
+                        <p>Please run the scripts first:</p>
+                        <code>python3 fetch_a1_news.py</code><br>
+                        <code>python3 generate_a1_news.py</code>
+                        <button class="refresh-btn" onclick="loadNews()">Try Again</button>
+                    </div>
+                `;
+            }
+        }
+        
+        function renderNews() {
+            const content = document.getElementById('content');
+            const updateInfo = document.getElementById('updateInfo');
+            
+            if (!newsData || !newsData.articles || newsData.articles.length === 0) {
+                content.innerHTML = `
+                    <div class="error">
+                        <h3>No articles available</h3>
+                        <p>Run the scripts to generate news:</p>
+                        <code>python3 fetch_a1_news.py</code><br>
+                        <code>python3 generate_a1_news.py</code>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Update info
+            const lastUpdated = new Date(newsData.last_updated).toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            updateInfo.textContent = `Source: ${newsData.source} | Last updated: ${lastUpdated}`;
+            
+            // Render articles
+            let html = '<div class="news-grid">';
+            
+            newsData.articles.forEach((article, index) => {
+                const preview = article.sentences ? article.sentences[0] : '';
+                const sentenceCount = article.sentences ? article.sentences.length : 0;
+                const hasAudio = article.audio_file ? true : false;
+                
+                html += `
+                    <a href="article.html?id=${article.id}" class="news-card">
+                        <div class="card-header">
+                            <div class="card-number">${index + 1}</div>
+                            <div class="card-date">${article.date}</div>
+                        </div>
+                        <div class="card-title">${escapeHtml(article.title)}</div>
+                        <div class="card-preview">${escapeHtml(preview)}...</div>
+                        <div class="card-footer">
+                            <span class="sentence-count">${sentenceCount} sentences</span>
+                            ${hasAudio ? '<span class="play-badge">Audio Ready</span>' : '<span class="sentence-count">Generating...</span>'}
+                        </div>
+                        <div class="source-badge">A1 Simplified</div>
+                    </a>
+                `;
+            });
+            
+            html += '</div>';
+            content.innerHTML = html;
+        }
+        
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // Load news on page load
+        loadNews();
+    </script>
+</body>
+</html>
