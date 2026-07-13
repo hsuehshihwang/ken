@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 English Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        header {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        
+        header p {
+            color: #888;
+            font-size: 16px;
+        }
+        
+        .level-badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .section-icon {
+            font-size: 32px;
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            color: #333;
+        }
+        
+        .section-desc {
+            color: #666;
+            margin-bottom: 16px;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 14px;
+        }
+        
+        .card {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+        }
+        
+        .card:hover {
+            border-color: #667eea;
+            background: #f0f0ff;
+            transform: translateY(-2px);
+        }
+        
+        .card-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        
+        .card-desc {
+            font-size: 12px;
+            color: #888;
+            line-height: 1.4;
+        }
+        
+        .card-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 10px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255,255,255,0.8);
+            font-size: 13px;
+        }
+        
+        .view-all {
+            display: inline-block;
+            margin-top: 14px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .view-all:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Levels</a>
+        
+        <header>
+            <h1>A1 English</h1>
+            <p>Beginner level - Start your English journey</p>
+            <span class="level-badge">A1 Beginner</span>
+        </header>
+        
+        <!-- Listening Tests Section -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🎧</span>
+                <span class="section-title">Listening Tests</span>
+            </div>
+            <div class="section-desc">
+                Practice listening with sentences, dialogues, and comprehension questions. 
+                Dialogues use two different voices (male and female).
+            </div>
+            <div class="cards-grid">
+                <a href="cases/test-player.html" class="card">
+                    <div class="card-icon">📝</div>
+                    <div class="card-title">Practice Player</div>
+                    <div class="card-desc">Listen and practice</div>
+                    <span class="card-badge">14 Topics</span>
+                </a>
+                <a href="cases/test-paper.html" class="card">
+                    <div class="card-icon">📄</div>
+                    <div class="card-title">Test Paper</div>
+                    <div class="card-desc">Printable test</div>
+                    <span class="card-badge">Print</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Stories Section -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">📚</span>
+                <span class="section-title">Stories</span>
+            </div>
+            <div class="section-desc">
+                Classic fairy tales with multi-voice narration. Listen scene by scene 
+                or play the whole story.
+            </div>
+            <div class="cards-grid">
+                <a href="topic/story/three-little-pigs/index.html" class="card">
+                    <div class="card-icon">🐷</div>
+                    <div class="card-title">Three Little Pigs</div>
+                    <div class="card-desc">Three pigs and a big bad wolf</div>
+                    <span class="card-badge">15 Scenes</span>
+                </a>
+                <a href="topic/story/goldilocks/index.html" class="card">
+                    <div class="card-icon">🐻</div>
+                    <div class="card-title">Goldilocks</div>
+                    <div class="card-desc">Three bowls, three chairs, three beds</div>
+                    <span class="card-badge">13 Scenes</span>
+                </a>
+                <a href="topic/story/little-red-riding-hood/index.html" class="card">
+                    <div class="card-icon">🧒</div>
+                    <div class="card-title">Little Red Riding Hood</div>
+                    <div class="card-desc">A girl, a wolf, and a grandmother</div>
+                    <span class="card-badge">13 Scenes</span>
+                </a>
+                <a href="topic/story/ugly-duckling/index.html" class="card">
+                    <div class="card-icon">🦆</div>
+                    <div class="card-title">Ugly Duckling</div>
+                    <div class="card-desc">From ugly to beautiful</div>
+                    <span class="card-badge">12 Scenes</span>
+                </a>
+                <a href="topic/story/jack-and-the-beanstalk/index.html" class="card">
+                    <div class="card-icon">🌱</div>
+                    <div class="card-title">Jack and the Beanstalk</div>
+                    <div class="card-desc">Magic beans and a giant</div>
+                    <span class="card-badge">15 Scenes</span>
+                </a>
+                <a href="topic/story/tortoise-and-the-hare/index.html" class="card">
+                    <div class="card-icon">🐢</div>
+                    <div class="card-title">Tortoise and the Hare</div>
+                    <div class="card-desc">Slow and steady wins the race</div>
+                    <span class="card-badge">12 Scenes</span>
+                </a>
+            </div>
+            <a href="topic/story/index.html" class="view-all">View all stories →</a>
+        </div>
+        
+        <div class="footer">
+            A1 English Learning - Free beginner practice
+        </div>
+    </div>
+</body>
+</html>

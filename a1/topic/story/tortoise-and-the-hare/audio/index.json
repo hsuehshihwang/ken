@@ -1,0 +1,62 @@
+[
+  {
+    "file": "scene_01.mp3",
+    "scene": 1,
+    "title": "Introduction"
+  },
+  {
+    "file": "scene_02.mp3",
+    "scene": 2,
+    "title": "The Hare Boasts"
+  },
+  {
+    "file": "scene_03.mp3",
+    "scene": 3,
+    "title": "The Challenge"
+  },
+  {
+    "file": "scene_04.mp3",
+    "scene": 4,
+    "title": "The Race Begins"
+  },
+  {
+    "file": "scene_05.mp3",
+    "scene": 5,
+    "title": "Hare Runs Fast"
+  },
+  {
+    "file": "scene_06.mp3",
+    "scene": 6,
+    "title": "The Hare Naps"
+  },
+  {
+    "file": "scene_07.mp3",
+    "scene": 7,
+    "title": "Tortoise Keeps Going"
+  },
+  {
+    "file": "scene_08.mp3",
+    "scene": 8,
+    "title": "Tortoise Passes Hare"
+  },
+  {
+    "file": "scene_09.mp3",
+    "scene": 9,
+    "title": "Hare Wakes Up"
+  },
+  {
+    "file": "scene_10.mp3",
+    "scene": 10,
+    "title": "Tortoise Wins!"
+  },
+  {
+    "file": "scene_11.mp3",
+    "scene": 11,
+    "title": "Hare's Regret"
+  },
+  {
+    "file": "scene_12.mp3",
+    "scene": 12,
+    "title": "The Lesson"
+  }
+]

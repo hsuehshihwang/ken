@@ -1,0 +1,132 @@
+{
+  "id": "tortoise-and-the-hare",
+  "title": "The Tortoise and the Hare",
+  "level": "A1",
+  "author": "Aesop",
+  "description": "A fast hare laughs at a slow tortoise. They decide to have a race. Who will win?",
+  "vocabularies": [
+    {"word": "race", "meaning": "a competition to see who is fastest", "phonetic": "/reɪs/"},
+    {"word": "fast", "meaning": "moving quickly", "phonetic": "/fɑːst/"},
+    {"word": "slow", "meaning": "not moving quickly", "phonetic": "/sləʊ/"},
+    {"word": "tired", "meaning": "wanting to sleep or rest", "phonetic": "/ˈtaɪərd/"},
+    {"word": "win", "meaning": "to be first in a race or game", "phonetic": "/wɪn/"},
+    {"word": "shell", "meaning": "the hard covering on a tortoise's back", "phonetic": "/ʃel/"},
+    {"word": "hare", "meaning": "an animal like a rabbit with long ears", "phonetic": "/heər/"},
+    {"word": "tortoise", "meaning": "a slow animal with a shell on its back", "phonetic": "/ˈtɔːrtəs/"},
+    {"word": "boast", "meaning": "to talk too proudly about yourself", "phonetic": "/bəʊst/"},
+    {"word": "proud", "meaning": "happy about what you can do", "phonetic": "/praʊd/"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "narrator": "Once upon a time, there was a hare and a tortoise. The hare was very fast. The tortoise was very slow.",
+      "dialogue": [],
+      "vocabulary": ["hare", "tortoise"]
+    },
+    {
+      "id": 2,
+      "title": "The Hare Boasts",
+      "narrator": "The hare liked to brag about how fast he was.",
+      "dialogue": [
+        {"speaker": "Hare", "line": "Look at me! I am so fast! Nobody can beat me!", "voice": "male1"},
+        {"speaker": "Tortoise", "line": "I am slow, but I can do many things.", "voice": "male3"}
+      ],
+      "vocabulary": ["fast", "slow"]
+    },
+    {
+      "id": 3,
+      "title": "The Challenge",
+      "narrator": "The tortoise was tired of the hare's bragging. He had an idea.",
+      "dialogue": [
+        {"speaker": "Tortoise", "line": "Let us have a race. I bet I can beat you.", "voice": "male3"},
+        {"speaker": "Hare", "line": "You? Beat me? That is funny!", "voice": "male1"},
+        {"speaker": "Tortoise", "line": "Are you scared?", "voice": "male3"},
+        {"speaker": "Hare", "line": "No! I am not scared. Let us race!", "voice": "male1"}
+      ],
+      "vocabulary": ["race"]
+    },
+    {
+      "id": 4,
+      "title": "The Race Begins",
+      "narrator": "All the animals came to watch the race.",
+      "dialogue": [
+        {"speaker": "Rabbit", "line": "Ready... Set... Go!", "voice": "male2"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "Hare Runs Fast",
+      "narrator": "The hare ran very fast. The tortoise walked slowly.",
+      "dialogue": [
+        {"speaker": "Hare", "line": "Ha ha! I am already far ahead!", "voice": "male1"}
+      ],
+      "vocabulary": ["fast", "slow"]
+    },
+    {
+      "id": 6,
+      "title": "The Hare Naps",
+      "narrator": "The hare looked back. He could not see the tortoise. He thought he had time to rest.",
+      "dialogue": [
+        {"speaker": "Hare", "line": "The tortoise is so slow! I will take a nap under this tree.", "voice": "male1"}
+      ],
+      "vocabulary": ["tired"]
+    },
+    {
+      "id": 7,
+      "title": "Tortoise Keeps Going",
+      "narrator": "The tortoise kept walking. He did not stop. Step by step, he moved forward.",
+      "dialogue": [
+        {"speaker": "Tortoise", "line": "I will not give up. Slow and steady wins the race.", "voice": "male3"}
+      ],
+      "vocabulary": ["slow"]
+    },
+    {
+      "id": 8,
+      "title": "Tortoise Passes Hare",
+      "narrator": "The tortoise walked past the sleeping hare. He kept going.",
+      "dialogue": [
+        {"speaker": "Tortoise", "line": "The hare is sleeping. I must keep going.", "voice": "male3"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 9,
+      "title": "Hare Wakes Up",
+      "narrator": "The hare woke up. He looked at the tortoise. The tortoise was almost at the finish line!",
+      "dialogue": [
+        {"speaker": "Hare", "line": "Oh no! The tortoise is almost there!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 10,
+      "title": "Tortoise Wins!",
+      "narrator": "The hare ran as fast as he could. But it was too late. The tortoise won the race!",
+      "dialogue": [
+        {"speaker": "Rabbit", "line": "The winner is... the tortoise!", "voice": "male2"}
+      ],
+      "vocabulary": ["win"]
+    },
+    {
+      "id": 11,
+      "title": "Hare's Regret",
+      "narrator": "The hare was very sad. He lost because he was too proud.",
+      "dialogue": [
+        {"speaker": "Hare", "line": "I am sorry. I should not have been so proud.", "voice": "male1"},
+        {"speaker": "Tortoise", "line": "It is okay. We can be friends.", "voice": "male3"}
+      ],
+      "vocabulary": ["proud"]
+    },
+    {
+      "id": 12,
+      "title": "The Lesson",
+      "narrator": "The hare learned an important lesson. Being fast is not always enough. You must also work hard.",
+      "dialogue": [
+        {"speaker": "Tortoise", "line": "Slow and steady wins the race.", "voice": "male3"}
+      ],
+      "vocabulary": ["shell"]
+    }
+  ]
+}

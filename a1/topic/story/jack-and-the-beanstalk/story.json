@@ -1,0 +1,163 @@
+{
+  "id": "jack-and-the-beanstalk",
+  "title": "Jack and the Beanstalk",
+  "level": "A1",
+  "author": "Traditional",
+  "description": "A poor boy named Jack sells his cow for magic beans. The beans grow into a huge beanstalk that reaches the clouds.",
+  "vocabularies": [
+    {"word": "beanstalk", "meaning": "a very tall plant that grows very fast", "phonetic": "/ˈbiːnstɔːk/"},
+    {"word": "castle", "meaning": "a large building where kings and queens live", "phonetic": "/ˈkɑːsl/"},
+    {"word": "giant", "meaning": "a very, very big person", "phonetic": "/ˈdʒaɪənt/"},
+    {"word": "magic", "meaning": "special powers that are not real", "phonetic": "/ˈmædʒɪk/"},
+    {"word": "gold", "meaning": "a yellow metal that is very valuable", "phonetic": "/ɡəʊld/"},
+    {"word": "goose", "meaning": "a large bird like a duck", "phonetic": "/ɡuːs/"},
+    {"word": "harp", "meaning": "a musical instrument with strings", "phonetic": "/hɑːrp/"},
+    {"word": "cow", "meaning": "a farm animal that gives milk", "phonetic": "/kaʊ/"},
+    {"word": "climb", "meaning": "to go up using your hands and feet", "phonetic": "/klaɪm/"},
+    {"word": "fee-fi-fo-fum", "meaning": "words the giant says", "phonetic": ""}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "narrator": "Once upon a time, there was a poor boy named Jack. He lived with his mother. They had a cow. It was their only possession.",
+      "dialogue": [],
+      "vocabulary": ["cow"]
+    },
+    {
+      "id": 2,
+      "title": "The Cow is Sold",
+      "narrator": "One day, there was no food in the house. Jack's mother told him to sell the cow.",
+      "dialogue": [
+        {"speaker": "Mother", "line": "Jack, we have no money. Please sell the cow at the market.", "voice": "female"},
+        {"speaker": "Jack", "line": "Yes, mother. I will go right now.", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 3,
+      "title": "Magic Beans",
+      "narrator": "On the way to the market, Jack met an old man.",
+      "dialogue": [
+        {"speaker": "Old Man", "line": "I will give you five magic beans for your cow.", "voice": "male3"},
+        {"speaker": "Jack", "line": "Magic beans? What do they do?", "voice": "male1"},
+        {"speaker": "Old Man", "line": "Plant them tonight. You will see something amazing!", "voice": "male3"}
+      ],
+      "vocabulary": ["magic"]
+    },
+    {
+      "id": 4,
+      "title": "Mother is Angry",
+      "narrator": "Jack went home. His mother was not happy.",
+      "dialogue": [
+        {"speaker": "Mother", "line": "You sold our cow for beans?! That is terrible!", "voice": "female"},
+        {"speaker": "Jack", "line": "But mother, they are MAGIC beans!", "voice": "male1"},
+        {"speaker": "Mother", "line": "There is no such thing as magic. Go to your room.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "The Beanstalk Grows",
+      "narrator": "Jack threw the beans on the ground and went to bed. But something amazing happened that night.",
+      "dialogue": [
+        {"speaker": "Jack", "line": "What is that noise outside?", "voice": "male1"}
+      ],
+      "vocabulary": ["beanstalk"]
+    },
+    {
+      "id": 6,
+      "title": "Climbing the Beanstalk",
+      "narrator": "A huge beanstalk grew outside! It went all the way up to the clouds. Jack decided to climb it.",
+      "dialogue": [
+        {"speaker": "Jack", "line": "I will climb to the top. I wonder what is up there.", "voice": "male1"}
+      ],
+      "vocabulary": ["climb"]
+    },
+    {
+      "id": 7,
+      "title": "The Giant's Castle",
+      "narrator": "Jack climbed and climbed. At the top, he saw a giant castle.",
+      "dialogue": [
+        {"speaker": "Jack", "line": "Wow! What a big castle!", "voice": "male1"}
+      ],
+      "vocabulary": ["castle", "giant"]
+    },
+    {
+      "id": 8,
+      "title": "The Giant's Wife",
+      "narrator": "Jack went inside the castle. He met the giant's wife.",
+      "dialogue": [
+        {"speaker": "Jack", "line": "Good morning! I am hungry. Can I have some food?", "voice": "male1"},
+        {"speaker": "Giant's Wife", "line": "You must leave quickly! My husband is very dangerous.", "voice": "female"},
+        {"speaker": "Jack", "line": "Please, just a little food.", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 9,
+      "title": "The Giant Returns",
+      "narrator": "Suddenly, the giant came home!",
+      "dialogue": [
+        {"speaker": "Giant", "line": "Fee-fi-fo-fum! I smell a human!", "voice": "wolf"},
+        {"speaker": "Giant's Wife", "line": "Hurry! Hide in this pot!", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 10,
+      "title": "The Giant Sleeps",
+      "narrator": "The giant ate his lunch and fell asleep. When he was sleeping, Jack came out.",
+      "dialogue": [],
+      "vocabulary": []
+    },
+    {
+      "id": 11,
+      "title": "The Golden Eggs",
+      "narrator": "Jack saw something shining. It was a goose that laid golden eggs!",
+      "dialogue": [
+        {"speaker": "Jack", "line": "This goose lays golden eggs! I will take it home.", "voice": "male1"}
+      ],
+      "vocabulary": ["goose", "gold"]
+    },
+    {
+      "id": 12,
+      "title": "The Harp",
+      "narrator": "Then Jack saw a beautiful harp. It was singing a sweet song.",
+      "dialogue": [
+        {"speaker": "Harp", "line": "Please help me! The giant is not nice to me.", "voice": "female"},
+        {"speaker": "Jack", "line": "I will take you with me!", "voice": "male1"}
+      ],
+      "vocabulary": ["harp"]
+    },
+    {
+      "id": 13,
+      "title": "The Escape",
+      "narrator": "Jack ran to the beanstalk. The giant woke up!",
+      "dialogue": [
+        {"speaker": "Giant", "line": "Fee-fi-fo-fum! Someone is stealing my things!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 14,
+      "title": "Cutting the Beanstalk",
+      "narrator": "Jack climbed down fast. His mother helped him cut the beanstalk.",
+      "dialogue": [
+        {"speaker": "Jack", "line": "Mother! Cut the beanstalk now!", "voice": "male1"},
+        {"speaker": "Mother", "line": "What is happening? Okay, I will cut it!", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 15,
+      "title": "Happy Ending",
+      "narrator": "The beanstalk fell down. The giant could not come down. Jack and his mother were safe. They were rich now. They lived happily ever after.",
+      "dialogue": [
+        {"speaker": "Mother", "line": "We are rich! You are a hero, Jack!", "voice": "female"},
+        {"speaker": "Jack", "line": "I learned that sometimes what seems bad can turn into something good.", "voice": "male1"}
+      ],
+      "vocabulary": ["magic"]
+    }
+  ]
+}

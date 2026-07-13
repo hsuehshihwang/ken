@@ -1,0 +1,153 @@
+{
+  "id": "goldilocks",
+  "title": "Goldilocks and the Three Bears",
+  "level": "A1",
+  "author": "Traditional",
+  "description": "A little girl finds a house in the forest and enters. Inside, there are three bowls of porridge, three chairs, and three beds.",
+  "vocabularies": [
+    {"word": "porridge", "meaning": "a hot food made from oats mixed with water or milk", "phonetic": "/ˈpɒrɪdʒ/"},
+    {"word": "chair", "meaning": "a seat with a back", "phonetic": "/tʃeər/"},
+    {"word": "bed", "meaning": "a piece of furniture for sleeping", "phonetic": "/bed/"},
+    {"word": "too", "meaning": "more than is good or possible", "phonetic": "/tuː/"},
+    {"word": "just right", "meaning": "perfect, exactly what you want", "phonetic": ""},
+    {"word": "porridge", "meaning": "hot oatmeal", "phonetic": "/ˈpɒrɪdʒ/"},
+    {"word": "forest", "meaning": "a large area with many trees", "phonetic": "/ˈfɒrɪst/"},
+    {"word": "house", "meaning": "a building where people live", "phonetic": "/haʊs/"},
+    {"word": "empty", "meaning": "having nothing inside", "phonetic": "/ˈempti/"},
+    {"word": "sleepy", "meaning": "wanting to sleep", "phonetic": "/ˈsliːpi/"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "narrator": "Once upon a time, there were three bears. There was a big bear, a middle-sized bear, and a little bear. They lived in a house in the forest.",
+      "dialogue": [],
+      "vocabulary": ["forest", "house"]
+    },
+    {
+      "id": 2,
+      "title": "Making Porridge",
+      "narrator": "One morning, the three bears made porridge for breakfast.",
+      "dialogue": [
+        {"speaker": "Big Bear", "line": "I am hungry. Let us eat porridge.", "voice": "wolf"},
+        {"speaker": "Little Bear", "line": "Me too! I am very hungry.", "voice": "male1"}
+      ],
+      "vocabulary": ["porridge"]
+    },
+    {
+      "id": 3,
+      "title": "Too Hot!",
+      "narrator": "The porridge was very hot. The bears decided to go for a walk while it cooled down.",
+      "dialogue": [
+        {"speaker": "Big Bear", "line": "The porridge is too hot. Let us go for a walk.", "voice": "wolf"},
+        {"speaker": "Middle Bear", "line": "Good idea. It will be cooler when we come back.", "voice": "male2"}
+      ],
+      "vocabulary": ["too hot"]
+    },
+    {
+      "id": 4,
+      "title": "Goldilocks Arrives",
+      "narrator": "While the bears were away, a little girl came to the house. Her name was Goldilocks. She had golden hair.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "What a nice house! I wonder who lives here.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "Testing the Porridge",
+      "narrator": "Goldilocks went inside. She saw three bowls of porridge on the table.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "I am hungry. Let me try this porridge.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "Oh! This porridge is too hot!", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "This one is too cold.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "Ah! This porridge is just right.", "voice": "female"}
+      ],
+      "vocabulary": ["too hot", "too cold", "just right"]
+    },
+    {
+      "id": 6,
+      "title": "Testing the Chairs",
+      "narrator": "Then Goldilocks saw three chairs.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "Let me sit on this big chair.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "Oh! This chair is too hard.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "This chair is too soft.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "Ah! This chair is just right.", "voice": "female"}
+      ],
+      "vocabulary": ["too hard", "too soft", "just right"]
+    },
+    {
+      "id": 7,
+      "title": "Testing the Beds",
+      "narrator": "Goldilocks was very tired. She went upstairs and saw three beds.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "I am sleepy. Let me lie down.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "This bed is too big.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "This bed is too small.", "voice": "female"},
+        {"speaker": "Goldilocks", "line": "Ah! This bed is just right.", "voice": "female"}
+      ],
+      "vocabulary": ["sleepy", "too big", "too small", "just right"]
+    },
+    {
+      "id": 8,
+      "title": "The Bears Return",
+      "narrator": "The three bears came home. They were surprised.",
+      "dialogue": [
+        {"speaker": "Big Bear", "line": "Someone has been eating my porridge!", "voice": "wolf"},
+        {"speaker": "Little Bear", "line": "Someone has been eating MY porridge! And it is all gone!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 9,
+      "title": "The Chairs",
+      "narrator": "Then the bears looked at their chairs.",
+      "dialogue": [
+        {"speaker": "Big Bear", "line": "Someone has been sitting in my chair!", "voice": "wolf"},
+        {"speaker": "Middle Bear", "line": "Someone has been sitting in my chair too!", "voice": "male2"},
+        {"speaker": "Little Bear", "line": "Someone has been sitting in my chair! And it is broken!", "voice": "male1"}
+      ],
+      "vocabulary": ["broken"]
+    },
+    {
+      "id": 10,
+      "title": "The Beds",
+      "narrator": "The bears went upstairs. They saw their beds.",
+      "dialogue": [
+        {"speaker": "Big Bear", "line": "Someone has been sleeping in my bed!", "voice": "wolf"},
+        {"speaker": "Middle Bear", "line": "Someone has been sleeping in my bed too!", "voice": "male2"},
+        {"speaker": "Little Bear", "line": "Look! Someone is sleeping in my bed RIGHT NOW!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 11,
+      "title": "Goldilocks Wakes Up",
+      "narrator": "Goldilocks woke up and saw the three bears.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "Ahhhh! Who are you?", "voice": "female"},
+        {"speaker": "Big Bear", "line": "We are the three bears. Who are you?", "voice": "wolf"},
+        {"speaker": "Goldilocks", "line": "I am sorry. I was tired. I did not mean to sleep in your bed.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 12,
+      "title": "The Lesson",
+      "narrator": "Goldilocks said sorry to the bears. She learned an important lesson.",
+      "dialogue": [
+        {"speaker": "Goldilocks", "line": "I am sorry. I will not go into other people's houses again.", "voice": "female"},
+        {"speaker": "Big Bear", "line": "It is okay. But please ask before you come in next time.", "voice": "wolf"}
+      ],
+      "vocabulary": ["sorry"]
+    },
+    {
+      "id": 13,
+      "title": "Happily Ever After",
+      "narrator": "Goldilocks went home. The bears were not angry anymore. They all learned something that day.",
+      "dialogue": [],
+      "vocabulary": []
+    }
+  ]
+}

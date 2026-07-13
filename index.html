@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 12px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        header p {
+            color: rgba(255,255,255,0.9);
+            font-size: 18px;
+        }
+        
+        .levels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        
+        .level-card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .level-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+        }
+        
+        .level-card.available {
+            border: 3px solid #10b981;
+        }
+        
+        .level-card.coming-soon {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+        
+        .level-number {
+            font-size: 48px;
+            font-weight: 800;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        
+        .level-name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .level-desc {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        
+        .level-stats {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .stat {
+            font-size: 13px;
+            color: #888;
+        }
+        
+        .stat strong {
+            color: #333;
+        }
+        
+        .level-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-available {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .badge-coming {
+            background: #e5e7eb;
+            color: #6b7280;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>English Learning</h1>
+            <p>Choose your level to start learning</p>
+        </header>
+        
+        <div class="levels-grid">
+            <!-- A1 - Available -->
+            <a href="a1/index.html" class="level-card available">
+                <div class="level-number">A1</div>
+                <div class="level-name">Beginner</div>
+                <div class="level-desc">
+                    Start your English journey with basic vocabulary, simple sentences, 
+                    and fun stories.
+                </div>
+                <div class="level-stats">
+                    <span class="stat"><strong>14</strong> Topics</span>
+                    <span class="stat"><strong>6</strong> Stories</span>
+                </div>
+                <span class="level-badge badge-available">Available</span>
+            </a>
+            
+            <!-- A2 - Coming Soon -->
+            <div class="level-card coming-soon">
+                <div class="level-number">A2</div>
+                <div class="level-name">Elementary</div>
+                <div class="level-desc">
+                    Build on the basics with longer conversations, more complex stories, 
+                    and everyday situations.
+                </div>
+                <div class="level-stats">
+                    <span class="stat"><strong>Coming</strong> Soon</span>
+                </div>
+                <span class="level-badge badge-coming">Coming Soon</span>
+            </div>
+            
+            <!-- B1 - Coming Soon -->
+            <div class="level-card coming-soon">
+                <div class="level-number">B1</div>
+                <div class="level-name">Intermediate</div>
+                <div class="level-desc">
+                    Improve your skills with news articles, interviews, 
+                    and more advanced listening comprehension.
+                </div>
+                <div class="level-stats">
+                    <span class="stat"><strong>Coming</strong> Soon</span>
+                </div>
+                <span class="level-badge badge-coming">Coming Soon</span>
+            </div>
+            
+            <!-- B2 - Coming Soon -->
+            <div class="level-card coming-soon">
+                <div class="level-number">B2</div>
+                <div class="level-name">Upper Intermediate</div>
+                <div class="level-desc">
+                    Master complex grammar, idioms, and understand native speakers 
+                    in various contexts.
+                </div>
+                <div class="level-stats">
+                    <span class="stat"><strong>Coming</strong> Soon</span>
+                </div>
+                <span class="level-badge badge-coming">Coming Soon</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            English Learning - Free practice for all levels
+        </div>
+    </div>
+</body>
+</html>

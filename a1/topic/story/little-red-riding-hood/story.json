@@ -1,0 +1,147 @@
+{
+  "id": "little-red-riding-hood",
+  "title": "Little Red Riding Hood",
+  "level": "A1",
+  "author": "Traditional",
+  "description": "A little girl goes to visit her grandmother, but a wolf has a bad plan.",
+  "vocabularies": [
+    {"word": "basket", "meaning": "a container for carrying things", "phonetic": "/ˈbɑːskɪt/"},
+    {"word": "forest", "meaning": "a large area with many trees", "phonetic": "/ˈfɒrɪst/"},
+    {"word": "grandmother", "meaning": "your mother's or father's mother", "phonetic": "/ˈɡrænmʌðər/"},
+    {"word": "wolf", "meaning": "a wild animal like a large dog", "phonetic": "/wʊlf/"},
+    {"word": "cape", "meaning": "a piece of cloth worn over the shoulders", "phonetic": "/keɪp/"},
+    {"word": "hungry", "meaning": "wanting food", "phonetic": "/ˈhʌŋɡri/"},
+    {"word": "teeth", "meaning": "the hard white things in your mouth", "phonetic": "/tiːθ/"},
+    {"word": "scared", "meaning": "feeling afraid", "phonetic": "/skeərd/"},
+    {"word": "woodcutter", "meaning": "a person who cuts trees", "phonetic": "/ˈwʊdkʌtər/"},
+    {"word": "hunt", "meaning": "to look for animals to catch or kill", "phonetic": "/hʌnt/"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "narrator": "Once upon a time, there was a little girl. She always wore a red cape. So everyone called her Little Red Riding Hood.",
+      "dialogue": [],
+      "vocabulary": ["cape"]
+    },
+    {
+      "id": 2,
+      "title": "Mother's Request",
+      "narrator": "One day, Red's mother said:",
+      "dialogue": [
+        {"speaker": "Mother", "line": "Your grandmother is sick. Please take this basket to her.", "voice": "female"},
+        {"speaker": "Red", "line": "Yes, mother! I will go right now.", "voice": "female"},
+        {"speaker": "Mother", "line": "Be careful. Do not talk to strangers in the forest.", "voice": "female"}
+      ],
+      "vocabulary": ["basket"]
+    },
+    {
+      "id": 3,
+      "title": "Meeting the Wolf",
+      "narrator": "Red walked through the forest. She met a wolf.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "Good morning, little girl. Where are you going?", "voice": "wolf"},
+        {"speaker": "Red", "line": "I am going to my grandmother's house. She is sick.", "voice": "female"},
+        {"speaker": "Wolf", "line": "Where does your grandmother live?", "voice": "wolf"},
+        {"speaker": "Red", "line": "She lives in the big house at the end of the road.", "voice": "female"}
+      ],
+      "vocabulary": ["forest", "wolf"]
+    },
+    {
+      "id": 4,
+      "title": "Wolf's Plan",
+      "narrator": "The wolf had a bad idea. He wanted to eat Red and her grandmother.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "I will go to the grandmother's house first!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "The Race",
+      "narrator": "Red stopped to pick some flowers. The wolf ran to grandmother's house.",
+      "dialogue": [
+        {"speaker": "Red", "line": "Look at these beautiful flowers! Grandmother will like them.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 6,
+      "title": "Wolf at the Door",
+      "narrator": "The wolf arrived at grandmother's house. He knocked on the door.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "Knock, knock! Grandmother, it is me, Red!", "voice": "wolf"},
+        {"speaker": "Grandmother", "line": "Who is it?", "voice": "female"},
+        {"speaker": "Wolf", "line": "It is Red! I brought you some food.", "voice": "wolf"},
+        {"speaker": "Grandmother", "line": "Come in, dear. The door is open.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 7,
+      "title": "Wolf Eats Grandmother",
+      "narrator": "The wolf went inside. He ate the grandmother! Then he put on her clothes and got into her bed.",
+      "dialogue": [],
+      "vocabulary": []
+    },
+    {
+      "id": 8,
+      "title": "Red Arrives",
+      "narrator": "Red arrived at the house. She went inside.",
+      "dialogue": [
+        {"speaker": "Red", "line": "Grandmother, I am here!", "voice": "female"},
+        {"speaker": "Wolf", "line": "Come in, dear. I am in bed.", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 9,
+      "title": "Something is Wrong",
+      "narrator": "Red looked at her grandmother. Something was wrong.",
+      "dialogue": [
+        {"speaker": "Red", "line": "Grandmother, what big ears you have!", "voice": "female"},
+        {"speaker": "Wolf", "line": "The better to hear you with, dear.", "voice": "wolf"},
+        {"speaker": "Red", "line": "Grandmother, what big eyes you have!", "voice": "female"},
+        {"speaker": "Wolf", "line": "The better to see you with, dear.", "voice": "wolf"},
+        {"speaker": "Red", "line": "Grandmother, what big teeth you have!", "voice": "female"},
+        {"speaker": "Wolf", "line": "The better to eat you with!", "voice": "wolf"}
+      ],
+      "vocabulary": ["teeth"]
+    },
+    {
+      "id": 10,
+      "title": "The Wolf Catches Red",
+      "narrator": "The wolf jumped up and ate Red too!",
+      "dialogue": [
+        {"speaker": "Red", "line": "Ahhh! Help me!", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 11,
+      "title": "The Woodcutter",
+      "narrator": "A woodcutter walked by the house. He heard a strange noise.",
+      "dialogue": [
+        {"speaker": "Woodcutter", "line": "What is that noise? I must go inside.", "voice": "male3"}
+      ],
+      "vocabulary": ["woodcutter"]
+    },
+    {
+      "id": 12,
+      "title": "The Rescue",
+      "narrator": "The woodcutter saw the wolf sleeping. He cut open the wolf's stomach and found Red and her grandmother. They were alive!",
+      "dialogue": [
+        {"speaker": "Red", "line": "Thank you! You saved us!", "voice": "female"},
+        {"speaker": "Woodcutter", "line": "Be careful in the forest. Do not talk to strangers.", "voice": "male3"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 13,
+      "title": "Happy Ending",
+      "narrator": "Red and her grandmother were safe. They learned to be careful. Red never talked to strangers again.",
+      "dialogue": [],
+      "vocabulary": ["scared"]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 English Listening Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .controls label {
+            font-weight: 500;
+        }
+
+        .controls select, .controls button {
+            padding: 10px 16px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        .controls select {
+            background: white;
+            min-width: 200px;
+        }
+
+        .controls button {
+            background: #667eea;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .controls button:hover {
+            background: #5a6fd6;
+        }
+
+        .controls button.secondary {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .controls button.secondary:hover {
+            background: #d0d0d0;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 16px 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-header span {
+            font-size: 12px;
+            color: #888;
+            font-weight: normal;
+        }
+
+        .item {
+            padding: 16px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item-number {
+            background: #667eea;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .item.dialogue .item-number {
+            background: #10b981;
+        }
+
+        .item.question .item-number {
+            background: #f59e0b;
+        }
+
+        .item-content {
+            flex: 1;
+        }
+
+        .item-text {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .item-options {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .item-options strong {
+            color: #333;
+        }
+
+        .play-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .play-btn:hover {
+            transform: scale(1.1);
+            background: #5a6fd6;
+        }
+
+        .play-btn.playing {
+            background: #ef4444;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .play-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .dialogue-text {
+            line-height: 1.8;
+        }
+
+        .speaker-a {
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        .speaker-b {
+            color: #dc2626;
+            font-weight: 500;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+        }
+
+        .empty-state h2 {
+            margin-bottom: 12px;
+            color: #555;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: #e0e0e0;
+            border-radius: 2px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .progress-bar .fill {
+            height: 100%;
+            background: #667eea;
+            border-radius: 2px;
+            transition: width 0.1s;
+        }
+
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .speed-control button {
+            width: 32px;
+            height: 32px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .speed-value {
+            min-width: 40px;
+            text-align: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>A1 English Listening Test</h1>
+            <p>Select a topic and practice your listening skills</p>
+        </header>
+
+        <div class="controls">
+            <label for="topic-select">Topic:</label>
+            <select id="topic-select">
+                <option value="">Select a topic...</option>
+            </select>
+            <button id="play-all-btn" disabled>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right:4px">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+                Play All
+            </button>
+            <button id="stop-btn" class="secondary" disabled>Stop</button>
+            <div class="speed-control">
+                <button id="slower-btn" class="secondary" title="Slower">-</button>
+                <span class="speed-value" id="speed-display">1.0x</span>
+                <button id="faster-btn" class="secondary" title="Faster">+</button>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="empty-state">
+                <h2>Welcome!</h2>
+                <p>Select a topic above to start practicing.</p>
+                <p style="margin-top:12px; font-size:14px;">
+                    Generate audio files using:<br>
+                    <code>python generate_test.py greetings</code>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const audioBasePath = '../audio';
+        let currentAudio = null;
+        let currentSpeed = 1.0;
+        let isPlayingAll = false;
+
+        const topicSelect = document.getElementById('topic-select');
+        const contentDiv = document.getElementById('content');
+        const playAllBtn = document.getElementById('play-all-btn');
+        const stopBtn = document.getElementById('stop-btn');
+        const speedDisplay = document.getElementById('speed-display');
+        const slowerBtn = document.getElementById('slower-btn');
+        const fasterBtn = document.getElementById('faster-btn');
+
+        // Load available topics
+        async function loadTopics() {
+            try {
+                const response = await fetch(`${audioBasePath}/topics.json`);
+                if (response.ok) {
+                    const topics = await response.json();
+                    topics.forEach(topic => {
+                        const option = document.createElement('option');
+                        option.value = topic.id;
+                        option.textContent = topic.name;
+                        topicSelect.appendChild(option);
+                    });
+                } else {
+                    // Fallback: try loading test_structure.json
+                    const response2 = await fetch(`${audioBasePath}/test_structure.json`);
+                    if (response2.ok) {
+                        const data = await response2.json();
+                        Object.keys(data).forEach(key => {
+                            const option = document.createElement('option');
+                            option.value = key;
+                            option.textContent = data[key].topic || key;
+                            topicSelect.appendChild(option);
+                        });
+                    }
+                }
+            } catch (e) {
+                console.log('No topics.json found, using directory listing');
+            }
+        }
+
+        // Load and display content for a topic
+        async function loadTopic(topicId) {
+            if (!topicId) {
+                contentDiv.innerHTML = `
+                    <div class="empty-state">
+                        <h2>Welcome!</h2>
+                        <p>Select a topic above to start practicing.</p>
+                    </div>
+                `;
+                playAllBtn.disabled = true;
+                stopBtn.disabled = true;
+                return;
+            }
+
+            contentDiv.innerHTML = '<div class="loading">Loading...</div>';
+
+            try {
+                const response = await fetch(`${audioBasePath}/${topicId}/index.json`);
+                if (!response.ok) throw new Error('Topic not found');
+
+                const items = await response.json();
+                renderContent(items, topicId);
+                playAllBtn.disabled = false;
+                stopBtn.disabled = false;
+            } catch (e) {
+                contentDiv.innerHTML = `
+                    <div class="empty-state">
+                        <h2>Topic not found</h2>
+                        <p>Run: <code>python generate_test.py ${topicId}</code></p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderContent(items, topicId) {
+            const sentences = items.filter(i => i.type === 'sentence');
+            const dialogues = items.filter(i => i.type === 'dialogue');
+            const questions = items.filter(i => i.type === 'question');
+            const dialogueQuestions = items.filter(i => i.type === 'dialogue_question');
+
+            let html = '';
+
+            if (sentences.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-header">
+                            Sentences
+                            <span>${sentences.length} items</span>
+                        </div>
+                        ${sentences.map((item, i) => renderItem(item, i + 1, topicId)).join('')}
+                    </div>
+                `;
+            }
+
+            if (dialogues.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-header">
+                            Dialogues
+                            <span>${dialogues.length} items</span>
+                        </div>
+                        ${dialogues.map((item, i) => renderDialogue(item, i + 1, topicId)).join('')}
+                    </div>
+                `;
+            }
+
+            // Show dialogue questions inline
+            if (dialogueQuestions.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-header">
+                            Dialogue Questions
+                            <span>${dialogueQuestions.length} items</span>
+                        </div>
+                        ${dialogueQuestions.map((item, i) => renderQuestion(item, i + 1, topicId)).join('')}
+                    </div>
+                `;
+            }
+
+            if (questions.length > 0) {
+                html += `
+                    <div class="section">
+                        <div class="section-header">
+                            General Questions
+                            <span>${questions.length} items</span>
+                        </div>
+                        ${questions.map((item, i) => renderQuestion(item, i + 1, topicId)).join('')}
+                    </div>
+                `;
+            }
+
+            contentDiv.innerHTML = html;
+
+            // Add click handlers
+            document.querySelectorAll('.play-btn').forEach(btn => {
+                btn.addEventListener('click', () => playAudio(btn));
+            });
+        }
+
+        function renderItem(item, num, topicId, isDialogue = false) {
+            const typeClass = isDialogue ? 'dialogue' : '';
+            const text = isDialogue ? item.text.replace(/\n/g, '<br>') : item.text;
+
+            return `
+                <div class="item ${typeClass}">
+                    <div class="item-number">${num}</div>
+                    <div class="item-content">
+                        <div class="item-text">${text}</div>
+                    </div>
+                    <button class="play-btn" data-file="${audioBasePath}/${topicId}/${item.file}">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </button>
+                </div>
+            `;
+        }
+
+        function renderDialogue(item, num, topicId) {
+            const lines = item.text.split('\n').map(line => {
+                if (line.startsWith('Person A:')) {
+                    return `<span class="speaker-a">${line}</span>`;
+                } else if (line.startsWith('Person B:')) {
+                    return `<span class="speaker-b">${line}</span>`;
+                }
+                return line;
+            }).join('<br>');
+
+            return `
+                <div class="item dialogue">
+                    <div class="item-number">${num}</div>
+                    <div class="item-content">
+                        <div class="item-text dialogue-text">${lines}</div>
+                    </div>
+                    <button class="play-btn" data-file="${audioBasePath}/${topicId}/${item.file}">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </button>
+                </div>
+            `;
+        }
+
+        function renderQuestion(item, num, topicId) {
+            const optionsText = item.options ? item.options.join(' / ') : '';
+
+            return `
+                <div class="item question">
+                    <div class="item-number">${num}</div>
+                    <div class="item-content">
+                        <div class="item-text">${item.text}</div>
+                        <div class="item-options">
+                            <strong>Options:</strong> ${optionsText}<br>
+                            <strong>Answer:</strong> ${item.answer || 'Listen to find out'}
+                        </div>
+                    </div>
+                    <button class="play-btn" data-file="${audioBasePath}/${topicId}/${item.file}">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </button>
+                </div>
+            `;
+        }
+
+        function playAudio(btn) {
+            // Stop current audio
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                document.querySelectorAll('.play-btn.playing').forEach(b => b.classList.remove('playing'));
+            }
+
+            const file = btn.dataset.file;
+            currentAudio = new Audio(file);
+            currentAudio.playbackRate = currentSpeed;
+
+            btn.classList.add('playing');
+            currentAudio.play();
+
+            currentAudio.onended = () => {
+                btn.classList.remove('playing');
+                currentAudio = null;
+            };
+
+            currentAudio.onerror = () => {
+                btn.classList.remove('playing');
+                alert('Error playing audio. Make sure the file exists.');
+                currentAudio = null;
+            };
+        }
+
+        async function playAll() {
+            if (isPlayingAll) {
+                stopAudio();
+                return;
+            }
+
+            const topicId = topicSelect.value;
+            if (!topicId) return;
+
+            isPlayingAll = true;
+            playAllBtn.innerHTML = `
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right:4px">
+                    <path d="M6 6h12v12H6z"/>
+                </svg>
+                Pause
+            `;
+
+            const items = document.querySelectorAll('.play-btn');
+            for (const btn of items) {
+                if (!isPlayingAll) break;
+
+                // Scroll into view
+                btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // Play and wait
+                await new Promise((resolve) => {
+                    const file = btn.dataset.file;
+                    currentAudio = new Audio(file);
+                    currentAudio.playbackRate = currentSpeed;
+
+                    btn.classList.add('playing');
+                    currentAudio.play();
+
+                    currentAudio.onended = () => {
+                        btn.classList.remove('playing');
+                        currentAudio = null;
+                        setTimeout(resolve, 300); // Small pause between items
+                    };
+
+                    currentAudio.onerror = () => {
+                        btn.classList.remove('playing');
+                        currentAudio = null;
+                        resolve();
+                    };
+                });
+            }
+
+            isPlayingAll = false;
+            playAllBtn.innerHTML = `
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right:4px">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+                Play All
+            `;
+        }
+
+        function stopAudio() {
+            isPlayingAll = false;
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+            document.querySelectorAll('.play-btn.playing').forEach(b => b.classList.remove('playing'));
+            playAllBtn.innerHTML = `
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right:4px">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+                Play All
+            `;
+        }
+
+        // Speed controls
+        slowerBtn.addEventListener('click', () => {
+            currentSpeed = Math.max(0.5, currentSpeed - 0.1);
+            speedDisplay.textContent = currentSpeed.toFixed(1) + 'x';
+        });
+
+        fasterBtn.addEventListener('click', () => {
+            currentSpeed = Math.min(2.0, currentSpeed + 0.1);
+            speedDisplay.textContent = currentSpeed.toFixed(1) + 'x';
+        });
+
+        // Event listeners
+        topicSelect.addEventListener('change', () => loadTopic(topicSelect.value));
+        playAllBtn.addEventListener('click', playAll);
+        stopBtn.addEventListener('click', stopAudio);
+
+        // Initialize
+        loadTopics();
+    </script>
+</body>
+</html>

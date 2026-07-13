@@ -1,0 +1,67 @@
+[
+  {
+    "file": "scene_01.mp3",
+    "scene": 1,
+    "title": "Introduction"
+  },
+  {
+    "file": "scene_02.mp3",
+    "scene": 2,
+    "title": "Mother's Request"
+  },
+  {
+    "file": "scene_03.mp3",
+    "scene": 3,
+    "title": "Meeting the Wolf"
+  },
+  {
+    "file": "scene_04.mp3",
+    "scene": 4,
+    "title": "Wolf's Plan"
+  },
+  {
+    "file": "scene_05.mp3",
+    "scene": 5,
+    "title": "The Race"
+  },
+  {
+    "file": "scene_06.mp3",
+    "scene": 6,
+    "title": "Wolf at the Door"
+  },
+  {
+    "file": "scene_07.mp3",
+    "scene": 7,
+    "title": "Wolf Eats Grandmother"
+  },
+  {
+    "file": "scene_08.mp3",
+    "scene": 8,
+    "title": "Red Arrives"
+  },
+  {
+    "file": "scene_09.mp3",
+    "scene": 9,
+    "title": "Something is Wrong"
+  },
+  {
+    "file": "scene_10.mp3",
+    "scene": 10,
+    "title": "The Wolf Catches Red"
+  },
+  {
+    "file": "scene_11.mp3",
+    "scene": 11,
+    "title": "The Woodcutter"
+  },
+  {
+    "file": "scene_12.mp3",
+    "scene": 12,
+    "title": "The Rescue"
+  },
+  {
+    "file": "scene_13.mp3",
+    "scene": 13,
+    "title": "Happy Ending"
+  }
+]

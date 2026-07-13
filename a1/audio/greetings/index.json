@@ -1,0 +1,180 @@
+[
+  {
+    "file": "greetings_01.mp3",
+    "text": "Hello, my name is Anna.",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_02.mp3",
+    "text": "Nice to meet you.",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_03.mp3",
+    "text": "How are you today?",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_04.mp3",
+    "text": "I am fine, thank you.",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_05.mp3",
+    "text": "Good morning!",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_06.mp3",
+    "text": "Good afternoon!",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_07.mp3",
+    "text": "Good evening!",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_08.mp3",
+    "text": "See you later!",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_09.mp3",
+    "text": "Goodbye!",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_10.mp3",
+    "text": "Thank you very much.",
+    "type": "sentence"
+  },
+  {
+    "file": "greetings_dialogue_1_q1.mp3",
+    "text": "What is the boy's name?",
+    "answer": "John.",
+    "options": [
+      "John",
+      "Mike",
+      "Peter"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "greetings_dialogue_1_q2.mp3",
+    "text": "Where does this conversation happen?",
+    "answer": "We don't know.",
+    "options": [
+      "At school",
+      "At a party",
+      "We don't know"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 1
+  },
+  {
+    "file": "greetings_dialogue_1.mp3",
+    "text": "Person A: Hello! What is your name?\nPerson B: Hi! My name is John.\nPerson A: Nice to meet you, John.\nPerson B: Nice to meet you too!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "What is the boy's name?",
+        "answer": "John.",
+        "options": [
+          "John",
+          "Mike",
+          "Peter"
+        ]
+      },
+      {
+        "question": "Where does this conversation happen?",
+        "answer": "We don't know.",
+        "options": [
+          "At school",
+          "At a party",
+          "We don't know"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "greetings_dialogue_2_q1.mp3",
+    "text": "How is Person B?",
+    "answer": "Fine.",
+    "options": [
+      "Tired",
+      "Fine",
+      "Sick"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "greetings_dialogue_2_q2.mp3",
+    "text": "What does Person A say at the end?",
+    "answer": "You too! Goodbye!",
+    "options": [
+      "See you",
+      "You too! Goodbye!",
+      "Thank you"
+    ],
+    "type": "dialogue_question",
+    "dialogue_index": 2
+  },
+  {
+    "file": "greetings_dialogue_2.mp3",
+    "text": "Person A: How are you?\nPerson B: I'm fine, thank you. And you?\nPerson A: I'm good, thanks!\nPerson B: Have a nice day!\nPerson A: You too! Goodbye!",
+    "type": "dialogue",
+    "voices": [
+      "male",
+      "female"
+    ],
+    "questions": [
+      {
+        "question": "How is Person B?",
+        "answer": "Fine.",
+        "options": [
+          "Tired",
+          "Fine",
+          "Sick"
+        ]
+      },
+      {
+        "question": "What does Person A say at the end?",
+        "answer": "You too! Goodbye!",
+        "options": [
+          "See you",
+          "You too! Goodbye!",
+          "Thank you"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "greetings_question_1.mp3",
+    "text": "What is the girl's name?",
+    "answer": "Her name is Anna.",
+    "options": [
+      "Anna",
+      "Maria",
+      "Sarah"
+    ],
+    "type": "question"
+  },
+  {
+    "file": "greetings_question_2.mp3",
+    "text": "How is John today?",
+    "answer": "He is fine.",
+    "options": [
+      "Fine",
+      "Tired",
+      "Hungry"
+    ],
+    "type": "question"
+  }
+]

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Red Riding Hood - A1 Story</title>
+    <style>
+        @media print {
+            .no-print { display: none !important; }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        
+        header .subtitle {
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .level-badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        
+        .story-info {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .story-info h2 {
+            margin-bottom: 12px;
+            color: #333;
+        }
+        
+        .story-info p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .vocab-section {
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 16px;
+        }
+        
+        .vocab-section h3 {
+            color: #0369a1;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+        
+        .vocab-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .vocab-item {
+            background: white;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            border: 1px solid #bae6fd;
+        }
+        
+        .vocab-item strong {
+            color: #0369a1;
+        }
+        
+        .controls {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .controls button {
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5a6fd6;
+        }
+        
+        .btn-secondary {
+            background: #e5e7eb;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #d1d5db;
+        }
+        
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #059669;
+        }
+        
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: 12px;
+        }
+        
+        .speed-control button {
+            width: 36px;
+            height: 36px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        
+        .speed-value {
+            min-width: 48px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .scene-nav {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .scene-nav h3 {
+            margin-bottom: 12px;
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .scene-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .scene-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 2px solid #e5e7eb;
+            background: white;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .scene-btn:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+        
+        .scene-btn.active {
+            background: #667eea;
+            border-color: #667eea;
+            color: white;
+        }
+        
+        .scene-btn.played {
+            background: #d1fae5;
+            border-color: #10b981;
+            color: #059669;
+        }
+        
+        .scene-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .scene-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .scene-title {
+            font-size: 1.3rem;
+            color: #333;
+        }
+        
+        .scene-number {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .narrator {
+            background: #fef3c7;
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid #f59e0b;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        
+        .narrator-label {
+            font-weight: 600;
+            color: #b45309;
+            margin-bottom: 4px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        
+        .dialogue {
+            margin-bottom: 20px;
+        }
+        
+        .dialogue-line {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 8px;
+        }
+        
+        .speaker {
+            font-weight: 600;
+            min-width: 70px;
+        }
+        
+        .speaker.pig1 { color: #ec4899; }
+        .speaker.pig2 { color: #8b5cf6; }
+        .speaker.pig3 { color: #3b82f6; }
+        .speaker.wolf { color: #ef4444; }
+        .speaker.mother { color: #f59e0b; }
+        
+        .line-text {
+            flex: 1;
+            line-height: 1.5;
+        }
+        
+        .scene-vocab {
+            background: #f0f9ff;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-top: 16px;
+        }
+        
+        .scene-vocab h4 {
+            font-size: 12px;
+            color: #0369a1;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        
+        .scene-vocab .words {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        
+        .scene-vocab .word {
+            background: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            border: 1px solid #bae6fd;
+            color: #0369a1;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        
+        .empty-state h2 {
+            margin-bottom: 12px;
+            color: #333;
+        }
+        
+        .empty-state p {
+            color: #888;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255,255,255,0.8);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Little Red Riding Hood</h1>
+            <div class="subtitle">A Classic Tale by Traditional</div>
+            <span class="level-badge">A1 Level</span>
+        </header>
+        
+        <div id="content">
+            <div class="empty-state">
+                <h2>Loading story...</h2>
+                <p>Please wait while we load the story content.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            A1 English Story Player - Generated by Story Audio Generator
+        </div>
+    </div>
+    
+    <script>
+        const storyPath = 'story.json';
+        const audioBasePath = 'audio';
+        let storyData = null;
+        let currentScene = 1;
+        let currentAudio = null;
+        let currentSpeed = 1.0;
+        let playedScenes = new Set();
+        
+        async function loadStory() {
+            try {
+                const response = await fetch(storyPath);
+                if (!response.ok) throw new Error('Story not found');
+                storyData = await response.json();
+                renderStory();
+            } catch (e) {
+                document.getElementById('content').innerHTML = `
+                    <div class="empty-state">
+                        <h2>Unable to load story</h2>
+                        <p>This page needs to be served through a web server.</p>
+                        <p style="margin-top:16px">
+                            <strong>Option 1:</strong> Run the server script:<br>
+                            <code>python server.py</code><br>
+                            Then open: <a href="http://localhost:8000/topic/story/three-little-pigs/index.html">http://localhost:8000/topic/story/three-little-pigs/index.html</a>
+                        </p>
+                        <p style="margin-top:12px">
+                            <strong>Option 2:</strong> Use Python's built-in server:<br>
+                            <code>python -m http.server 8000</code>
+                        </p>
+                    </div>
+                `;
+            }
+        }
+        
+        function renderStory() {
+            if (!storyData) return;
+            
+            let html = '';
+            
+            // Story info
+            html += `
+                <div class="story-info">
+                    <h2>About This Story</h2>
+                    <p>${storyData.description}</p>
+                    <div class="vocab-section">
+                        <h3>Key Vocabulary</h3>
+                        <div class="vocab-list">
+                            ${storyData.vocabularies.map(v => `
+                                <span class="vocab-item">
+                                    <strong>${v.word}</strong> ${v.meaning}
+                                </span>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Controls
+            html += `
+                <div class="controls no-print">
+                    <button class="btn-primary" onclick="playCurrentScene()">
+                        ▶ Play Scene
+                    </button>
+                    <button class="btn-secondary" onclick="stopAudio()">
+                        ■ Stop
+                    </button>
+                    <button class="btn-success" onclick="playAllScenes()">
+                        ▶▶ Play All
+                    </button>
+                    <div class="speed-control">
+                        <button class="btn-secondary" onclick="changeSpeed(-0.1)">-</button>
+                        <span class="speed-value" id="speed-display">1.0x</span>
+                        <button class="btn-secondary" onclick="changeSpeed(0.1)">+</button>
+                    </div>
+                </div>
+            `;
+            
+            // Scene navigation
+            html += `
+                <div class="scene-nav no-print">
+                    <h3>SCENES</h3>
+                    <div class="scene-buttons">
+                        ${storyData.scenes.map(s => `
+                            <button class="scene-btn ${s.id === currentScene ? 'active' : ''} ${playedScenes.has(s.id) ? 'played' : ''}" 
+                                    onclick="goToScene(${s.id})">
+                                ${s.id}
+                            </button>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            // Current scene
+            const scene = storyData.scenes.find(s => s.id === currentScene);
+            if (scene) {
+                html += renderScene(scene);
+            }
+            
+            document.getElementById('content').innerHTML = html;
+        }
+        
+        function renderScene(scene) {
+            let html = `
+                <div class="scene-card">
+                    <div class="scene-header">
+                        <span class="scene-title">${scene.title}</span>
+                        <span class="scene-number">Scene ${scene.id} of ${storyData.scenes.length}</span>
+                    </div>
+            `;
+            
+            // Narrator
+            if (scene.narrator) {
+                html += `
+                    <div class="narrator">
+                        <div class="narrator-label">Narrator</div>
+                        ${scene.narrator}
+                    </div>
+                `;
+            }
+            
+            // Dialogue
+            if (scene.dialogue && scene.dialogue.length > 0) {
+                html += '<div class="dialogue">';
+                scene.dialogue.forEach(line => {
+                    const speakerClass = line.speaker.toLowerCase().replace(/\s+/g, '');
+                    html += `
+                        <div class="dialogue-line">
+                            <span class="speaker ${speakerClass}">${line.speaker}:</span>
+                            <span class="line-text">${line.line}</span>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+            
+            // Scene vocabulary
+            if (scene.vocabulary && scene.vocabulary.length > 0) {
+                html += `
+                    <div class="scene-vocab">
+                        <h4>Words in this scene</h4>
+                        <div class="words">
+                            ${scene.vocabulary.map(w => `<span class="word">${w}</span>`).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+            
+            html += '</div>';
+            return html;
+        }
+        
+        function goToScene(sceneId) {
+            stopAudio();
+            currentScene = sceneId;
+            renderStory();
+        }
+        
+        function playCurrentScene() {
+            stopAudio();
+            playedScenes.add(currentScene);
+            
+            const audioFile = `${audioBasePath}/scene_${String(currentScene).padStart(2, '0')}.mp3`;
+            currentAudio = new Audio(audioFile);
+            currentAudio.playbackRate = currentSpeed;
+            
+            currentAudio.play();
+            
+            currentAudio.onended = () => {
+                currentAudio = null;
+                renderStory();
+            };
+            
+            currentAudio.onerror = () => {
+                alert('Error playing audio. Run: python generate_story.py story.json');
+                currentAudio = null;
+            };
+        }
+        
+        async function playAllScenes() {
+            for (let i = 1; i <= storyData.scenes.length; i++) {
+                currentScene = i;
+                playedScenes.add(i);
+                renderStory();
+                
+                await new Promise((resolve) => {
+                    const audioFile = `${audioBasePath}/scene_${String(i).padStart(2, '0')}.mp3`;
+                    currentAudio = new Audio(audioFile);
+                    currentAudio.playbackRate = currentSpeed;
+                    
+                    currentAudio.play();
+                    
+                    currentAudio.onended = () => {
+                        currentAudio = null;
+                        setTimeout(resolve, 500);
+                    };
+                    
+                    currentAudio.onerror = () => {
+                        currentAudio = null;
+                        resolve();
+                    };
+                });
+            }
+            
+            renderStory();
+        }
+        
+        function stopAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+        }
+        
+        function changeSpeed(delta) {
+            currentSpeed = Math.max(0.5, Math.min(2.0, currentSpeed + delta));
+            document.getElementById('speed-display').textContent = currentSpeed.toFixed(1) + 'x';
+        }
+        
+        // Initialize
+        loadStory();
+    </script>
+</body>
+</html>

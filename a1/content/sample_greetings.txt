@@ -1,0 +1,32 @@
+---sentence---
+Hello, my name is Peter.
+---sentence---
+How are you today?
+---sentence---
+I am fine, thank you.
+---sentence---
+Good morning, teacher!
+---sentence---
+Nice to meet you.
+---dialogue---
+Person A: Hello! What's your name?
+Person B: Hi! My name is Sarah.
+Person A: Nice to meet you, Sarah.
+Person B: Nice to meet you too!
+---dialogue---
+Person A: How are you doing?
+Person B: I'm great, thanks! And you?
+Person A: I'm good. Have a nice day!
+Person B: You too! Bye!
+---question---
+Question: What is the girl's name?
+Answer: Sarah.
+Options: Sarah, Anna, Mary
+---question---
+Question: How is the person doing?
+Answer: Great.
+Options: Tired, Great, Sad
+---question---
+Question: What does Person A say at the end?
+Answer: Have a nice day.
+Options: Good night, Have a nice day, See you

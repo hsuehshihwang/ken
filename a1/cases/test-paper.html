@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 English Listening & Reading Test</title>
+    <style>
+        @media print {
+            .no-print { display: none !important; }
+            .page-break { page-break-before: always; }
+            body { font-size: 12pt; }
+            .test-paper { box-shadow: none; border: none; }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        
+        .controls button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .btn-print {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-download {
+            background: #10b981;
+            color: white;
+        }
+        
+        .test-paper {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 60px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .test-header {
+            text-align: center;
+            border-bottom: 3px double #333;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .test-header h1 {
+            font-size: 24pt;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .test-header .subtitle {
+            font-size: 14pt;
+            color: #666;
+        }
+        
+        .student-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        
+        .student-info div {
+            flex: 1;
+        }
+        
+        .student-info label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .student-info .line {
+            display: inline-block;
+            width: 200px;
+            border-bottom: 1px solid #333;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 16pt;
+            font-weight: bold;
+        }
+        
+        .section-points {
+            font-size: 12pt;
+            color: #666;
+        }
+        
+        .instructions {
+            background: #f5f5f5;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+            font-style: italic;
+        }
+        
+        .question-item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dotted #ccc;
+        }
+        
+        .question-item:last-child {
+            border-bottom: none;
+        }
+        
+        .question-number {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .question-text {
+            margin-bottom: 10px;
+            font-size: 14pt;
+        }
+        
+        .audio-hint {
+            font-size: 10pt;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        
+        .options {
+            margin-left: 30px;
+        }
+        
+        .option {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .option-letter {
+            width: 24px;
+            height: 24px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        
+        .answer-space {
+            margin-top: 10px;
+            padding: 8px;
+            background: #fafafa;
+            border: 1px dashed #ccc;
+            min-height: 30px;
+        }
+        
+        .dialogue-box {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        
+        .dialogue-line {
+            margin-bottom: 8px;
+        }
+        
+        .speaker-a {
+            color: #2563eb;
+        }
+        
+        .speaker-b {
+            color: #dc2626;
+        }
+        
+        .reading-text {
+            background: #fefce8;
+            border: 1px solid #eab308;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            font-size: 14pt;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #333;
+            font-size: 10pt;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls no-print">
+        <button class="btn-print" onclick="window.print()">Print Test</button>
+    </div>
+    
+    <div class="test-paper" id="test-paper">
+        <!-- Header -->
+        <div class="test-header">
+            <h1>A1 English Test</h1>
+            <div class="subtitle">Listening & Reading Comprehension</div>
+        </div>
+        
+        <!-- Student Info -->
+        <div class="student-info">
+            <div>
+                <label>Name:</label>
+                <span class="line"></span>
+            </div>
+            <div>
+                <label>Date:</label>
+                <span class="line"></span>
+            </div>
+            <div>
+                <label>Score:</label>
+                <span class="line"></span>
+            </div>
+        </div>
+        
+        <!-- Part 1: Listening - Sentences -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-title">Part 1: Listening - Sentences</span>
+                <span class="section-points">(10 points)</span>
+            </div>
+            <div class="instructions">
+                Listen to each sentence and circle the correct answer.
+            </div>
+            <div id="part1-questions">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Part 2: Listening - Dialogues -->
+        <div class="section page-break">
+            <div class="section-header">
+                <span class="section-title">Part 2: Listening - Dialogues</span>
+                <span class="section-points">(10 points)</span>
+            </div>
+            <div class="instructions">
+                Listen to each dialogue and answer the questions.
+            </div>
+            <div id="part2-questions">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Part 3: Reading - Comprehension -->
+        <div class="section page-break">
+            <div class="section-header">
+                <span class="section-title">Part 3: Reading - Comprehension</span>
+                <span class="section-points">(10 points)</span>
+            </div>
+            <div class="instructions">
+                Read the text and answer the questions.
+            </div>
+            <div id="part3-content">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="footer">
+            A1 English Test - Generated by A1 Listening Test Generator
+        </div>
+    </div>
+    
+    <script>
+        // Test content - this will be replaced with actual content from JSON
+        const testContent = {
+            sentences: [
+                "Hello, my name is Anna.",
+                "Nice to meet you.",
+                "How are you today?",
+                "I am fine, thank you.",
+                "Good morning!"
+            ],
+            dialogues: [
+                {
+                    lines: [
+                        "Person A: Hello! What is your name?",
+                        "Person B: Hi! My name is John.",
+                        "Person A: Nice to meet you, John.",
+                        "Person B: Nice to meet you too!"
+                    ],
+                    questions: [
+                        {
+                            question: "What is the boy's name?",
+                            options: ["John", "Mike", "Peter"]
+                        },
+                        {
+                            question: "Where does this conversation happen?",
+                            options: ["At school", "At a party", "We don't know"]
+                        }
+                    ]
+                }
+            ],
+            reading: {
+                title: "My Family",
+                text: "My name is Sarah. I have a small family. My father is a doctor. My mother is a teacher. I have one brother. His name is Tom. He is ten years old. I am twelve years old. We have a dog. His name is Max. I love my family.",
+                questions: [
+                    {
+                        question: "What is Sarah's father's job?",
+                        options: ["Teacher", "Doctor", "Driver"]
+                    },
+                    {
+                        question: "How old is Tom?",
+                        options: ["Ten", "Twelve", "Eleven"]
+                    }
+                ]
+            }
+        };
+        
+        function renderPart1() {
+            const container = document.getElementById('part1-questions');
+            let html = '';
+            
+            testContent.sentences.forEach((sentence, i) => {
+                html += `
+                    <div class="question-item">
+                        <div class="audio-hint">🔊 Audio: ${i + 1}</div>
+                        <div class="question-number">${i + 1}.</div>
+                        <div class="options">
+                            <div class="option">
+                                <span class="option-circle"></span>
+                                <span>Correct</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderPart2() {
+            const container = document.getElementById('part2-questions');
+            let html = '';
+            let qNum = 1;
+            
+            testContent.dialogues.forEach((dialogue, i) => {
+                html += `
+                    <div class="dialogue-box">
+                        <strong>Dialogue ${i + 1}</strong>
+                        ${dialogue.lines.map(line => `<div class="dialogue-line">${line}</div>`).join('')}
+                    </div>
+                `;
+                
+                dialogue.questions.forEach(q => {
+                    html += `
+                        <div class="question-item">
+                            <div class="question-number">${qNum}.</div>
+                            <div class="question-text">${q.question}</div>
+                            <div class="options">
+                                ${q.options.map((opt, j) => `
+                                    <div class="option">
+                                        <span class="option-letter">${String.fromCharCode(65 + j)}</span>
+                                        <span>${opt}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                    qNum++;
+                });
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderPart3() {
+            const container = document.getElementById('part3-content');
+            const reading = testContent.reading;
+            
+            let html = `
+                <div class="reading-text">
+                    <h3>${reading.title}</h3>
+                    <p>${reading.text}</p>
+                </div>
+            `;
+            
+            reading.questions.forEach((q, i) => {
+                html += `
+                    <div class="question-item">
+                        <div class="question-number">${i + 1}.</div>
+                        <div class="question-text">${q.question}</div>
+                        <div class="options">
+                            ${q.options.map((opt, j) => `
+                                <div class="option">
+                                    <span class="option-letter">${String.fromCharCode(65 + j)}</span>
+                                    <span>${opt}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        // Initialize
+        renderPart1();
+        renderPart2();
+        renderPart3();
+    </script>
+</body>
+</html>

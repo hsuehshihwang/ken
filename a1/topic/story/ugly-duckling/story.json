@@ -1,0 +1,128 @@
+{
+  "id": "ugly-duckling",
+  "title": "The Ugly Duckling",
+  "level": "A1",
+  "author": "Hans Christian Andersen",
+  "description": "A little bird looks different from everyone else. He feels sad and alone. But then something wonderful happens.",
+  "vocabularies": [
+    {"word": "feather", "meaning": "one of the light things that cover a bird's body", "phonetic": "/ˈfeðər/"},
+    {"word": "ugly", "meaning": "not nice to look at", "phonetic": "/ˈʌɡli/"},
+    {"word": "beautiful", "meaning": "very nice to look at", "phonetic": "/ˈbjuːtɪfl/"},
+    {"word": "swan", "meaning": "a large white bird with a long neck", "phonetic": "/swɒn/"},
+    {"word": "pond", "meaning": "a small area of water", "phonetic": "/pɒnd/"},
+    {"word": "fly", "meaning": "to move through the air", "phonetic": "/flaɪ/"},
+    {"word": "duckling", "meaning": "a baby duck", "phonetic": "/ˈdʌklɪŋ/"},
+    {"word": "hatch", "meaning": "to come out of an egg", "phonetic": "/hætʃ/"},
+    {"word": "lonely", "meaning": "sad because you are alone", "phonetic": "/ˈləʊnli/"},
+    {"word": "proud", "meaning": "happy about something you did", "phonetic": "/praʊd/"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "The Egg",
+      "narrator": "Once upon a time, a mother duck sat on her eggs. She waited and waited. Finally, the eggs started to hatch.",
+      "dialogue": [],
+      "vocabulary": ["hatch", "egg"]
+    },
+    {
+      "id": 2,
+      "title": "The Hatching",
+      "narrator": "One by one, baby ducks came out of the eggs. They were small and yellow. But one egg did not hatch.",
+      "dialogue": [
+        {"speaker": "Mother Duck", "line": "Come out, little one! What is taking so long?", "voice": "female"}
+      ],
+      "vocabulary": ["duckling"]
+    },
+    {
+      "id": 3,
+      "title": "The Ugly Duckling",
+      "narrator": "Finally, the last egg hatched. But this duckling was different. He was big and gray. He looked strange.",
+      "dialogue": [
+        {"speaker": "Other Ducklings", "line": "Look at him! He is so ugly!", "voice": "male1"},
+        {"speaker": "Mother Duck", "line": "He is different, but he is still my baby.", "voice": "female"}
+      ],
+      "vocabulary": ["ugly"]
+    },
+    {
+      "id": 4,
+      "title": "Rejection",
+      "narrator": "The other animals did not like the ugly duckling. They laughed at him.",
+      "dialogue": [
+        {"speaker": "Chicken", "line": "You are too big! Go away!", "voice": "male2"},
+        {"speaker": "Pig", "line": "You are too gray! You are ugly!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "Sadness",
+      "narrator": "The ugly duckling felt very sad. He decided to leave home.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "Nobody likes me. I am going away.", "voice": "male1"}
+      ],
+      "vocabulary": ["lonely"]
+    },
+    {
+      "id": 6,
+      "title": "In the Wild",
+      "narrator": "The ugly duckling walked and walked. He was alone in the world.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "I am so lonely. I have no friends.", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 7,
+      "title": "Winter",
+      "narrator": "Winter came. It was very cold. The ugly duckling found a small house.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "It is so cold! Can I come in?", "voice": "male1"},
+        {"speaker": "Farmer", "line": "Come in, little bird. But be careful with my children.", "voice": "male3"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 8,
+      "title": "Spring",
+      "narrator": "Winter ended. Spring came. The ugly duckling left the house and went to the pond.",
+      "dialogue": [],
+      "vocabulary": ["pond"]
+    },
+    {
+      "id": 9,
+      "title": "The Swans",
+      "narrator": "At the pond, the ugly duckling saw beautiful birds. They were swans.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "They are so beautiful. I wish I could be like them.", "voice": "male1"}
+      ],
+      "vocabulary": ["swan", "beautiful"]
+    },
+    {
+      "id": 10,
+      "title": "The Reflection",
+      "narrator": "The ugly duckling looked into the water. He saw his reflection. But something was different.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "Wait! That is not me! I am... I am a swan!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 11,
+      "title": "Transformation",
+      "narrator": "The ugly duckling was not a duck at all. He was a swan! He was beautiful!",
+      "dialogue": [
+        {"speaker": "Other Swans", "line": "Welcome! You are one of us!", "voice": "male2"}
+      ],
+      "vocabulary": ["feather"]
+    },
+    {
+      "id": 12,
+      "title": "Happy Ending",
+      "narrator": "The ugly duckling was not ugly at all. He was a beautiful swan. He was finally happy.",
+      "dialogue": [
+        {"speaker": "Ugly Duckling", "line": "I am proud of who I am.", "voice": "male1"}
+      ],
+      "vocabulary": ["proud", "beautiful"]
+    }
+  ]
+}

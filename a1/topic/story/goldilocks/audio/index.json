@@ -1,0 +1,67 @@
+[
+  {
+    "file": "scene_01.mp3",
+    "scene": 1,
+    "title": "Introduction"
+  },
+  {
+    "file": "scene_02.mp3",
+    "scene": 2,
+    "title": "Making Porridge"
+  },
+  {
+    "file": "scene_03.mp3",
+    "scene": 3,
+    "title": "Too Hot!"
+  },
+  {
+    "file": "scene_04.mp3",
+    "scene": 4,
+    "title": "Goldilocks Arrives"
+  },
+  {
+    "file": "scene_05.mp3",
+    "scene": 5,
+    "title": "Testing the Porridge"
+  },
+  {
+    "file": "scene_06.mp3",
+    "scene": 6,
+    "title": "Testing the Chairs"
+  },
+  {
+    "file": "scene_07.mp3",
+    "scene": 7,
+    "title": "Testing the Beds"
+  },
+  {
+    "file": "scene_08.mp3",
+    "scene": 8,
+    "title": "The Bears Return"
+  },
+  {
+    "file": "scene_09.mp3",
+    "scene": 9,
+    "title": "The Chairs"
+  },
+  {
+    "file": "scene_10.mp3",
+    "scene": 10,
+    "title": "The Beds"
+  },
+  {
+    "file": "scene_11.mp3",
+    "scene": 11,
+    "title": "Goldilocks Wakes Up"
+  },
+  {
+    "file": "scene_12.mp3",
+    "scene": 12,
+    "title": "The Lesson"
+  },
+  {
+    "file": "scene_13.mp3",
+    "scene": 13,
+    "title": "Happily Ever After"
+  }
+]

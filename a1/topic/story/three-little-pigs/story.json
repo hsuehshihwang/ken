@@ -1,0 +1,171 @@
+{
+  "id": "three-little-pigs",
+  "title": "The Three Little Pigs",
+  "level": "A1",
+  "author": "Traditional",
+  "description": "A classic fairy tale about three pigs who build houses of different materials.",
+  "vocabularies": [
+    {"word": "straw", "meaning": "dry yellow stalks of grain, used for building", "phonetic": "/strɔː/"},
+    {"word": "sticks", "meaning": "thin pieces of wood from trees", "phonetic": "/stɪks/"},
+    {"word": "bricks", "meaning": "hard blocks made of clay, used for building", "phonetic": "/brɪks/"},
+    {"word": "wolf", "meaning": "a wild animal like a large dog", "phonetic": "/wʊlf/"},
+    {"word": "house", "meaning": "a building where people live", "phonetic": "/haʊs/"},
+    {"word": "blow", "meaning": "to push air out of your mouth", "phonetic": "/bloʊ/"},
+    {"word": "huff", "meaning": "to breathe in and out noisily", "phonetic": "/hʌf/"},
+    {"word": "puff", "meaning": "to blow in short bursts", "phonetic": "/pʌf/"},
+    {"word": "once upon a time", "meaning": "a long time ago (used to start stories)", "phonetic": ""},
+    {"word": "finally", "meaning": "at last, in the end", "phonetic": "/ˈfaɪnəli/"}
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction",
+      "narrator": "Once upon a time, there were three little pigs. They were brothers. They lived with their mother.",
+      "dialogue": [],
+      "vocabulary": ["once upon a time"]
+    },
+    {
+      "id": 2,
+      "title": "Time to Leave",
+      "narrator": "One day, the mother pig said:",
+      "dialogue": [
+        {"speaker": "Mother", "line": "You are big now. It is time to build your own houses.", "voice": "female"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 3,
+      "title": "Building Houses",
+      "narrator": "The three pigs went to the forest. Each pig wanted to build a house.",
+      "dialogue": [
+        {"speaker": "Pig 1", "line": "I am lazy. I will build my house with straw. It is fast.", "voice": "male1"},
+        {"speaker": "Pig 2", "line": "I will build my house with sticks. It is easy.", "voice": "male2"},
+        {"speaker": "Pig 3", "line": "I will build my house with bricks. It is hard work, but it is strong.", "voice": "male3"}
+      ],
+      "vocabulary": ["straw", "sticks", "bricks"]
+    },
+    {
+      "id": 4,
+      "title": "The Houses Are Done",
+      "narrator": "Pig 1 finished his house very fast. Pig 2 finished his house too. But Pig 3 worked all day.",
+      "dialogue": [
+        {"speaker": "Pig 1", "line": "Ha! My house is done! Now I can play.", "voice": "male1"},
+        {"speaker": "Pig 3", "line": "I am still building. Bricks are heavy.", "voice": "male3"},
+        {"speaker": "Pig 1", "line": "You work too hard! Come and play with me.", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 5,
+      "title": "The Big Bad Wolf",
+      "narrator": "The next day, a big bad wolf came to the forest. He was very hungry.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "I am hungry. I want to eat some pigs!", "voice": "wolf"}
+      ],
+      "vocabulary": ["wolf"]
+    },
+    {
+      "id": 6,
+      "title": "The Straw House",
+      "narrator": "The wolf came to the straw house. Pig 1 was inside.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "Little pig, little pig, let me come in!", "voice": "wolf"},
+        {"speaker": "Pig 1", "line": "No! Not by the hair on my chin!", "voice": "male1"},
+        {"speaker": "Wolf", "line": "Then I will huff, and I will puff, and I will blow your house in!", "voice": "wolf"}
+      ],
+      "vocabulary": ["huff", "puff", "blow"]
+    },
+    {
+      "id": 7,
+      "title": "The Straw House Falls",
+      "narrator": "The wolf blew very hard. The straw house fell down!",
+      "dialogue": [
+        {"speaker": "Pig 1", "line": "Help! Help! My house is gone!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 8,
+      "title": "Running to the Stick House",
+      "narrator": "Pig 1 ran to the stick house. The wolf followed him.",
+      "dialogue": [
+        {"speaker": "Pig 1", "line": "Brother! Brother! Let me in!", "voice": "male1"},
+        {"speaker": "Pig 2", "line": "Quick! Come inside!", "voice": "male2"},
+        {"speaker": "Wolf", "line": "Little pigs, little pigs, let me come in!", "voice": "wolf"},
+        {"speaker": "Pig 2", "line": "No! Not by the hair on our chins!", "voice": "male2"},
+        {"speaker": "Wolf", "line": "Then I will huff, and I will puff, and I will blow your house in!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 9,
+      "title": "The Stick House Falls",
+      "narrator": "The wolf blew very hard. The stick house fell down too!",
+      "dialogue": [
+        {"speaker": "Pig 2", "line": "Oh no! Our house is gone too!", "voice": "male2"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 10,
+      "title": "Running to the Brick House",
+      "narrator": "The two pigs ran to the brick house. The wolf followed them.",
+      "dialogue": [
+        {"speaker": "Pig 1", "line": "Brother! Brother! Let us in!", "voice": "male1"},
+        {"speaker": "Pig 3", "line": "Quick! Come inside!", "voice": "male3"},
+        {"speaker": "Wolf", "line": "Little pigs, little pigs, let me come in!", "voice": "wolf"},
+        {"speaker": "Pig 3", "line": "No! Not by the hair on our chins!", "voice": "male3"},
+        {"speaker": "Wolf", "line": "Then I will huff, and I will puff, and I will blow your house in!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 11,
+      "title": "The Brick House Stands",
+      "narrator": "The wolf blew very hard. He blew and blew. But the brick house did not fall!",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "Why will this house not fall?", "voice": "wolf"},
+        {"speaker": "Pig 3", "line": "Bricks are strong! You cannot blow it down!", "voice": "male3"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 12,
+      "title": "The Wolf's Plan",
+      "narrator": "The wolf was angry. He had another plan. He climbed on the roof.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "I will go down the chimney!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 13,
+      "title": "The End of the Wolf",
+      "narrator": "Pig 3 saw the wolf on the roof. He made a fire.",
+      "dialogue": [
+        {"speaker": "Pig 3", "line": "I have an idea! Let us make a fire.", "voice": "male3"},
+        {"speaker": "Pig 1", "line": "Good idea!", "voice": "male1"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 14,
+      "title": "The Wolf Runs Away",
+      "narrator": "The wolf fell down the chimney. He saw the fire. He was very scared.",
+      "dialogue": [
+        {"speaker": "Wolf", "line": "Ahhh! It is hot!", "voice": "wolf"}
+      ],
+      "vocabulary": []
+    },
+    {
+      "id": 15,
+      "title": "Happily Ever After",
+      "narrator": "The wolf ran away. He never came back. The three pigs lived happily ever after. Pig 1 and Pig 2 learned an important lesson.",
+      "dialogue": [
+        {"speaker": "Pig 3", "line": "Hard work is important. Now you understand.", "voice": "male3"},
+        {"speaker": "Pig 1", "line": "You are right. I will work hard from now on.", "voice": "male1"}
+      ],
+      "vocabulary": ["finally"]
+    }
+  ]
+}

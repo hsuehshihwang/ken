@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+.venv/
+a1/venv/
+a1/.venv/
+
+# Environment variables
+.env
+a1/.env
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep audio files for GitHub Pages
+!*.mp3
+!a1/audio/
+!a1/topic/story/*/audio/
