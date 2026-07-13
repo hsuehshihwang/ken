@@ -1,0 +1,79 @@
+{
+  "game": "Brawl Stars",
+  "type": "MOBA / Mobile",
+  "developer": "Supercell",
+  "sections": [
+    {
+      "id": "overview",
+      "name": "What is Brawl Stars?",
+      "type": "overview",
+      "sentences": [
+        "Brawl Stars is a fast mobile game made by Supercell.",
+        "You can play it on your phone for free.",
+        "The game has many characters called Brawlers.",
+        "Each Brawler has a special attack and a Super power.",
+        "Most games are 3 versus 3 players.",
+        "Games are short, only 2 to 5 minutes.",
+        "You win games to get trophies and unlock new Brawlers.",
+        "The game is fun, fast, and easy to learn."
+      ],
+      "audio_file": "audio/overview/full.mp3",
+      "sentence_files": [
+        "audio/overview/sentence_01.mp3",
+        "audio/overview/sentence_02.mp3",
+        "audio/overview/sentence_03.mp3",
+        "audio/overview/sentence_04.mp3",
+        "audio/overview/sentence_05.mp3",
+        "audio/overview/sentence_06.mp3",
+        "audio/overview/sentence_07.mp3",
+        "audio/overview/sentence_08.mp3"
+      ]
+    },
+    {
+      "id": "how_to_play",
+      "name": "How to Play",
+      "type": "overview",
+      "sentences": [
+        "Use your left thumb to move your Brawler.",
+        "Use your right thumb to shoot at enemies.",
+        "Your main attack is your normal shot.",
+        "Your Super attack is a special powerful move.",
+        "Hit enemies with your main attack to charge your Super.",
+        "Work with your team to win the game.",
+        "The goal depends on the game mode you play.",
+        "Practice to get better and earn more trophies."
+      ],
+      "audio_file": "audio/how_to_play/full.mp3",
+      "sentence_files": [
+        "audio/how_to_play/sentence_01.mp3",
+        "audio/how_to_play/sentence_02.mp3",
+        "audio/how_to_play/sentence_03.mp3",
+        "audio/how_to_play/sentence_04.mp3",
+        "audio/how_to_play/sentence_05.mp3",
+        "audio/how_to_play/sentence_06.mp3",
+        "audio/how_to_play/sentence_07.mp3",
+        "audio/how_to_play/sentence_08.mp3"
+      ]
+    },
+    {
+      "id": "modes",
+      "name": "Game Modes",
+      "type": "modes",
+      "sentences": [
+        "Gem Grab is a mode where you collect 10 gems.",
+        "Showdown is a battle royale mode. Be the last one standing.",
+        "Brawl Ball is like soccer. Score 2 goals to win.",
+        "Heist is where you attack the enemy safe.",
+        "Bounty is where you collect stars by defeating enemies."
+      ],
+      "audio_file": "audio/modes/full.mp3",
+      "sentence_files": [
+        "audio/modes/sentence_01.mp3",
+        "audio/modes/sentence_02.mp3",
+        "audio/modes/sentence_03.mp3",
+        "audio/modes/sentence_04.mp3",
+        "audio/modes/sentence_05.mp3"
+      ]
+    }
+  ]
+}

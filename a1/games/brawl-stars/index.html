@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars - A1 English</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { max-width: 1000px; margin: 0 auto; }
+        
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .back-link:hover { opacity: 1; }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .game-icon { font-size: 80px; margin-bottom: 16px; }
+        
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .section-icon { font-size: 28px; }
+        
+        .section-title {
+            font-size: 1.3rem;
+            color: #1f2937;
+            font-weight: 600;
+        }
+        
+        .section-desc {
+            color: #6b7280;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        
+        .card {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .card:hover {
+            border-color: #8b5cf6;
+            background: #f5f3ff;
+            transform: translateY(-2px);
+        }
+        
+        .card-emoji { font-size: 32px; margin-bottom: 8px; }
+        
+        .card-name {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 4px;
+        }
+        
+        .card-type {
+            font-size: 0.8rem;
+            color: #8b5cf6;
+            margin-bottom: 4px;
+        }
+        
+        .card-rarity {
+            font-size: 0.75rem;
+            color: #9ca3af;
+        }
+        
+        .has-audio {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            margin-left: 6px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 13px;
+        }
+        
+        @media (max-width: 640px) {
+            h1 { font-size: 1.8rem; }
+            .cards-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Games</a>
+        
+        <div class="header">
+            <div class="game-icon">⚔️</div>
+            <h1>Brawl Stars</h1>
+            <p class="subtitle">Learn about the fast 3v3 mobile game</p>
+        </div>
+        
+        <!-- Overview Section -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">📖</span>
+                <span class="section-title">Game Overview</span>
+            </div>
+            <p class="section-desc">Learn what Brawl Stars is and how to play it.</p>
+            <div class="cards-grid">
+                <a href="article.html?data=overview&id=overview" class="card">
+                    <div class="card-emoji">🎮</div>
+                    <div class="card-name">What is Brawl Stars? <span class="has-audio"></span></div>
+                    <div class="card-type">8 sentences</div>
+                </a>
+                <a href="article.html?data=overview&id=how_to_play" class="card">
+                    <div class="card-emoji">🎯</div>
+                    <div class="card-name">How to Play <span class="has-audio"></span></div>
+                    <div class="card-type">8 sentences</div>
+                </a>
+                <a href="article.html?data=overview&id=modes" class="card">
+                    <div class="card-emoji">🏆</div>
+                    <div class="card-name">Game Modes <span class="has-audio"></span></div>
+                    <div class="card-type">5 sentences</div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Heroes Section -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🦸</span>
+                <span class="section-title">Heroes (Brawlers)</span>
+            </div>
+            <p class="section-desc">Meet the characters you can play as in Brawl Stars.</p>
+            <div class="cards-grid" id="heroesGrid">
+                <div class="card" style="opacity: 0.5;">
+                    <div class="card-emoji">⏳</div>
+                    <div class="card-name">Loading heroes...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Brawl Stars - Learn English with games
+        </div>
+    </div>
+    
+    <script>
+        async function loadHeroes() {
+            try {
+                const response = await fetch('heroes.json');
+                const data = await response.json();
+                
+                const grid = document.getElementById('heroesGrid');
+                grid.innerHTML = '';
+                
+                data.heroes.forEach(hero => {
+                    const card = document.createElement('a');
+                    card.href = `article.html?data=heroes&id=${hero.id}`;
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <div class="card-emoji">${hero.emoji}</div>
+                        <div class="card-name">${hero.name} <span class="has-audio"></span></div>
+                        <div class="card-type">${hero.type}</div>
+                        <div class="card-rarity">${hero.rarity}</div>
+                    `;
+                    grid.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Error loading heroes:', error);
+            }
+        }
+        
+        loadHeroes();
+    </script>
+</body>
+</html>

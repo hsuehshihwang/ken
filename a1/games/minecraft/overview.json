@@ -1,0 +1,101 @@
+{
+  "game": "Minecraft",
+  "type": "Sandbox / Survival",
+  "developer": "Mojang Studios",
+  "sections": [
+    {
+      "id": "overview",
+      "name": "What is Minecraft?",
+      "type": "overview",
+      "sentences": [
+        "Minecraft is a video game where the world is made of blocks.",
+        "You can build, explore, and survive in this world.",
+        "The game is made by Mojang Studios.",
+        "You can play on your computer or phone.",
+        "There are many game modes to choose from.",
+        "You can play alone or with friends.",
+        "The game is very creative and fun.",
+        "Over 300 million people have bought Minecraft."
+      ],
+      "audio_file": "audio/overview/full.mp3",
+      "sentence_files": [
+        "audio/overview/sentence_01.mp3",
+        "audio/overview/sentence_02.mp3",
+        "audio/overview/sentence_03.mp3",
+        "audio/overview/sentence_04.mp3",
+        "audio/overview/sentence_05.mp3",
+        "audio/overview/sentence_06.mp3",
+        "audio/overview/sentence_07.mp3",
+        "audio/overview/sentence_08.mp3"
+      ]
+    },
+    {
+      "id": "how_to_play",
+      "name": "How to Play",
+      "type": "overview",
+      "sentences": [
+        "You use tools to break blocks.",
+        "You collect wood, stone, and other materials.",
+        "You craft new tools and items.",
+        "You build houses and structures with blocks.",
+        "You must eat food to stay alive.",
+        "At night, monsters come out.",
+        "You can explore caves and find treasures.",
+        "The goal is to survive and have fun."
+      ],
+      "audio_file": "audio/how_to_play/full.mp3",
+      "sentence_files": [
+        "audio/how_to_play/sentence_01.mp3",
+        "audio/how_to_play/sentence_02.mp3",
+        "audio/how_to_play/sentence_03.mp3",
+        "audio/how_to_play/sentence_04.mp3",
+        "audio/how_to_play/sentence_05.mp3",
+        "audio/how_to_play/sentence_06.mp3",
+        "audio/how_to_play/sentence_07.mp3",
+        "audio/how_to_play/sentence_08.mp3"
+      ]
+    },
+    {
+      "id": "modes",
+      "name": "Game Modes",
+      "type": "modes",
+      "sentences": [
+        "Survival mode is where you must stay alive.",
+        "You need to find food and build shelter.",
+        "Creative mode gives you unlimited blocks.",
+        "You can fly and build anything in Creative mode.",
+        "Hardcore mode is very hard. You only have one life.",
+        "Adventure mode is for special maps made by other players."
+      ],
+      "audio_file": "audio/modes/full.mp3",
+      "sentence_files": [
+        "audio/modes/sentence_01.mp3",
+        "audio/modes/sentence_02.mp3",
+        "audio/modes/sentence_03.mp3",
+        "audio/modes/sentence_04.mp3",
+        "audio/modes/sentence_05.mp3",
+        "audio/modes/sentence_06.mp3"
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Basic Tools",
+      "type": "tools",
+      "sentences": [
+        "A pickaxe is for breaking stone and ores.",
+        "An axe is for cutting trees and wood.",
+        "A shovel is for digging dirt and sand.",
+        "A sword is for fighting monsters.",
+        "A crafting table lets you make new items."
+      ],
+      "audio_file": "audio/tools/full.mp3",
+      "sentence_files": [
+        "audio/tools/sentence_01.mp3",
+        "audio/tools/sentence_02.mp3",
+        "audio/tools/sentence_03.mp3",
+        "audio/tools/sentence_04.mp3",
+        "audio/tools/sentence_05.mp3"
+      ]
+    }
+  ]
+}

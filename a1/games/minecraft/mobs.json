@@ -1,0 +1,226 @@
+{
+  "game": "Minecraft",
+  "category": "Mobs",
+  "mobs": [
+    {
+      "id": "steve",
+      "name": "Steve",
+      "type": "Player",
+      "category": "Friendly",
+      "emoji": "👤",
+      "sentences": [
+        "Steve is the default player character.",
+        "He wears a blue shirt and jeans.",
+        "He can mine blocks and craft tools.",
+        "He can build houses and fight monsters.",
+        "You play as Steve when you start the game."
+      ],
+      "audio_file": "audio/steve/full.mp3",
+      "sentence_files": [
+        "audio/steve/sentence_01.mp3",
+        "audio/steve/sentence_02.mp3",
+        "audio/steve/sentence_03.mp3",
+        "audio/steve/sentence_04.mp3",
+        "audio/steve/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "creeper",
+      "name": "Creeper",
+      "type": "Monster",
+      "category": "Hostile",
+      "emoji": "💚",
+      "sentences": [
+        "The Creeper is a green four-legged monster.",
+        "It is silent and does not make noise.",
+        "It explodes when it gets close to you.",
+        "It is the most famous Minecraft monster.",
+        "Be careful! The Creeper can destroy your builds."
+      ],
+      "audio_file": "audio/creeper/full.mp3",
+      "sentence_files": [
+        "audio/creeper/sentence_01.mp3",
+        "audio/creeper/sentence_02.mp3",
+        "audio/creeper/sentence_03.mp3",
+        "audio/creeper/sentence_04.mp3",
+        "audio/creeper/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "type": "Monster",
+      "category": "Hostile",
+      "emoji": "🧟",
+      "sentences": [
+        "The Zombie is a green undead creature.",
+        "It walks toward you slowly.",
+        "It burns in sunlight.",
+        "It appears at night.",
+        "It can break down wooden doors."
+      ],
+      "audio_file": "audio/zombie/full.mp3",
+      "sentence_files": [
+        "audio/zombie/sentence_01.mp3",
+        "audio/zombie/sentence_02.mp3",
+        "audio/zombie/sentence_03.mp3",
+        "audio/zombie/sentence_04.mp3",
+        "audio/zombie/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "type": "Monster",
+      "category": "Hostile",
+      "emoji": "💀",
+      "sentences": [
+        "The Skeleton is an undead creature with a bow.",
+        "It shoots arrows at you from far away.",
+        "It burns in sunlight.",
+        "It is hard to fight from close range.",
+        "Find cover to avoid its arrows."
+      ],
+      "audio_file": "audio/skeleton/full.mp3",
+      "sentence_files": [
+        "audio/skeleton/sentence_01.mp3",
+        "audio/skeleton/sentence_02.mp3",
+        "audio/skeleton/sentence_03.mp3",
+        "audio/skeleton/sentence_04.mp3",
+        "audio/skeleton/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "enderman",
+      "name": "Enderman",
+      "type": "Monster",
+      "category": "Neutral",
+      "emoji": "👁️",
+      "sentences": [
+        "The Enderman is a tall black creature.",
+        "It has purple eyes.",
+        "It can teleport from place to place.",
+        "Do not look at its eyes or it will attack.",
+        "It is very strong and dangerous."
+      ],
+      "audio_file": "audio/enderman/full.mp3",
+      "sentence_files": [
+        "audio/enderman/sentence_01.mp3",
+        "audio/enderman/sentence_02.mp3",
+        "audio/enderman/sentence_03.mp3",
+        "audio/enderman/sentence_04.mp3",
+        "audio/enderman/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "villager",
+      "name": "Villager",
+      "type": "NPC",
+      "category": "Friendly",
+      "emoji": "🧑‍🌾",
+      "sentences": [
+        "The Villager is a friendly non-player character.",
+        "They live in villages.",
+        "You can trade items with them.",
+        "They have different jobs like farmer or librarian.",
+        "They make funny sounds when they talk."
+      ],
+      "audio_file": "audio/villager/full.mp3",
+      "sentence_files": [
+        "audio/villager/sentence_01.mp3",
+        "audio/villager/sentence_02.mp3",
+        "audio/villager/sentence_03.mp3",
+        "audio/villager/sentence_04.mp3",
+        "audio/villager/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "cow",
+      "name": "Cow",
+      "type": "Animal",
+      "category": "Friendly",
+      "emoji": "🐄",
+      "sentences": [
+        "The Cow is a friendly animal.",
+        "It gives you leather when you defeat it.",
+        "You can get beef from cows for food.",
+        "You can milk cows with a bucket.",
+        "Cows are easy to find in grassy areas."
+      ],
+      "audio_file": "audio/cow/full.mp3",
+      "sentence_files": [
+        "audio/cow/sentence_01.mp3",
+        "audio/cow/sentence_02.mp3",
+        "audio/cow/sentence_03.mp3",
+        "audio/cow/sentence_04.mp3",
+        "audio/cow/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "type": "Animal",
+      "category": "Neutral",
+      "emoji": "🐺",
+      "sentences": [
+        "The Wolf is a wild animal you can tame.",
+        "Give it bones to make it your dog.",
+        "Dogs fight monsters for you.",
+        "Wild wolves attack if you hit them.",
+        "Tamed wolves are loyal and helpful."
+      ],
+      "audio_file": "audio/wolf/full.mp3",
+      "sentence_files": [
+        "audio/wolf/sentence_01.mp3",
+        "audio/wolf/sentence_02.mp3",
+        "audio/wolf/sentence_03.mp3",
+        "audio/wolf/sentence_04.mp3",
+        "audio/wolf/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "ender_dragon",
+      "name": "Ender Dragon",
+      "type": "Boss",
+      "category": "Hostile",
+      "emoji": "🐉",
+      "sentences": [
+        "The Ender Dragon is the final boss.",
+        "It lives in a place called The End.",
+        "It is very strong and hard to defeat.",
+        "Defeating it is the main goal of the game.",
+        "You need good armor and weapons to fight it."
+      ],
+      "audio_file": "audio/ender_dragon/full.mp3",
+      "sentence_files": [
+        "audio/ender_dragon/sentence_01.mp3",
+        "audio/ender_dragon/sentence_02.mp3",
+        "audio/ender_dragon/sentence_03.mp3",
+        "audio/ender_dragon/sentence_04.mp3",
+        "audio/ender_dragon/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "type": "Animal",
+      "category": "Friendly",
+      "emoji": "🐱",
+      "sentences": [
+        "The Cat is a small friendly animal.",
+        "You can tame cats with fish.",
+        "Cats scare away Creepers.",
+        "They come in many different colors.",
+        "Cats like to sit on beds and chests."
+      ],
+      "audio_file": "audio/cat/full.mp3",
+      "sentence_files": [
+        "audio/cat/sentence_01.mp3",
+        "audio/cat/sentence_02.mp3",
+        "audio/cat/sentence_03.mp3",
+        "audio/cat/sentence_04.mp3",
+        "audio/cat/sentence_05.mp3"
+      ]
+    }
+  ]
+}

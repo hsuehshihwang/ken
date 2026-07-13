@@ -1,0 +1,226 @@
+{
+  "game": "Brawl Stars",
+  "category": "Heroes",
+  "heroes": [
+    {
+      "id": "shelly",
+      "name": "Shelly",
+      "type": "Damage Dealer",
+      "rarity": "Starting",
+      "emoji": "🔫",
+      "sentences": [
+        "Shelly is the first Brawler you get.",
+        "She shoots a wide shotgun blast.",
+        "She is very strong close up.",
+        "Her Super shoots a big powerful blast.",
+        "She is easy to play and great for beginners."
+      ],
+      "audio_file": "audio/shelly/full.mp3",
+      "sentence_files": [
+        "audio/shelly/sentence_01.mp3",
+        "audio/shelly/sentence_02.mp3",
+        "audio/shelly/sentence_03.mp3",
+        "audio/shelly/sentence_04.mp3",
+        "audio/shelly/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "colt",
+      "name": "Colt",
+      "type": "Damage Dealer",
+      "rarity": "Rare",
+      "emoji": "🤠",
+      "sentences": [
+        "Colt is a cowboy with two pistols.",
+        "He shoots fast and far.",
+        "His bullets travel a long distance.",
+        "His Super shoots even more bullets.",
+        "He is good for beginners who like shooting."
+      ],
+      "audio_file": "audio/colt/full.mp3",
+      "sentence_files": [
+        "audio/colt/sentence_01.mp3",
+        "audio/colt/sentence_02.mp3",
+        "audio/colt/sentence_03.mp3",
+        "audio/colt/sentence_04.mp3",
+        "audio/colt/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "bull",
+      "name": "Bull",
+      "type": "Tank",
+      "rarity": "Rare",
+      "emoji": "🐂",
+      "sentences": [
+        "Bull is a strong fighter with a big shotgun.",
+        "He has a lot of health.",
+        "He can charge forward like a bull.",
+        "His Super makes him run fast and crash into enemies.",
+        "He is great for close range fights."
+      ],
+      "audio_file": "audio/bull/full.mp3",
+      "sentence_files": [
+        "audio/bull/sentence_01.mp3",
+        "audio/bull/sentence_02.mp3",
+        "audio/bull/sentence_03.mp3",
+        "audio/bull/sentence_04.mp3",
+        "audio/bull/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "el_primo",
+      "name": "El Primo",
+      "type": "Tank",
+      "rarity": "Rare",
+      "emoji": "🤼",
+      "sentences": [
+        "El Primo is a masked wrestler.",
+        "He punches enemies with strong fists.",
+        "He has very high health.",
+        "His Super makes him jump and land on enemies.",
+        "He is fun for close range battles."
+      ],
+      "audio_file": "audio/el_primo/full.mp3",
+      "sentence_files": [
+        "audio/el_primo/sentence_01.mp3",
+        "audio/el_primo/sentence_02.mp3",
+        "audio/el_primo/sentence_03.mp3",
+        "audio/el_primo/sentence_04.mp3",
+        "audio/el_primo/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "nita",
+      "name": "Nita",
+      "type": "Damage Dealer",
+      "rarity": "Rare",
+      "emoji": "🐻",
+      "sentences": [
+        "Nita throws shockwaves at enemies.",
+        "She is a young girl with a bear hat.",
+        "Her Super calls a bear named Bruce.",
+        "Bruce chases and attacks enemies.",
+        "She is good for controlling the map."
+      ],
+      "audio_file": "audio/nita/full.mp3",
+      "sentence_files": [
+        "audio/nita/sentence_01.mp3",
+        "audio/nita/sentence_02.mp3",
+        "audio/nita/sentence_03.mp3",
+        "audio/nita/sentence_04.mp3",
+        "audio/nita/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "poco",
+      "name": "Poco",
+      "type": "Support",
+      "rarity": "Rare",
+      "emoji": "🎸",
+      "sentences": [
+        "Poco is a musician with a guitar.",
+        "He can heal his teammates.",
+        "His attack shoots musical notes.",
+        "His Super heals everyone nearby.",
+        "He is a great helper for the team."
+      ],
+      "audio_file": "audio/poco/full.mp3",
+      "sentence_files": [
+        "audio/poco/sentence_01.mp3",
+        "audio/poco/sentence_02.mp3",
+        "audio/poco/sentence_03.mp3",
+        "audio/poco/sentence_04.mp3",
+        "audio/poco/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "spike",
+      "name": "Spike",
+      "type": "Artillery",
+      "rarity": "Legendary",
+      "emoji": "🌵",
+      "sentences": [
+        "Spike is a cactus character.",
+        "He throws bombs at enemies.",
+        "He is small but very dangerous.",
+        "His bombs do a lot of damage.",
+        "He is great for long range attacks."
+      ],
+      "audio_file": "audio/spike/full.mp3",
+      "sentence_files": [
+        "audio/spike/sentence_01.mp3",
+        "audio/spike/sentence_02.mp3",
+        "audio/spike/sentence_03.mp3",
+        "audio/spike/sentence_04.mp3",
+        "audio/spike/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "mortis",
+      "name": "Mortis",
+      "type": "Assassin",
+      "rarity": "Mythic",
+      "emoji": "🧛",
+      "sentences": [
+        "Mortis is a vampire with a shovel.",
+        "He dashes forward to attack.",
+        "He heals himself when he hits enemies.",
+        "His Super drains life from multiple enemies.",
+        "He is fast and tricky to play."
+      ],
+      "audio_file": "audio/mortis/full.mp3",
+      "sentence_files": [
+        "audio/mortis/sentence_01.mp3",
+        "audio/mortis/sentence_02.mp3",
+        "audio/mortis/sentence_03.mp3",
+        "audio/mortis/sentence_04.mp3",
+        "audio/mortis/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "type": "Assassin",
+      "rarity": "Legendary",
+      "emoji": "🦎",
+      "sentences": [
+        "Leon is a chameleon boy.",
+        "He can go invisible so enemies cannot see him.",
+        "He uses surprise attacks.",
+        "His Super makes him invisible for a long time.",
+        "He is great for sneaking up on enemies."
+      ],
+      "audio_file": "audio/leon/full.mp3",
+      "sentence_files": [
+        "audio/leon/sentence_01.mp3",
+        "audio/leon/sentence_02.mp3",
+        "audio/leon/sentence_03.mp3",
+        "audio/leon/sentence_04.mp3",
+        "audio/leon/sentence_05.mp3"
+      ]
+    },
+    {
+      "id": "crow",
+      "name": "Crow",
+      "type": "Assassin",
+      "rarity": "Legendary",
+      "emoji": "🐦",
+      "sentences": [
+        "Crow is a fast bird with poison daggers.",
+        "His attacks poison enemies.",
+        "The poison slows enemies down.",
+        "He is very quick and hard to hit.",
+        "His Super makes him fly and throw daggers everywhere."
+      ],
+      "audio_file": "audio/crow/full.mp3",
+      "sentence_files": [
+        "audio/crow/sentence_01.mp3",
+        "audio/crow/sentence_02.mp3",
+        "audio/crow/sentence_03.mp3",
+        "audio/crow/sentence_04.mp3",
+        "audio/crow/sentence_05.mp3"
+      ]
+    }
+  ]
+}

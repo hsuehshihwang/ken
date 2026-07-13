@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Article - A1 English</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f3f4f6;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header.minecraft { background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); }
+        
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .back-link { color: white; text-decoration: none; font-size: 14px; opacity: 0.9; }
+        .back-link:hover { opacity: 1; }
+        .header-title { font-size: 1.2rem; font-weight: 600; }
+        
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        
+        .article-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .article-header { padding: 24px; border-bottom: 1px solid #e5e7eb; }
+        
+        .article-meta {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-badge {
+            background: #e0e7ff;
+            color: #3730a3;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+        
+        .meta-badge.type { background: #fce7f3; color: #be185d; }
+        .meta-badge.rarity { background: #fef3c7; color: #92400e; }
+        
+        .article-title { font-size: 1.5rem; font-weight: 700; color: #1f2937; line-height: 1.4; }
+        
+        .audio-player {
+            background: #f9fafb;
+            padding: 20px 24px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .player-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .play-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+        }
+        
+        .play-btn:hover { transform: scale(1.05); }
+        .play-btn:disabled { background: #9ca3af; cursor: not-allowed; transform: none; }
+        
+        .progress-container {
+            flex: 1;
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.1s;
+        }
+        
+        .time-display { color: #6b7280; font-size: 0.85rem; min-width: 90px; text-align: right; }
+        
+        .speed-control { display: flex; align-items: center; gap: 8px; }
+        .speed-label { color: #6b7280; font-size: 0.85rem; }
+        
+        .speed-btn {
+            background: white;
+            border: 1px solid #e5e7eb;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .speed-btn:hover { background: #f3f4f6; }
+        .speed-btn.active { background: #8b5cf6; color: white; border-color: #8b5cf6; }
+        
+        .sentence-nav { display: flex; gap: 8px; margin-top: 12px; }
+        
+        .nav-btn {
+            flex: 1;
+            padding: 10px;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .nav-btn:hover { background: #f3f4f6; }
+        .nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        
+        .article-content { padding: 24px; }
+        .content-label {
+            font-size: 0.85rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+        
+        .sentences-list { list-style: none; }
+        
+        .sentence-item {
+            padding: 16px;
+            margin-bottom: 8px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 4px solid transparent;
+            cursor: pointer;
+            transition: all 0.2s;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        
+        .sentence-item:hover { background: #f3f4f6; }
+        .sentence-item.active { background: #ede9fe; border-left-color: #8b5cf6; }
+        
+        .sentence-number {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: #e5e7eb;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-right: 8px;
+        }
+        
+        .sentence-item.active .sentence-number { background: #8b5cf6; color: white; }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6b7280;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e5e7eb;
+            border-top-color: #8b5cf6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .error { background: #fee2e2; color: #991b1b; padding: 20px; border-radius: 12px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="header-content">
+            <a href="#" class="back-link" id="backLink">← Back</a>
+            <div class="header-title" id="headerTitle">Loading...</div>
+            <div style="width: 80px;"></div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="article-card">
+            <div class="article-header">
+                <div class="article-meta" id="articleMeta"></div>
+                <h1 class="article-title" id="articleTitle">Loading...</h1>
+            </div>
+            
+            <div class="audio-player">
+                <div class="player-controls">
+                    <button class="play-btn" id="playBtn" disabled>▶</button>
+                    <div class="progress-container" id="progressContainer">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+                </div>
+                
+                <div class="speed-control">
+                    <span class="speed-label">Speed:</span>
+                    <button class="speed-btn" data-speed="0.5">0.5x</button>
+                    <button class="speed-btn" data-speed="0.75">0.75x</button>
+                    <button class="speed-btn active" data-speed="1">1x</button>
+                    <button class="speed-btn" data-speed="1.25">1.25x</button>
+                    <button class="speed-btn" data-speed="1.5">1.5x</button>
+                </div>
+                
+                <div class="sentence-nav">
+                    <button class="nav-btn" id="prevSentence" disabled>← Previous</button>
+                    <button class="nav-btn" id="nextSentence">Next →</button>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <div class="content-label">Content</div>
+                <ul class="sentences-list" id="sentencesList">
+                    <li class="loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading...</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let articleData = null;
+        let audio = null;
+        let currentSentenceIndex = -1;
+        let sentenceFiles = [];
+        let isPlaying = false;
+        
+        // Get parameters from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const dataType = urlParams.get('data'); // 'overview' or 'heroes' or 'mobs'
+        const itemId = urlParams.get('id');
+        
+        // Detect game from current path
+        const currentPath = window.location.pathname;
+        const isMinecraft = currentPath.includes('minecraft');
+        const gameName = isMinecraft ? 'Minecraft' : 'Brawl Stars';
+        const jsonFile = dataType === 'overview' ? 'overview.json' : 
+                        (isMinecraft ? 'mobs.json' : 'heroes.json');
+        const backUrl = isMinecraft ? 'index.html' : 'index.html';
+        
+        // Set header color and back link
+        document.getElementById('header').className = `header ${isMinecraft ? 'minecraft' : ''}`;
+        document.getElementById('backLink').href = backUrl;
+        document.getElementById('headerTitle').textContent = gameName;
+        
+        async function loadArticle() {
+            if (!itemId) {
+                showError('No item ID provided');
+                return;
+            }
+            
+            try {
+                const response = await fetch(jsonFile);
+                if (!response.ok) throw new Error('Failed to load data');
+                
+                const data = await response.json();
+                
+                // Find the item
+                if (dataType === 'overview') {
+                    articleData = data.sections.find(s => s.id === itemId);
+                } else if (dataType === 'heroes') {
+                    articleData = data.heroes.find(h => h.id === itemId);
+                } else if (dataType === 'mobs') {
+                    articleData = data.mobs.find(m => m.id === itemId);
+                }
+                
+                if (!articleData) {
+                    showError('Item not found');
+                    return;
+                }
+                
+                renderArticle();
+                initAudio();
+                
+            } catch (error) {
+                showError('Failed to load article');
+            }
+        }
+        
+        function renderArticle() {
+            document.getElementById('articleTitle').textContent = articleData.name || articleData.id;
+            
+            // Add meta badges
+            const meta = document.getElementById('articleMeta');
+            let metaHtml = `<span class="meta-badge">${gameName}</span>`;
+            
+            if (articleData.type) metaHtml += `<span class="meta-badge type">${articleData.type}</span>`;
+            if (articleData.rarity) metaHtml += `<span class="meta-badge rarity">${articleData.rarity}</span>`;
+            if (articleData.category) metaHtml += `<span class="meta-badge">${articleData.category}</span>`;
+            
+            meta.innerHTML = metaHtml;
+            
+            // Render sentences
+            const sentencesList = document.getElementById('sentencesList');
+            
+            if (!articleData.sentences || articleData.sentences.length === 0) {
+                sentencesList.innerHTML = '<li class="error">No content available. Run generate_game_audio.py first.</li>';
+                return;
+            }
+            
+            sentenceFiles = articleData.sentence_files || [];
+            
+            let html = '';
+            articleData.sentences.forEach((sentence, index) => {
+                html += `
+                    <li class="sentence-item" data-index="${index}" onclick="playSentence(${index})">
+                        <span class="sentence-number">${index + 1}</span>
+                        ${escapeHtml(sentence)}
+                    </li>
+                `;
+            });
+            
+            sentencesList.innerHTML = html;
+        }
+        
+        function initAudio() {
+            if (!articleData.audio_file) {
+                document.getElementById('playBtn').disabled = true;
+                document.getElementById('playBtn').textContent = 'No Audio';
+                return;
+            }
+            
+            audio = new Audio(articleData.audio_file);
+            
+            audio.addEventListener('loadedmetadata', () => {
+                updateTimeDisplay();
+                document.getElementById('playBtn').disabled = false;
+            });
+            
+            audio.addEventListener('timeupdate', updateProgress);
+            audio.addEventListener('ended', () => {
+                isPlaying = false;
+                document.getElementById('playBtn').textContent = '▶';
+                highlightSentence(-1);
+            });
+            
+            audio.addEventListener('error', () => {
+                document.getElementById('playBtn').disabled = true;
+                document.getElementById('playBtn').textContent = 'Error';
+            });
+            
+            document.getElementById('progressContainer').addEventListener('click', (e) => {
+                if (!audio.duration) return;
+                const rect = e.target.getBoundingClientRect();
+                const percent = (e.clientX - rect.left) / rect.width;
+                audio.currentTime = percent * audio.duration;
+            });
+            
+            document.querySelectorAll('.speed-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    audio.playbackRate = parseFloat(btn.dataset.speed);
+                });
+            });
+            
+            document.getElementById('prevSentence').addEventListener('click', () => {
+                if (currentSentenceIndex > 0) playSentence(currentSentenceIndex - 1);
+            });
+            
+            document.getElementById('nextSentence').addEventListener('click', () => {
+                if (currentSentenceIndex < articleData.sentences.length - 1) playSentence(currentSentenceIndex + 1);
+            });
+        }
+        
+        function togglePlay() {
+            if (!audio) return;
+            if (isPlaying) {
+                audio.pause();
+                isPlaying = false;
+                document.getElementById('playBtn').textContent = '▶';
+            } else {
+                audio.play();
+                isPlaying = true;
+                document.getElementById('playBtn').textContent = '⏸';
+            }
+        }
+        
+        function updateProgress() {
+            if (!audio.duration) return;
+            const percent = (audio.currentTime / audio.duration) * 100;
+            document.getElementById('progressBar').style.width = `${percent}%`;
+            updateTimeDisplay();
+        }
+        
+        function updateTimeDisplay() {
+            const current = formatTime(audio.currentTime);
+            const total = formatTime(audio.duration);
+            document.getElementById('timeDisplay').textContent = `${current} / ${total}`;
+        }
+        
+        function highlightSentence(index) {
+            document.querySelectorAll('.sentence-item').forEach(item => item.classList.remove('active'));
+            
+            if (index >= 0) {
+                const item = document.querySelector(`[data-index="${index}"]`);
+                if (item) {
+                    item.classList.add('active');
+                    item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+            
+            currentSentenceIndex = index;
+            document.getElementById('prevSentence').disabled = currentSentenceIndex <= 0;
+            document.getElementById('nextSentence').disabled = currentSentenceIndex >= articleData.sentences.length - 1;
+        }
+        
+        function playSentence(index) {
+            if (!sentenceFiles[index]) {
+                highlightSentence(index);
+                return;
+            }
+            
+            highlightSentence(index);
+            
+            // Create and play sentence audio
+            const sentenceAudio = new Audio(sentenceFiles[index]);
+            sentenceAudio.playbackRate = parseFloat(document.querySelector('.speed-btn.active').dataset.speed);
+            sentenceAudio.play();
+        }
+        
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return '0:00';
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+        
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function showError(message) {
+            document.getElementById('sentencesList').innerHTML = `<li class="error">${message}</li>`;
+        }
+        
+        document.getElementById('playBtn').addEventListener('click', togglePlay);
+        loadArticle();
+    </script>
+</body>
+</html>
