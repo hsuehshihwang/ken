@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiwan News - A2 English</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: white; text-align: center; margin-bottom: 10px; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        .subtitle { color: rgba(255,255,255,0.9); text-align: center; margin-bottom: 20px; }
+        .back-link { display: inline-block; color: white; text-decoration: none; margin-bottom: 20px; padding: 10px 20px; background: rgba(255,255,255,0.2); border-radius: 20px; transition: all 0.3s ease; }
+        .back-link:hover { background: rgba(255,255,255,0.3); }
+        .source-link { display: block; text-align: center; color: rgba(255,255,255,0.9); text-decoration: none; margin-bottom: 20px; font-size: 0.9rem; }
+        .source-link:hover { text-decoration: underline; }
+        .date-nav { display: flex; justify-content: center; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; }
+        .date-btn { padding: 10px 20px; border: none; border-radius: 10px; background: rgba(255,255,255,0.2); color: white; font-size: 0.9rem; cursor: pointer; transition: all 0.3s; text-decoration: none; }
+        .date-btn:hover, .date-btn.active { background: white; color: #f5576c; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .news-card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.15); transition: all 0.3s ease; }
+        .news-card:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,0,0,0.2); }
+        .news-image { width: 100%; height: 180px; object-fit: cover; }
+        .news-content { padding: 20px; }
+        .news-date { font-size: 0.85rem; color: #888; margin-bottom: 8px; }
+        .news-title { font-size: 1.2rem; font-weight: bold; color: #333; margin-bottom: 5px; line-height: 1.3; }
+        .news-original { font-size: 0.85rem; color: #666; margin-bottom: 15px; font-style: italic; }
+        .news-sentences { background: #f9f9f9; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
+        .sentence-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid #eee; }
+        .sentence-item:last-child { border-bottom: none; }
+        .sentence-num { background: #f5576c; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: bold; flex-shrink: 0; }
+        .sentence-text { flex: 1; font-size: 0.95rem; color: #333; line-height: 1.4; }
+        .play-btn { width: 30px; height: 30px; border-radius: 50%; border: none; background: #f5576c; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; transition: all 0.2s; flex-shrink: 0; }
+        .play-btn:hover { background: #e0455a; transform: scale(1.1); }
+        .play-all-btn { width: 100%; padding: 12px; border: none; border-radius: 10px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+        .play-all-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4); }
+        .controls { display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; align-items: center; justify-content: center; }
+        .speed-control { display: flex; align-items: center; gap: 10px; background: white; padding: 10px 15px; border-radius: 10px; }
+        .speed-btn { width: 35px; height: 35px; border-radius: 50%; border: none; background: #f5576c; color: white; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; }
+        .speed-btn:hover { background: #e0455a; }
+        .speed-display { font-weight: bold; min-width: 50px; text-align: center; }
+        .empty-state { text-align: center; padding: 50px 20px; color: white; }
+        .empty-state-icon { font-size: 4rem; margin-bottom: 15px; }
+        .sentence-item.playing { background: #fce4ec; border-radius: 8px; padding: 8px; margin: 0 -8px; }
+        @media (max-width: 600px) { h1 { font-size: 1.8rem; } .news-grid { grid-template-columns: 1fr; } .controls { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to News Portal</a>
+        
+        <h1>📰 Taiwan News</h1>
+        <p class="subtitle" id="date-display">Loading...</p>
+        <a href="https://english.ftvnews.com.tw/" target="_blank" class="source-link">
+            Source: Formosa News
+        </a>
+        
+        <div class="date-nav" id="date-nav"></div>
+        
+        <div class="controls">
+            <div class="speed-control">
+                <button class="speed-btn" onclick="changeSpeed(-0.25)">-</button>
+                <span id="speed-display" class="speed-display">1.0x</span>
+                <button class="speed-btn" onclick="changeSpeed(0.25)">+</button>
+            </div>
+            <button class="play-all-btn" onclick="playAllNews()" id="play-all-btn">▶ Play All</button>
+            <button class="play-all-btn" onclick="stopAll()" id="stop-btn" style="background: #e74c3c; display: none;">⏹ Stop</button>
+        </div>
+        
+        <div id="news-container" class="news-grid">
+            <div class="empty-state">
+                <div class="empty-state-icon">📰</div>
+                <h3>Loading news...</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let newsData = [];
+        let currentAudio = null;
+        let currentSpeed = 1.0;
+        let isPlayingAll = false;
+        let playQueue = [];
+        let availableDates = [];
+
+        function getDateFromUrl() {
+            const path = window.location.pathname;
+            const match = path.match(/\/(\d{4}-\d{2}-\d{2})\//);
+            return match ? match[1] : null;
+        }
+
+        async function loadAvailableDates() {
+            try {
+                const response = await fetch('../dates.json');
+                if (response.ok) {
+                    availableDates = await response.json();
+                    renderDateNav();
+                }
+            } catch (e) {
+                console.log('No dates.json found');
+            }
+        }
+
+        function renderDateNav() {
+            const nav = document.getElementById('date-nav');
+            const currentDate = getDateFromUrl();
+            
+            nav.innerHTML = availableDates.map(date => `
+                <a href="../${date}/index.html" class="date-btn ${date === currentDate ? 'active' : ''}">
+                    ${date}
+                </a>
+            `).join('');
+        }
+
+        async function loadNews() {
+            const date = getDateFromUrl();
+            if (!date) {
+                showError('No date specified');
+                return;
+            }
+
+            document.getElementById('date-display').textContent = `📅 ${date}`;
+            document.title = `Taiwan News ${date} - A2 English`;
+
+            try {
+                const response = await fetch('news.json');
+                if (response.ok) {
+                    newsData = await response.json();
+                    renderNews();
+                } else {
+                    showError('No news for this date');
+                }
+            } catch (e) {
+                showError('Error loading news');
+            }
+        }
+
+        function showError(message) {
+            document.getElementById('news-container').innerHTML = `
+                <div class="empty-state" style="grid-column: 1 / -1;">
+                    <div class="empty-state-icon">❌</div>
+                    <h3>${message}</h3>
+                </div>
+            `;
+        }
+
+        function renderNews() {
+            const container = document.getElementById('news-container');
+            if (!newsData || newsData.length === 0) {
+                container.innerHTML = `<div class="empty-state" style="grid-column: 1 / -1;"><div class="empty-state-icon">📭</div><h3>No news articles</h3></div>`;
+                return;
+            }
+
+            container.innerHTML = newsData.map((article, index) => `
+                <div class="news-card" id="card-${index}">
+                    <img src="${article.image}" alt="" class="news-image" onerror="this.style.display='none'">
+                    <div class="news-content">
+                        <div class="news-title">${article.title}</div>
+                        <div class="news-original">${article.original_title}</div>
+                        <div class="news-sentences">
+                            ${article.sentences.map((sentence, sIndex) => `
+                                <div class="sentence-item" id="sentence-${index}-${sIndex}">
+                                    <span class="sentence-num">${sIndex + 1}</span>
+                                    <span class="sentence-text">${sentence}</span>
+                                    <button class="play-btn" onclick="playSentence(${index}, ${sIndex})">▶</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <button class="play-all-btn" onclick="playArticle(${index})">▶ Play Article</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function playSentence(articleIndex, sentenceIndex) {
+            const article = newsData[articleIndex];
+            if (!article || !article.audio_files) return;
+            stopAll(); clearHighlights();
+            const element = document.getElementById(`sentence-${articleIndex}-${sentenceIndex}`);
+            if (element) element.classList.add('playing');
+            const audioFile = article.audio_files[sentenceIndex];
+            if (!audioFile) return;
+            currentAudio = new Audio(audioFile);
+            currentAudio.playbackRate = currentSpeed;
+            currentAudio.onended = () => { if (element) element.classList.remove('playing'); };
+            currentAudio.play();
+        }
+
+        function playArticle(articleIndex) {
+            const article = newsData[articleIndex];
+            if (!article || !article.audio_files) return;
+            stopAll(); clearHighlights();
+            playQueue = article.audio_files.map((file, sIndex) => ({ articleIndex, sIndex, file })).filter(item => item.file);
+            isPlayingAll = true;
+            document.getElementById('play-all-btn').style.display = 'none';
+            document.getElementById('stop-btn').style.display = 'block';
+            playNext();
+        }
+
+        function playAllNews() {
+            stopAll(); clearHighlights();
+            playQueue = [];
+            newsData.forEach((article, aIndex) => {
+                if (article.audio_files) {
+                    article.audio_files.forEach((file, sIndex) => {
+                        if (file) playQueue.push({ articleIndex: aIndex, sIndex, file });
+                    });
+                }
+            });
+            if (playQueue.length === 0) return;
+            isPlayingAll = true;
+            document.getElementById('play-all-btn').style.display = 'none';
+            document.getElementById('stop-btn').style.display = 'block';
+            playNext();
+        }
+
+        function playNext() {
+            if (!isPlayingAll || playQueue.length === 0) { stopAll(); return; }
+            const item = playQueue.shift(); clearHighlights();
+            const element = document.getElementById(`sentence-${item.articleIndex}-${item.sIndex}`);
+            if (element) element.classList.add('playing');
+            currentAudio = new Audio(item.file);
+            currentAudio.playbackRate = currentSpeed;
+            currentAudio.onended = () => { if (element) element.classList.remove('playing'); playNext(); };
+            currentAudio.play();
+        }
+
+        function stopAll() {
+            if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+            isPlayingAll = false; playQueue = []; clearHighlights();
+            document.getElementById('play-all-btn').style.display = 'block';
+            document.getElementById('stop-btn').style.display = 'none';
+        }
+
+        function clearHighlights() { document.querySelectorAll('.playing').forEach(el => el.classList.remove('playing')); }
+
+        function changeSpeed(delta) {
+            currentSpeed = Math.max(0.25, Math.min(2.0, currentSpeed + delta));
+            document.getElementById('speed-display').textContent = currentSpeed.toFixed(2) + 'x';
+            if (currentAudio) currentAudio.playbackRate = currentSpeed;
+        }
+
+        loadAvailableDates();
+        loadNews();
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2 English Learning</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .back-link { display: inline-block; color: rgba(255,255,255,0.9); text-decoration: none; margin-bottom: 20px; font-size: 14px; }
+        .back-link:hover { text-decoration: underline; }
+        header { background: white; border-radius: 16px; padding: 40px; margin-bottom: 24px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+        header h1 { font-size: 2.5rem; color: #f5576c; margin-bottom: 8px; }
+        header p { color: #888; font-size: 16px; }
+        .level-badge { display: inline-block; background: #f59e0b; color: white; padding: 4px 12px; border-radius: 16px; font-size: 13px; font-weight: 600; margin-top: 12px; }
+        .section { background: white; border-radius: 16px; padding: 28px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+        .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+        .section-icon { font-size: 32px; }
+        .section-title { font-size: 1.4rem; color: #333; }
+        .section-desc { color: #666; margin-bottom: 16px; line-height: 1.5; font-size: 14px; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+        .card { background: #f9fafb; border: 2px solid #e5e7eb; border-radius: 10px; padding: 16px; text-decoration: none; color: inherit; transition: all 0.2s; }
+        .card:hover { border-color: #f5576c; background: #fff0f3; transform: translateY(-2px); }
+        .card-icon { font-size: 28px; margin-bottom: 10px; }
+        .card-title { font-size: 1rem; font-weight: 600; color: #333; margin-bottom: 4px; }
+        .card-desc { font-size: 12px; color: #888; line-height: 1.4; }
+        .card-badge { display: inline-block; background: #f5576c; color: white; padding: 2px 8px; border-radius: 6px; font-size: 10px; font-weight: 600; margin-top: 8px; }
+        .footer { text-align: center; padding: 20px; color: rgba(255,255,255,0.8); font-size: 13px; }
+        .coming-soon { opacity: 0.5; pointer-events: none; }
+        .coming-soon .card-badge { background: #9ca3af; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Levels</a>
+        
+        <header>
+            <h1>A2 English</h1>
+            <p>Elementary level - Build your confidence</p>
+            <span class="level-badge">A2 Elementary</span>
+        </header>
+        
+        <!-- Taiwan News Section -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-icon">🇹🇼</span>
+                <span class="section-title">Taiwan News</span>
+            </div>
+            <div class="section-desc">
+                Real Taiwan news simplified to A2 English level.
+                More detailed sentences with better vocabulary for elementary learners.
+            </div>
+            <div class="cards-grid">
+                <a href="ftv-news/index.html" class="card">
+                    <div class="card-icon">📰</div>
+                    <div class="card-title">Taiwan News</div>
+                    <div class="card-desc">Real news simplified for A2</div>
+                    <span class="card-badge">Daily Updates</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Coming Soon Sections -->
+        <div class="section coming-soon">
+            <div class="section-header">
+                <span class="section-icon">🎧</span>
+                <span class="section-title">Listening Tests</span>
+            </div>
+            <div class="section-desc">
+                A2 level listening exercises with dialogues and comprehension.
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📝</div>
+                    <div class="card-title">Coming Soon</div>
+                    <div class="card-desc">A2 listening exercises</div>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section coming-soon">
+            <div class="section-header">
+                <span class="section-icon">📚</span>
+                <span class="section-title">Reading Stories</span>
+            </div>
+            <div class="section-desc">
+                Short stories at A2 level with vocabulary support.
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📖</div>
+                    <div class="card-title">Coming Soon</div>
+                    <div class="card-desc">A2 reading stories</div>
+                    <span class="card-badge">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            A2 English Learning - Continue your English journey
+        </div>
+    </div>
+</body>
+</html>
