@@ -1,0 +1,4860 @@
+{
+  "greetings": {
+    "name": "Greetings & Introductions",
+    "sentences": [
+      {
+        "text": "Hello, my name is Anna.",
+        "file": "greetings/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Nice to meet you.",
+        "file": "greetings/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How are you today?",
+        "file": "greetings/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I am fine, thank you.",
+        "file": "greetings/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Good morning!",
+        "file": "greetings/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Good afternoon!",
+        "file": "greetings/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Good evening!",
+        "file": "greetings/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "See you later!",
+        "file": "greetings/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Goodbye!",
+        "file": "greetings/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Thank you very much.",
+        "file": "greetings/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "What is your name?",
+        "file": "greetings/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My name is John.",
+        "file": "greetings/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I am from England.",
+        "file": "greetings/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Where are you from?",
+        "file": "greetings/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I am twelve years old.",
+        "file": "greetings/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "How old are you?",
+        "file": "greetings/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "This is my friend.",
+        "file": "greetings/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She is very nice.",
+        "file": "greetings/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "He is my brother.",
+        "file": "greetings/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "We are students.",
+        "file": "greetings/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I live in London.",
+        "file": "greetings/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Do you live here?",
+        "file": "greetings/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Yes, I do.",
+        "file": "greetings/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "No, I don't.",
+        "file": "greetings/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Nice weather today!",
+        "file": "greetings/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "It is very sunny.",
+        "file": "greetings/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I like this place.",
+        "file": "greetings/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Me too!",
+        "file": "greetings/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Thank you for your help.",
+        "file": "greetings/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "You are welcome.",
+        "file": "greetings/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Have a good day!",
+        "file": "greetings/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "You too!",
+        "file": "greetings/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "See you tomorrow.",
+        "file": "greetings/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Good night!",
+        "file": "greetings/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Sleep well!",
+        "file": "greetings/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Nice to see you again.",
+        "file": "greetings/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "How is your family?",
+        "file": "greetings/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "They are great.",
+        "file": "greetings/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "What do you do?",
+        "file": "greetings/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I am a student.",
+        "file": "greetings/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "That is interesting.",
+        "file": "greetings/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Can I help you?",
+        "file": "greetings/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Yes, please.",
+        "file": "greetings/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "No, thank you.",
+        "file": "greetings/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I don't understand.",
+        "file": "greetings/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Please speak slowly.",
+        "file": "greetings/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I am learning English.",
+        "file": "greetings/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "It is fun!",
+        "file": "greetings/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Practice makes perfect.",
+        "file": "greetings/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Keep going!",
+        "file": "greetings/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: Hello! What is your name?",
+          "Person B: Hi! My name is John.",
+          "Person A: Nice to meet you, John.",
+          "Person B: Nice to meet you too!"
+        ],
+        "file": "greetings/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How are you?",
+          "Person B: I'm fine, thank you. And you?",
+          "Person A: I'm good, thanks!",
+          "Person B: Have a nice day!"
+        ],
+        "file": "greetings/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Where are you from?",
+          "Person B: I'm from Canada.",
+          "Person A: Really? I love Canada!",
+          "Person B: Thank you! It's beautiful."
+        ],
+        "file": "greetings/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How old are you?",
+          "Person B: I'm fifteen. And you?",
+          "Person A: I'm fifteen too!",
+          "Person B: We are the same age!"
+        ],
+        "file": "greetings/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Nice to see you again!",
+          "Person B: Hi! It's been a long time!",
+          "Person A: How have you been?",
+          "Person B: Great! I missed you."
+        ],
+        "file": "greetings/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Good morning! How are you?",
+          "Person B: Good morning! I'm well, thanks.",
+          "Person A: Ready for class?",
+          "Person B: Yes, let's go!"
+        ],
+        "file": "greetings/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What is your name?",
+          "Person B: My name is Sarah.",
+          "Person A: I'm Mike. Nice to meet you!",
+          "Person B: Nice to meet you, Mike!"
+        ],
+        "file": "greetings/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you live in London?",
+          "Person B: Yes, I do. Do you?",
+          "Person A: No, I live in Manchester.",
+          "Person B: Oh, that's nice!"
+        ],
+        "file": "greetings/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I help you?",
+          "Person B: Yes, please. Where is the station?",
+          "Person A: Go straight, then turn left.",
+          "Person B: Thank you so much!"
+        ],
+        "file": "greetings/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Thank you for today!",
+          "Person B: You're welcome! It was fun.",
+          "Person A: See you next week!",
+          "Person B: See you! Bye!"
+        ],
+        "file": "greetings/dialogue_10.mp3"
+      }
+    ]
+  },
+  "family": {
+    "name": "Family",
+    "sentences": [
+      {
+        "text": "This is my mother.",
+        "file": "family/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My father is a teacher.",
+        "file": "family/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I have one brother.",
+        "file": "family/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My sister is ten years old.",
+        "file": "family/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My grandmother is very kind.",
+        "file": "family/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I love my family.",
+        "file": "family/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My parents live in London.",
+        "file": "family/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My brother likes football.",
+        "file": "family/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "My sister goes to school.",
+        "file": "family/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "We are a happy family.",
+        "file": "family/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How many people are in your family?",
+        "file": "family/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "There are five people.",
+        "file": "family/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My dad is very tall.",
+        "file": "family/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My mom has brown hair.",
+        "file": "family/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I am the oldest child.",
+        "file": "family/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My brother is younger than me.",
+        "file": "family/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "My sister likes to read.",
+        "file": "family/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "We have a cat and a dog.",
+        "file": "family/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My grandfather tells stories.",
+        "file": "family/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My grandmother cooks very well.",
+        "file": "family/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I have two uncles.",
+        "file": "family/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My aunt lives in America.",
+        "file": "family/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "We visit them every summer.",
+        "file": "family/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My cousin is my best friend.",
+        "file": "family/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "My parents met at university.",
+        "file": "family/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My father drives a blue car.",
+        "file": "family/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My mother works at a hospital.",
+        "file": "family/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My brother plays the guitar.",
+        "file": "family/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My sister dances ballet.",
+        "file": "family/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I play tennis with my dad.",
+        "file": "family/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "We eat dinner together.",
+        "file": "family/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I help my mom in the kitchen.",
+        "file": "family/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "My dad helps me with homework.",
+        "file": "family/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My family goes to the park.",
+        "file": "family/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "We watch movies on weekends.",
+        "file": "family/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I am proud of my family.",
+        "file": "family/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "They support me always.",
+        "file": "family/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My baby brother is cute.",
+        "file": "family/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My sister wants to be a doctor.",
+        "file": "family/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My father wants to travel.",
+        "file": "family/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "We have many family photos.",
+        "file": "family/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love taking family pictures.",
+        "file": "family/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My mom is the best cook.",
+        "file": "family/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My dad tells funny jokes.",
+        "file": "family/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My grandmother knits sweaters.",
+        "file": "family/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "We celebrate birthdays together.",
+        "file": "family/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Family is important to me.",
+        "file": "family/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I call my parents every day.",
+        "file": "family/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "We share everything.",
+        "file": "family/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I am grateful for my family.",
+        "file": "family/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: Do you have a big family?",
+          "Person B: Yes, I have two brothers and one sister.",
+          "Person A: What does your father do?",
+          "Person B: He is a doctor."
+        ],
+        "file": "family/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How old is your sister?",
+          "Person B: She is eight years old.",
+          "Person A: Does she like school?",
+          "Person B: Yes, she loves it!"
+        ],
+        "file": "family/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Where do your parents live?",
+          "Person B: They live in Bristol.",
+          "Person A: Do you see them often?",
+          "Person B: Yes, every weekend."
+        ],
+        "file": "family/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Is that your brother?",
+          "Person B: No, that is my cousin.",
+          "Person A: He looks like you!",
+          "Person B: People say that a lot."
+        ],
+        "file": "family/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How many people are in your family?",
+          "Person B: Four - my parents, my sister, and me.",
+          "Person A: That's nice!",
+          "Person B: Yes, we are close."
+        ],
+        "file": "family/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What does your mother do?",
+          "Person B: She is a nurse.",
+          "Person A: That's a good job.",
+          "Person B: She helps sick people."
+        ],
+        "file": "family/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have any pets?",
+          "Person B: Yes, we have a dog named Max.",
+          "Person A: What breed?",
+          "Person B: He is a golden retriever."
+        ],
+        "file": "family/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: When is your father's birthday?",
+          "Person B: It's on March 15th.",
+          "Person A: What will you give him?",
+          "Person B: I'll give him a book."
+        ],
+        "file": "family/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Who do you look like?",
+          "Person B: I look like my mother.",
+          "Person A: Does she have the same hair?",
+          "Person B: Yes, we both have curly hair."
+        ],
+        "file": "family/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you live with your family?",
+          "Person B: No, I live alone.",
+          "Person A: Do you miss them?",
+          "Person B: Yes, I call them every day."
+        ],
+        "file": "family/dialogue_10.mp3"
+      }
+    ]
+  },
+  "numbers": {
+    "name": "Numbers & Counting",
+    "sentences": [
+      {
+        "text": "I have two cats.",
+        "file": "numbers/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "There are five apples on the table.",
+        "file": "numbers/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My phone number is 555-0123.",
+        "file": "numbers/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I am twenty-five years old.",
+        "file": "numbers/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "She has three brothers.",
+        "file": "numbers/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "We live at 10 Downing Street.",
+        "file": "numbers/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I need six eggs, please.",
+        "file": "numbers/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The bus comes at eight o'clock.",
+        "file": "numbers/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "There are twelve months in a year.",
+        "file": "numbers/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I have twenty dollars.",
+        "file": "numbers/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "One plus two equals three.",
+        "file": "numbers/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I want four slices of pizza.",
+        "file": "numbers/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My classroom has thirty students.",
+        "file": "numbers/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I wake up at seven every day.",
+        "file": "numbers/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "She reads fifty pages a day.",
+        "file": "numbers/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "There are seven days in a week.",
+        "file": "numbers/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I have fifteen friends.",
+        "file": "numbers/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The train leaves at nine.",
+        "file": "numbers/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I bought twenty apples.",
+        "file": "numbers/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My sister is three years older.",
+        "file": "numbers/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I need one hundred dollars.",
+        "file": "numbers/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "There are twenty-four hours in a day.",
+        "file": "numbers/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I have sixty minutes for lunch.",
+        "file": "numbers/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My school has four hundred students.",
+        "file": "numbers/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I am the first in line.",
+        "file": "numbers/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She is second in the race.",
+        "file": "numbers/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I live on the third floor.",
+        "file": "numbers/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He is number ten on the team.",
+        "file": "numbers/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "We have fifteen minutes left.",
+        "file": "numbers/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I eat three meals a day.",
+        "file": "numbers/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My dog has four legs.",
+        "file": "numbers/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "There are ten fingers on my hands.",
+        "file": "numbers/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I have two hands.",
+        "file": "numbers/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My sister has two eyes.",
+        "file": "numbers/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "We have three classes today.",
+        "file": "numbers/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I need five more minutes.",
+        "file": "numbers/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The test has ten questions.",
+        "file": "numbers/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I scored nine out of ten.",
+        "file": "numbers/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "There are six colors in the rainbow.",
+        "file": "numbers/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I want to buy seven books.",
+        "file": "numbers/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "My family has four people.",
+        "file": "numbers/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I walk two miles every day.",
+        "file": "numbers/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "She has eleven cousins.",
+        "file": "numbers/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "We celebrate on December 25th.",
+        "file": "numbers/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The meeting is at three o'clock.",
+        "file": "numbers/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I have eight pairs of shoes.",
+        "file": "numbers/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My teacher is thirty-five years old.",
+        "file": "numbers/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I have two best friends.",
+        "file": "numbers/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "There are nine planets in space.",
+        "file": "numbers/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I need three tickets, please.",
+        "file": "numbers/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: How old are you?",
+          "Person B: I'm twenty-two.",
+          "Person A: And where do you live?",
+          "Person B: I live at 45 Park Street."
+        ],
+        "file": "numbers/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time is it?",
+          "Person B: It's half past three.",
+          "Person A: I have a meeting at four.",
+          "Person B: You have thirty minutes then."
+        ],
+        "file": "numbers/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How many people are coming?",
+          "Person B: Fifteen confirmed.",
+          "Person A: Do we have enough chairs?",
+          "Person B: Yes, we have twenty."
+        ],
+        "file": "numbers/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's your phone number?",
+          "Person B: It's 555-0198.",
+          "Person A: Can you repeat that?",
+          "Person B: Sure, 555-0198."
+        ],
+        "file": "numbers/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How much is this shirt?",
+          "Person B: It's twenty-five dollars.",
+          "Person A: That's a good price!",
+          "Person B: Yes, it's on sale."
+        ],
+        "file": "numbers/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time does the bus come?",
+          "Person B: At eight fifteen.",
+          "Person A: I'll be late for work.",
+          "Person B: Take a taxi instead."
+        ],
+        "file": "numbers/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How many students are in your class?",
+          "Person B: There are thirty-two.",
+          "Person A: That's a big class!",
+          "Person B: Yes, it's very crowded."
+        ],
+        "file": "numbers/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I have three apples, please?",
+          "Person B: Sure. That's one dollar fifty.",
+          "Person A: Here you go.",
+          "Person B: Thank you! Have a nice day."
+        ],
+        "file": "numbers/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time do you wake up?",
+          "Person B: At six thirty.",
+          "Person A: That's early!",
+          "Person B: I have to catch the seven o'clock bus."
+        ],
+        "file": "numbers/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How many questions are on the test?",
+          "Person B: Twenty-five.",
+          "Person A: How long is the test?",
+          "Person B: Forty-five minutes."
+        ],
+        "file": "numbers/dialogue_10.mp3"
+      }
+    ]
+  },
+  "colors": {
+    "name": "Colors",
+    "sentences": [
+      {
+        "text": "The sky is blue.",
+        "file": "colors/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I like the color red.",
+        "file": "colors/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My car is black.",
+        "file": "colors/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The grass is green.",
+        "file": "colors/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "She has brown hair.",
+        "file": "colors/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I want a white shirt.",
+        "file": "colors/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The sun is yellow.",
+        "file": "colors/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My favorite color is purple.",
+        "file": "colors/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "That flower is pink.",
+        "file": "colors/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The cat is orange.",
+        "file": "colors/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I see a gray bird.",
+        "file": "colors/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The book is green.",
+        "file": "colors/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My eyes are brown.",
+        "file": "colors/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The house is white.",
+        "file": "colors/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I like dark blue.",
+        "file": "colors/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "She wears a red dress.",
+        "file": "colors/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The table is brown.",
+        "file": "colors/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My phone is silver.",
+        "file": "colors/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The shoes are black.",
+        "file": "colors/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I see colorful flowers.",
+        "file": "colors/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The rainbow has seven colors.",
+        "file": "colors/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Orange is a nice color.",
+        "file": "colors/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I painted my room blue.",
+        "file": "colors/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Her jacket is yellow.",
+        "file": "colors/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The pillow is soft and white.",
+        "file": "colors/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My pen is purple.",
+        "file": "colors/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The car is fast and red.",
+        "file": "colors/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I like light green.",
+        "file": "colors/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The tree has brown bark.",
+        "file": "colors/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My bag is dark gray.",
+        "file": "colors/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "She loves pink flowers.",
+        "file": "colors/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The wall is cream colored.",
+        "file": "colors/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I see a blue butterfly.",
+        "file": "colors/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The dress is very elegant.",
+        "file": "colors/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My favorite shirt is striped.",
+        "file": "colors/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The sunset is beautiful.",
+        "file": "colors/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like simple colors.",
+        "file": "colors/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The toy is colorful.",
+        "file": "colors/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My notebook is yellow.",
+        "file": "colors/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The carpet is dark red.",
+        "file": "colors/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I prefer warm colors.",
+        "file": "colors/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She chose a pink balloon.",
+        "file": "colors/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The walls are light blue.",
+        "file": "colors/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My glasses are brown.",
+        "file": "colors/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The shoes are white.",
+        "file": "colors/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I love purple flowers.",
+        "file": "colors/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The car is very shiny.",
+        "file": "colors/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My room is painted green.",
+        "file": "colors/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I see a rainbow.",
+        "file": "colors/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The colors are bright.",
+        "file": "colors/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What is your favorite color?",
+          "Person B: I like blue.",
+          "Person A: Me too! I love the sky.",
+          "Person B: Yes, it's beautiful."
+        ],
+        "file": "colors/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What color is your car?",
+          "Person B: It's red.",
+          "Person A: Nice! Red is a good color.",
+          "Person B: Thank you! I like it."
+        ],
+        "file": "colors/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I have the blue pen?",
+          "Person B: Sure. Here you go.",
+          "Person A: Do you have a red one too?",
+          "Person B: Yes, I do."
+        ],
+        "file": "colors/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What color are her eyes?",
+          "Person B: They are green.",
+          "Person A: Wow, that's rare!",
+          "Person B: Yes, she has beautiful eyes."
+        ],
+        "file": "colors/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I like your yellow shirt.",
+          "Person B: Thanks! It's my favorite.",
+          "Person A: Yellow looks good on you.",
+          "Person B: You're so kind!"
+        ],
+        "file": "colors/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What color do you want?",
+          "Person B: I'll take the white one.",
+          "Person A: Great choice!",
+          "Person B: Thank you."
+        ],
+        "file": "colors/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: My room is blue.",
+          "Person B: Mine is green.",
+          "Person A: I like both colors.",
+          "Person B: They look nice together."
+        ],
+        "file": "colors/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Look at that purple flower!",
+          "Person B: It's beautiful!",
+          "Person A: I want to pick it.",
+          "Person B: Don't, it's protected."
+        ],
+        "file": "colors/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What color is the sky now?",
+          "Person B: It's orange. Sunset!",
+          "Person A: It's so pretty!",
+          "Person B: I love this time of day."
+        ],
+        "file": "colors/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like pink?",
+          "Person B: Yes, it's very pretty.",
+          "Person A: I prefer green.",
+          "Person B: Both are nice colors."
+        ],
+        "file": "colors/dialogue_10.mp3"
+      }
+    ]
+  },
+  "time": {
+    "name": "Time & Schedules",
+    "sentences": [
+      {
+        "text": "I wake up at seven o'clock.",
+        "file": "time/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Breakfast is at eight.",
+        "file": "time/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "School starts at nine.",
+        "file": "time/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Lunch is at twelve.",
+        "file": "time/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I finish school at three.",
+        "file": "time/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Dinner is at six.",
+        "file": "time/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I go to bed at ten.",
+        "file": "time/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "What time is it?",
+        "file": "time/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "It is half past two.",
+        "file": "time/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "It's quarter to four.",
+        "file": "time/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "It's quarter past five.",
+        "file": "time/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "It's nine thirty.",
+        "file": "time/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The movie starts at seven.",
+        "file": "time/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I have a meeting at ten.",
+        "file": "time/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Let's meet at noon.",
+        "file": "time/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The bus comes at eight fifteen.",
+        "file": "time/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I exercise in the morning.",
+        "file": "time/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She reads before bed.",
+        "file": "time/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I work from nine to five.",
+        "file": "time/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "We eat lunch at noon.",
+        "file": "time/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The shop opens at nine.",
+        "file": "time/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The shop closes at six.",
+        "file": "time/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I have class on Monday.",
+        "file": "time/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Today is Tuesday.",
+        "file": "time/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Tomorrow is Wednesday.",
+        "file": "time/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Yesterday was Sunday.",
+        "file": "time/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I was born in January.",
+        "file": "time/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Christmas is in December.",
+        "file": "time/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Summer starts in June.",
+        "file": "time/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My birthday is in March.",
+        "file": "time/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I have a dentist appointment on Friday.",
+        "file": "time/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The concert is next Saturday.",
+        "file": "time/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I'm meeting friends tonight.",
+        "file": "time/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Let's have lunch tomorrow.",
+        "file": "time/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I need more time.",
+        "file": "time/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Time flies when you're having fun.",
+        "file": "time/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm always on time.",
+        "file": "time/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Don't be late!",
+        "file": "time/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The meeting is at 3:30.",
+        "file": "time/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'll be there in five minutes.",
+        "file": "time/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "How long does it take?",
+        "file": "time/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "It takes about ten minutes.",
+        "file": "time/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The class lasts one hour.",
+        "file": "time/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I have free time on weekends.",
+        "file": "time/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Let's check the schedule.",
+        "file": "time/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "What's the plan for today?",
+        "file": "time/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "First, we have English.",
+        "file": "time/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Then, we have math.",
+        "file": "time/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "After lunch, we have art.",
+        "file": "time/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Finally, we go home.",
+        "file": "time/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What time is it?",
+          "Person B: It's half past two.",
+          "Person A: When does the movie start?",
+          "Person B: At three o'clock."
+        ],
+        "file": "time/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have class today?",
+          "Person B: Yes, at nine.",
+          "Person A: What class?",
+          "Person B: English. I'm excited!"
+        ],
+        "file": "time/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Let's meet for lunch.",
+          "Person B: Sure! What time?",
+          "Person A: How about noon?",
+          "Person B: Perfect! See you then."
+        ],
+        "file": "time/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time do you wake up?",
+          "Person B: At six.",
+          "Person A: That's so early!",
+          "Person B: I have to catch the bus."
+        ],
+        "file": "time/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: When is your birthday?",
+          "Person B: It's on October 15th.",
+          "Person A: What will you do?",
+          "Person B: I'll have a party!"
+        ],
+        "file": "time/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How long is the movie?",
+          "Person B: About two hours.",
+          "Person A: It starts at seven.",
+          "Person B: So it ends at nine."
+        ],
+        "file": "time/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's the schedule today?",
+          "Person B: English at nine, math at ten.",
+          "Person A: Lunch at twelve?",
+          "Person B: Yes, then science at one."
+        ],
+        "file": "time/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: When does the shop close?",
+          "Person B: At six.",
+          "Person A: I need to hurry!",
+          "Person B: You have twenty minutes."
+        ],
+        "file": "time/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have time this weekend?",
+          "Person B: Yes, I'm free on Saturday.",
+          "Person A: Let's go to the park!",
+          "Person B: Great idea!"
+        ],
+        "file": "time/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time does the train leave?",
+          "Person B: At 4:45.",
+          "Person A: We should leave soon.",
+          "Person B: Yes, let's go now!"
+        ],
+        "file": "time/dialogue_10.mp3"
+      }
+    ]
+  },
+  "daily_routine": {
+    "name": "Daily Routine",
+    "sentences": [
+      {
+        "text": "I wake up early.",
+        "file": "daily_routine/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I brush my teeth.",
+        "file": "daily_routine/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I take a shower.",
+        "file": "daily_routine/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I get dressed.",
+        "file": "daily_routine/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I eat breakfast.",
+        "file": "daily_routine/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I drink coffee.",
+        "file": "daily_routine/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I go to school.",
+        "file": "daily_routine/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I do my homework.",
+        "file": "daily_routine/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I eat lunch.",
+        "file": "daily_routine/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I play outside.",
+        "file": "daily_routine/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I watch TV.",
+        "file": "daily_routine/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I eat dinner.",
+        "file": "daily_routine/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I read a book.",
+        "file": "daily_routine/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I go to bed.",
+        "file": "daily_routine/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I sleep well.",
+        "file": "daily_routine/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I set my alarm.",
+        "file": "daily_routine/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I make my bed.",
+        "file": "daily_routine/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I wash my face.",
+        "file": "daily_routine/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I comb my hair.",
+        "file": "daily_routine/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I put on my shoes.",
+        "file": "daily_routine/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I pack my bag.",
+        "file": "daily_routine/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I catch the bus.",
+        "file": "daily_routine/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I walk to school.",
+        "file": "daily_routine/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I have PE class.",
+        "file": "daily_routine/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I eat an apple.",
+        "file": "daily_routine/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I drink water.",
+        "file": "daily_routine/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I talk to my friends.",
+        "file": "daily_routine/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I study English.",
+        "file": "daily_routine/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I help my mom.",
+        "file": "daily_routine/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I clean my room.",
+        "file": "daily_routine/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I water the plants.",
+        "file": "daily_routine/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I walk the dog.",
+        "file": "daily_routine/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I cook dinner.",
+        "file": "daily_routine/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I wash the dishes.",
+        "file": "daily_routine/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I dry the dishes.",
+        "file": "daily_routine/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I put away laundry.",
+        "file": "daily_routine/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I call my friend.",
+        "file": "daily_routine/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I play games.",
+        "file": "daily_routine/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I listen to music.",
+        "file": "daily_routine/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I write in my diary.",
+        "file": "daily_routine/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I take a break.",
+        "file": "daily_routine/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I eat a snack.",
+        "file": "daily_routine/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I brush my hair.",
+        "file": "daily_routine/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I check my email.",
+        "file": "daily_routine/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I charge my phone.",
+        "file": "daily_routine/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I turn off the lights.",
+        "file": "daily_routine/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I say goodnight.",
+        "file": "daily_routine/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I dream about flying.",
+        "file": "daily_routine/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I sleep for eight hours.",
+        "file": "daily_routine/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I am ready for tomorrow.",
+        "file": "daily_routine/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What time do you wake up?",
+          "Person B: At seven.",
+          "Person A: What do you do first?",
+          "Person B: I brush my teeth."
+        ],
+        "file": "daily_routine/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you eat breakfast?",
+          "Person B: Yes, I eat cereal.",
+          "Person A: What do you drink?",
+          "Person B: I drink orange juice."
+        ],
+        "file": "daily_routine/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What do you do after school?",
+          "Person B: I do my homework.",
+          "Person A: How long does it take?",
+          "Person B: About one hour."
+        ],
+        "file": "daily_routine/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you help at home?",
+          "Person B: Yes, I wash the dishes.",
+          "Person A: That's nice!",
+          "Person B: I also clean my room."
+        ],
+        "file": "daily_routine/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time do you go to bed?",
+          "Person B: At nine thirty.",
+          "Person A: Do you read before bed?",
+          "Person B: Yes, I read for thirty minutes."
+        ],
+        "file": "daily_routine/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What do you do in the morning?",
+          "Person B: I take a shower and get dressed.",
+          "Person A: Do you eat breakfast?",
+          "Person B: Yes, I eat toast and eggs."
+        ],
+        "file": "daily_routine/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you exercise?",
+          "Person B: Yes, I jog in the morning.",
+          "Person A: How often?",
+          "Person B: Every day, for thirty minutes."
+        ],
+        "file": "daily_routine/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What do you do on weekends?",
+          "Person B: I play video games.",
+          "Person A: Do you do homework too?",
+          "Person B: Yes, on Sunday evening."
+        ],
+        "file": "daily_routine/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you walk to school?",
+          "Person B: No, I take the bus.",
+          "Person A: What time does it come?",
+          "Person B: At eight fifteen."
+        ],
+        "file": "daily_routine/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's the last thing you do?",
+          "Person B: I brush my teeth.",
+          "Person A: Me too! Good night!",
+          "Person B: Good night! Sleep well!"
+        ],
+        "file": "daily_routine/dialogue_10.mp3"
+      }
+    ]
+  },
+  "food": {
+    "name": "Food & Drinks",
+    "sentences": [
+      {
+        "text": "I would like some water, please.",
+        "file": "food/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I like apples and bananas.",
+        "file": "food/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "She drinks coffee every morning.",
+        "file": "food/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "We eat lunch at twelve o'clock.",
+        "file": "food/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The food is very delicious.",
+        "file": "food/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I don't like vegetables.",
+        "file": "food/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Can I have some bread?",
+        "file": "food/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I want an orange juice.",
+        "file": "food/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "This pizza is really good.",
+        "file": "food/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Do you want some tea?",
+        "file": "food/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I love chocolate ice cream.",
+        "file": "food/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Please pass me the salt.",
+        "file": "food/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm hungry.",
+        "file": "food/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I'm thirsty.",
+        "file": "food/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Let's have dinner together.",
+        "file": "food/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "What would you like to eat?",
+        "file": "food/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I'll have the chicken, please.",
+        "file": "food/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Is there any milk?",
+        "file": "food/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I need two eggs.",
+        "file": "food/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The soup is hot.",
+        "file": "food/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like my coffee with sugar.",
+        "file": "food/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Do you have any fruit?",
+        "file": "food/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Yes, we have apples and pears.",
+        "file": "food/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I don't eat meat.",
+        "file": "food/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I'm a vegetarian.",
+        "file": "food/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Can I see the menu?",
+        "file": "food/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "What do you recommend?",
+        "file": "food/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The fish is fresh today.",
+        "file": "food/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'll have a glass of water.",
+        "file": "food/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "How much is the pizza?",
+        "file": "food/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I want a small salad.",
+        "file": "food/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Add some pepper, please.",
+        "file": "food/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The bread is delicious.",
+        "file": "food/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I eat rice every day.",
+        "file": "food/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I like to cook.",
+        "file": "food/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My mom makes great pasta.",
+        "file": "food/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I want to try sushi.",
+        "file": "food/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Do you like spicy food?",
+        "file": "food/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "No, I don't like spicy food.",
+        "file": "food/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I prefer sweet food.",
+        "file": "food/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The cake is for you.",
+        "file": "food/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Happy birthday! Make a wish!",
+        "file": "food/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I'll have dessert later.",
+        "file": "food/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Can I have the bill, please?",
+        "file": "food/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Thank you, the food was great!",
+        "file": "food/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I had a wonderful meal.",
+        "file": "food/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Let's eat!",
+        "file": "food/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Enjoy your meal!",
+        "file": "food/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The food smells good!",
+        "file": "food/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I'm full now.",
+        "file": "food/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What would you like to eat?",
+          "Person B: I'd like a sandwich, please.",
+          "Person A: Would you like something to drink?",
+          "Person B: Yes, a glass of orange juice."
+        ],
+        "file": "food/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like pizza?",
+          "Person B: Yes, I love it!",
+          "Person A: What toppings do you want?",
+          "Person B: I want cheese and tomato."
+        ],
+        "file": "food/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Are you hungry?",
+          "Person B: Yes, very!",
+          "Person A: Let's go to the restaurant.",
+          "Person B: Great idea! I'm starving!"
+        ],
+        "file": "food/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time do you eat lunch?",
+          "Person B: At twelve.",
+          "Person A: Where do you eat?",
+          "Person B: In the school cafeteria."
+        ],
+        "file": "food/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I have some water?",
+          "Person B: Sure. Still or sparkling?",
+          "Person A: Still, please.",
+          "Person B: Here you go."
+        ],
+        "file": "food/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you cook?",
+          "Person B: Yes, I cook dinner.",
+          "Person A: What do you make?",
+          "Person B: I make pasta and salad."
+        ],
+        "file": "food/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How much is the coffee?",
+          "Person B: It's three dollars.",
+          "Person A: Here you go.",
+          "Person B: Thank you! Enjoy!"
+        ],
+        "file": "food/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's your favorite food?",
+          "Person B: I love chocolate!",
+          "Person A: Me too! It's delicious.",
+          "Person B: Let's have some later."
+        ],
+        "file": "food/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you want some tea?",
+          "Person B: No, thank you.",
+          "Person A: Coffee?",
+          "Person B: Yes, please. With milk."
+        ],
+        "file": "food/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: The food is ready!",
+          "Person B: It smells amazing!",
+          "Person A: Let's eat together.",
+          "Person B: I'm so hungry!"
+        ],
+        "file": "food/dialogue_10.mp3"
+      }
+    ]
+  },
+  "shopping": {
+    "name": "Shopping",
+    "sentences": [
+      {
+        "text": "I need to buy new shoes.",
+        "file": "shopping/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "How much is this?",
+        "file": "shopping/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Can I try this on?",
+        "file": "shopping/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Do you have this in blue?",
+        "file": "shopping/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'll take this one, please.",
+        "file": "shopping/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Where is the fitting room?",
+        "file": "shopping/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The store is open until nine.",
+        "file": "shopping/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'm just looking, thanks.",
+        "file": "shopping/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Do you accept credit cards?",
+        "file": "shopping/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "This is too expensive.",
+        "file": "shopping/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I want to return this.",
+        "file": "shopping/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Do you have a receipt?",
+        "file": "shopping/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Can I get a refund?",
+        "file": "shopping/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I'm looking for a gift.",
+        "file": "shopping/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "What size do you wear?",
+        "file": "shopping/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I wear size medium.",
+        "file": "shopping/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "This is on sale!",
+        "file": "shopping/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "How much does this cost?",
+        "file": "shopping/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I have a coupon.",
+        "file": "shopping/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "That's a good deal!",
+        "file": "shopping/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I need a bigger size.",
+        "file": "shopping/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need a smaller size.",
+        "file": "shopping/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Do you have a fitting room?",
+        "file": "shopping/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'll buy two of these.",
+        "file": "shopping/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Where is the checkout?",
+        "file": "shopping/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Is there a discount?",
+        "file": "shopping/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I'm shopping for clothes.",
+        "file": "shopping/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I'm looking for shoes.",
+        "file": "shopping/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Do you have bags?",
+        "file": "shopping/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need a gift bag.",
+        "file": "shopping/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Can I pay with cash?",
+        "file": "shopping/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Do you have change?",
+        "file": "shopping/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The shirt is nice.",
+        "file": "shopping/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I like this color.",
+        "file": "shopping/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How much for both?",
+        "file": "shopping/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Can I use my card?",
+        "file": "shopping/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Do you ship online?",
+        "file": "shopping/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "What are your hours?",
+        "file": "shopping/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "When do you open?",
+        "file": "shopping/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The shop is closed today.",
+        "file": "shopping/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I want to buy flowers.",
+        "file": "shopping/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "These flowers are beautiful.",
+        "file": "shopping/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I'll take the red ones.",
+        "file": "shopping/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "That's twenty dollars total.",
+        "file": "shopping/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Here's your change.",
+        "file": "shopping/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Thank you very much!",
+        "file": "shopping/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Have a nice day!",
+        "file": "shopping/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'll come back tomorrow.",
+        "file": "shopping/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "This is my favorite store.",
+        "file": "shopping/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love shopping here!",
+        "file": "shopping/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: How much is this shirt?",
+          "Person B: It's twenty dollars.",
+          "Person A: I'll take it!",
+          "Person B: Great choice!"
+        ],
+        "file": "shopping/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I try this on?",
+          "Person B: Of course. The fitting room is over there.",
+          "Person A: Thank you!",
+          "Person B: Let me know if you need help."
+        ],
+        "file": "shopping/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have this in size large?",
+          "Person B: Yes, we do.",
+          "Person A: Can I see it?",
+          "Person B: Sure! Here you go."
+        ],
+        "file": "shopping/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I'm looking for a gift.",
+          "Person B: What kind of gift?",
+          "Person A: For my mother.",
+          "Person B: We have nice scarves."
+        ],
+        "file": "shopping/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you accept credit cards?",
+          "Person B: Yes, we accept all cards.",
+          "Person A: Perfect!",
+          "Person B: Your total is fifteen dollars."
+        ],
+        "file": "shopping/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I return this?",
+          "Person B: Do you have the receipt?",
+          "Person A: Yes, here it is.",
+          "Person B: Sure, I'll give you a refund."
+        ],
+        "file": "shopping/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I'm just looking.",
+          "Person B: Okay, let me know if you need help.",
+          "Person A: Thanks!",
+          "Person B: Take your time."
+        ],
+        "file": "shopping/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Is this on sale?",
+          "Person B: Yes, it's 50% off!",
+          "Person A: That's a great deal!",
+          "Person B: Yes, buy it now!"
+        ],
+        "file": "shopping/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Where is the checkout?",
+          "Person B: It's at the front.",
+          "Person A: Thank you.",
+          "Person B: Have a nice day!"
+        ],
+        "file": "shopping/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I need shopping bags.",
+          "Person B: Sure, paper or plastic?",
+          "Person A: Paper, please.",
+          "Person B: Here you go. That's fifty cents."
+        ],
+        "file": "shopping/dialogue_10.mp3"
+      }
+    ]
+  },
+  "travel": {
+    "name": "Travel & Directions",
+    "sentences": [
+      {
+        "text": "Where is the train station?",
+        "file": "travel/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I need a taxi, please.",
+        "file": "travel/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How do I get to the airport?",
+        "file": "travel/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Turn left at the corner.",
+        "file": "travel/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Go straight for two blocks.",
+        "file": "travel/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The hotel is on Main Street.",
+        "file": "travel/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I need to buy a ticket.",
+        "file": "travel/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "What platform is the train?",
+        "file": "travel/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "How long is the journey?",
+        "file": "travel/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I have a reservation.",
+        "file": "travel/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Can I have a map, please?",
+        "file": "travel/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Where is the nearest subway?",
+        "file": "travel/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm lost. Can you help me?",
+        "file": "travel/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Where are you from?",
+        "file": "travel/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I'm a tourist here.",
+        "file": "travel/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "How far is it to the beach?",
+        "file": "travel/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Let's take a taxi.",
+        "file": "travel/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The bus stop is over there.",
+        "file": "travel/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I want to visit the museum.",
+        "file": "travel/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "What time does the train leave?",
+        "file": "travel/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The flight is delayed.",
+        "file": "travel/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need to check in.",
+        "file": "travel/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Where is my gate?",
+        "file": "travel/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Boarding starts at ten.",
+        "file": "travel/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Where is baggage claim?",
+        "file": "travel/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I lost my passport!",
+        "file": "travel/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I need to call the embassy.",
+        "file": "travel/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Where can I exchange money?",
+        "file": "travel/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I need a room for two nights.",
+        "file": "travel/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Is breakfast included?",
+        "file": "travel/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "What is the Wi-Fi password?",
+        "file": "travel/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Can I have the key, please?",
+        "file": "travel/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I want to check out.",
+        "file": "travel/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Where is the elevator?",
+        "file": "travel/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How do I use this machine?",
+        "file": "travel/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Can you take my photo?",
+        "file": "travel/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "What is this place?",
+        "file": "travel/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I love this city!",
+        "file": "travel/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The weather is beautiful here.",
+        "file": "travel/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I want to try local food.",
+        "file": "travel/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Where is the best restaurant?",
+        "file": "travel/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "How much is a ticket?",
+        "file": "travel/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I want a round trip ticket.",
+        "file": "travel/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Do I need a visa?",
+        "file": "travel/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Where is customs?",
+        "file": "travel/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I have nothing to declare.",
+        "file": "travel/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My flight is at noon.",
+        "file": "travel/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The plane is on time.",
+        "file": "travel/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I love to travel.",
+        "file": "travel/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I want to see the world!",
+        "file": "travel/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: Excuse me, where is the train station?",
+          "Person B: Go straight, then turn right.",
+          "Person A: How far is it?",
+          "Person B: About ten minutes."
+        ],
+        "file": "travel/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I need a taxi.",
+          "Person B: Where to?",
+          "Person A: The airport, please.",
+          "Person B: No problem. It's twenty dollars."
+        ],
+        "file": "travel/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have a map?",
+          "Person B: Yes, here you go.",
+          "Person A: Thank you! I'm a tourist.",
+          "Person B: Welcome to our city!"
+        ],
+        "file": "travel/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time does the bus leave?",
+          "Person B: At three thirty.",
+          "Person A: I have a question.",
+          "Person B: Go ahead!"
+        ],
+        "file": "travel/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I help you? You look lost.",
+          "Person B: Yes, please. Where is the hotel?",
+          "Person A: Turn left, it's on your right.",
+          "Person B: Thank you so much!"
+        ],
+        "file": "travel/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How do I get to the museum?",
+          "Person B: Take bus number five.",
+          "Person A: Where do I catch it?",
+          "Person B: The stop is across the street."
+        ],
+        "file": "travel/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I'd like to book a room.",
+          "Person B: For how many nights?",
+          "Person A: Three nights.",
+          "Person B: That's $150 total."
+        ],
+        "file": "travel/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Where is baggage claim?",
+          "Person B: Follow the signs.",
+          "Person A: I can't find my suitcase.",
+          "Person B: Let me help you."
+        ],
+        "file": "travel/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can you take our photo?",
+          "Person B: Sure! Where do you want it?",
+          "Person A: In front of the statue.",
+          "Person B: Say cheese!"
+        ],
+        "file": "travel/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time is check-in?",
+          "Person B: At 3 PM.",
+          "Person A: Can I check in early?",
+          "Person B: Let me check for you."
+        ],
+        "file": "travel/dialogue_10.mp3"
+      }
+    ]
+  },
+  "weather": {
+    "name": "Weather",
+    "sentences": [
+      {
+        "text": "It is sunny today.",
+        "file": "weather/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "It is raining outside.",
+        "file": "weather/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The weather is nice.",
+        "file": "weather/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "It is very cold.",
+        "file": "weather/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "It is hot today.",
+        "file": "weather/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need an umbrella.",
+        "file": "weather/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "It is cloudy.",
+        "file": "weather/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The wind is strong.",
+        "file": "weather/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "It is snowing!",
+        "file": "weather/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love sunny days.",
+        "file": "weather/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "It is humid today.",
+        "file": "weather/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "The weather is terrible.",
+        "file": "weather/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "It is windy.",
+        "file": "weather/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need a jacket.",
+        "file": "weather/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "It is warm today.",
+        "file": "weather/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The sun is shining.",
+        "file": "weather/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "It is foggy outside.",
+        "file": "weather/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I can't see anything.",
+        "file": "weather/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The storm is coming.",
+        "file": "weather/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Stay inside!",
+        "file": "weather/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "It is freezing cold.",
+        "file": "weather/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "My hands are cold.",
+        "file": "weather/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I need hot chocolate.",
+        "file": "weather/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The snow is beautiful.",
+        "file": "weather/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Let's build a snowman!",
+        "file": "weather/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love rainy days.",
+        "file": "weather/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The puddles are fun.",
+        "file": "weather/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I like jumping in puddles.",
+        "file": "weather/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The rainbow is beautiful.",
+        "file": "weather/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "It is partly cloudy.",
+        "file": "weather/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "What's the temperature?",
+        "file": "weather/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "It is twenty degrees.",
+        "file": "weather/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "It is very warm.",
+        "file": "weather/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The weather is perfect.",
+        "file": "weather/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I love this weather!",
+        "file": "weather/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "It is a beautiful day.",
+        "file": "weather/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Let's go to the beach!",
+        "file": "weather/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need sunscreen.",
+        "file": "weather/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The sun is very strong.",
+        "file": "weather/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'm going to get sunburned.",
+        "file": "weather/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "The weather changes fast.",
+        "file": "weather/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "It might rain later.",
+        "file": "weather/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Check the forecast.",
+        "file": "weather/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "What will the weather be?",
+        "file": "weather/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "It will be sunny tomorrow.",
+        "file": "weather/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I hope it doesn't rain.",
+        "file": "weather/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The storm passed.",
+        "file": "weather/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The weather is calm now.",
+        "file": "weather/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I love all seasons.",
+        "file": "weather/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "The weather is great!",
+        "file": "weather/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: How's the weather today?",
+          "Person B: It's sunny and warm.",
+          "Person A: Perfect for a walk!",
+          "Person B: Yes, let's go outside."
+        ],
+        "file": "weather/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have an umbrella?",
+          "Person B: Yes, it's in my bag.",
+          "Person A: It might rain.",
+          "Person B: Good idea to bring it."
+        ],
+        "file": "weather/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: It's very cold today!",
+          "Person B: Yes, wear a warm coat.",
+          "Person A: I forgot my gloves.",
+          "Person B: You can borrow mine."
+        ],
+        "file": "weather/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Look! It's snowing!",
+          "Person B: How exciting!",
+          "Person A: Let's make a snowman!",
+          "Person B: Yes! Let's go!"
+        ],
+        "file": "weather/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's the weather like tomorrow?",
+          "Person B: It will be rainy.",
+          "Person A: Oh no, I hate rain.",
+          "Person B: Bring an umbrella."
+        ],
+        "file": "weather/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: It's really hot today.",
+          "Person B: Yes, very humid.",
+          "Person A: Let's go swimming.",
+          "Person B: Great idea!"
+        ],
+        "file": "weather/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: The weather is beautiful!",
+          "Person B: Yes, it's perfect.",
+          "Person A: Let's have a picnic.",
+          "Person B: I'll bring the food!"
+        ],
+        "file": "weather/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Is it going to rain?",
+          "Person B: The forecast says yes.",
+          "Person A: I'll bring my umbrella.",
+          "Person B: Smart choice."
+        ],
+        "file": "weather/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I love autumn.",
+          "Person B: Me too. The leaves are beautiful.",
+          "Person A: And the weather is nice.",
+          "Person B: Not too hot, not too cold."
+        ],
+        "file": "weather/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What season do you like?",
+          "Person B: I love summer.",
+          "Person A: Me too! Beach time!",
+          "Person B: Yes! I love the sun!"
+        ],
+        "file": "weather/dialogue_10.mp3"
+      }
+    ]
+  },
+  "health": {
+    "name": "Health & Doctor",
+    "sentences": [
+      {
+        "text": "I don't feel well.",
+        "file": "health/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I have a headache.",
+        "file": "health/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I have a cold.",
+        "file": "health/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I need to see a doctor.",
+        "file": "health/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Take this medicine.",
+        "file": "health/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "You need to rest.",
+        "file": "health/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I have a fever.",
+        "file": "health/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My stomach hurts.",
+        "file": "health/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I feel dizzy.",
+        "file": "health/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Call an ambulance!",
+        "file": "health/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "How are you feeling?",
+        "file": "health/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I feel much better.",
+        "file": "health/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "You look sick.",
+        "file": "health/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need some water.",
+        "file": "health/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Please sit down.",
+        "file": "health/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Take deep breaths.",
+        "file": "health/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I have allergies.",
+        "file": "health/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I'm allergic to peanuts.",
+        "file": "health/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I wear glasses.",
+        "file": "health/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "My back hurts.",
+        "file": "health/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I have a toothache.",
+        "file": "health/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I need to go to the dentist.",
+        "file": "health/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I feel tired today.",
+        "file": "health/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I didn't sleep well.",
+        "file": "health/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I have sore muscles.",
+        "file": "health/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I went jogging this morning.",
+        "file": "health/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Exercise is good for health.",
+        "file": "health/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I eat healthy food.",
+        "file": "health/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Vegetables are good for you.",
+        "file": "health/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I drink eight glasses of water.",
+        "file": "health/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I don't smoke.",
+        "file": "health/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I don't drink alcohol.",
+        "file": "health/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I go to the gym.",
+        "file": "health/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I feel strong and healthy.",
+        "file": "health/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The doctor is busy.",
+        "file": "health/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "When is my appointment?",
+        "file": "health/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I need to make a call.",
+        "file": "health/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The nurse is very kind.",
+        "file": "health/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My temperature is normal.",
+        "file": "health/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I need a checkup.",
+        "file": "health/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I feel much better now.",
+        "file": "health/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Thank you, doctor.",
+        "file": "health/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "When should I come back?",
+        "file": "health/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Take care of yourself.",
+        "file": "health/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I hope you get well soon.",
+        "file": "health/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Thank you for your help.",
+        "file": "health/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Health is very important.",
+        "file": "health/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I want to stay healthy.",
+        "file": "health/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Prevention is better than cure.",
+        "file": "health/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love being healthy!",
+        "file": "health/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What's wrong?",
+          "Person B: I have a headache.",
+          "Person A: Take some medicine.",
+          "Person B: Thank you, I will."
+        ],
+        "file": "health/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How are you feeling today?",
+          "Person B: I feel much better.",
+          "Person A: That's great news!",
+          "Person B: Yes, the medicine helped."
+        ],
+        "file": "health/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I don't feel well.",
+          "Person B: What's the matter?",
+          "Person A: My stomach hurts.",
+          "Person B: You should see a doctor."
+        ],
+        "file": "health/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you exercise?",
+          "Person B: Yes, three times a week.",
+          "Person A: What do you do?",
+          "Person B: I jog and do yoga."
+        ],
+        "file": "health/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Take this medicine twice a day.",
+          "Person B: With food?",
+          "Person A: Yes, after breakfast and dinner.",
+          "Person B: Okay, thank you."
+        ],
+        "file": "health/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I need to make an appointment.",
+          "Person B: Sure. When are you free?",
+          "Person A: How about Monday?",
+          "Person B: Monday at 10 AM."
+        ],
+        "file": "health/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: You look pale.",
+          "Person B: I feel tired.",
+          "Person A: You should rest.",
+          "Person B: I think you're right."
+        ],
+        "file": "health/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Are you allergic to anything?",
+          "Person B: Yes, peanuts.",
+          "Person A: I'll note that down.",
+          "Person B: Thank you."
+        ],
+        "file": "health/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time is my appointment?",
+          "Person B: At 2:30.",
+          "Person A: Do I need to arrive early?",
+          "Person B: Yes, 15 minutes early."
+        ],
+        "file": "health/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Get well soon!",
+          "Person B: Thank you! I'm almost better.",
+          "Person A: That's wonderful!",
+          "Person B: I feel great now!"
+        ],
+        "file": "health/dialogue_10.mp3"
+      }
+    ]
+  },
+  "work": {
+    "name": "Work & Jobs",
+    "sentences": [
+      {
+        "text": "I am a teacher.",
+        "file": "work/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She is a doctor.",
+        "file": "work/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "He is a lawyer.",
+        "file": "work/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I work in an office.",
+        "file": "work/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I work from home.",
+        "file": "work/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "What do you do for a living?",
+        "file": "work/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I start work at nine.",
+        "file": "work/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I finish work at five.",
+        "file": "work/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I have a meeting today.",
+        "file": "work/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My boss is very nice.",
+        "file": "work/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I like my job.",
+        "file": "work/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I need a new job.",
+        "file": "work/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Can you send me the report?",
+        "file": "work/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "The deadline is Friday.",
+        "file": "work/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I'm very busy today.",
+        "file": "work/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I have too much work.",
+        "file": "work/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Let's have a meeting.",
+        "file": "work/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Please check your email.",
+        "file": "work/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I'm going on a business trip.",
+        "file": "work/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I work hard every day.",
+        "file": "work/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "My colleague is helpful.",
+        "file": "work/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I love my coworkers.",
+        "file": "work/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The office is very quiet.",
+        "file": "work/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I need a vacation.",
+        "file": "work/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I want to get promoted.",
+        "file": "work/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I work in marketing.",
+        "file": "work/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "She works in finance.",
+        "file": "work/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He works in IT.",
+        "file": "work/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm looking for a job.",
+        "file": "work/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Here is my resume.",
+        "file": "work/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "The interview is tomorrow.",
+        "file": "work/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I want a higher salary.",
+        "file": "work/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I work overtime sometimes.",
+        "file": "work/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My job is stressful.",
+        "file": "work/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I need better work-life balance.",
+        "file": "work/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I enjoy working with people.",
+        "file": "work/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm a good team player.",
+        "file": "work/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I have important skills.",
+        "file": "work/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I'm organized and efficient.",
+        "file": "work/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I communicate well.",
+        "file": "work/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I'm a leader.",
+        "file": "work/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I solve problems.",
+        "file": "work/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I'm very creative.",
+        "file": "work/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I'm always learning.",
+        "file": "work/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I'm professional.",
+        "file": "work/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I'm dedicated.",
+        "file": "work/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I'm responsible.",
+        "file": "work/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I'm reliable.",
+        "file": "work/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I'm honest.",
+        "file": "work/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I'm hardworking.",
+        "file": "work/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What do you do?",
+          "Person B: I'm a teacher.",
+          "Person A: What subject?",
+          "Person B: I teach English."
+        ],
+        "file": "work/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like your job?",
+          "Person B: Yes, I love it!",
+          "Person A: What do you like most?",
+          "Person B: I like helping people."
+        ],
+        "file": "work/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What time do you start work?",
+          "Person B: At nine.",
+          "Person A: Do you work late?",
+          "Person B: Sometimes, until six."
+        ],
+        "file": "work/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I have an interview tomorrow.",
+          "Person B: Good luck! What job?",
+          "Person A: Marketing manager.",
+          "Person B: You'll do great!"
+        ],
+        "file": "work/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can you send me the report?",
+          "Person B: Sure. When do you need it?",
+          "Person A: By Friday, please.",
+          "Person B: I'll send it tomorrow."
+        ],
+        "file": "work/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Where do you work?",
+          "Person B: I work downtown.",
+          "Person A: How do you get there?",
+          "Person B: I take the subway."
+        ],
+        "file": "work/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I'm going to quit.",
+          "Person B: Why? What happened?",
+          "Person A: I found a better job.",
+          "Person B: Congratulations!"
+        ],
+        "file": "work/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Are you busy today?",
+          "Person B: Yes, I have three meetings.",
+          "Person A: Can we talk later?",
+          "Person B: Yes, after lunch."
+        ],
+        "file": "work/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I need a raise.",
+          "Person B: Talk to your boss.",
+          "Person A: I'm nervous.",
+          "Person B: You deserve it!"
+        ],
+        "file": "work/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How was work?",
+          "Person B: It was good. I finished my project.",
+          "Person A: Great job!",
+          "Person B: Thank you! I worked hard."
+        ],
+        "file": "work/dialogue_10.mp3"
+      }
+    ]
+  },
+  "hobbies": {
+    "name": "Hobbies & Free Time",
+    "sentences": [
+      {
+        "text": "I like reading books.",
+        "file": "hobbies/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love playing football.",
+        "file": "hobbies/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "She likes painting.",
+        "file": "hobbies/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He enjoys cooking.",
+        "file": "hobbies/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "We like watching movies.",
+        "file": "hobbies/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I play the guitar.",
+        "file": "hobbies/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I love listening to music.",
+        "file": "hobbies/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "She dances very well.",
+        "file": "hobbies/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I like taking photos.",
+        "file": "hobbies/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "He enjoys fishing.",
+        "file": "hobbies/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I like swimming in the pool.",
+        "file": "hobbies/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "She loves gardening.",
+        "file": "hobbies/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I play video games.",
+        "file": "hobbies/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "He likes hiking.",
+        "file": "hobbies/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "We enjoy camping.",
+        "file": "hobbies/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I like doing puzzles.",
+        "file": "hobbies/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "She loves writing stories.",
+        "file": "hobbies/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I like collecting stamps.",
+        "file": "hobbies/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "He enjoys playing chess.",
+        "file": "hobbies/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I love dancing.",
+        "file": "hobbies/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like singing songs.",
+        "file": "hobbies/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "She enjoys reading magazines.",
+        "file": "hobbies/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I like watching sports.",
+        "file": "hobbies/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "He enjoys playing basketball.",
+        "file": "hobbies/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I like riding my bike.",
+        "file": "hobbies/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She loves making crafts.",
+        "file": "hobbies/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I enjoy walking in the park.",
+        "file": "hobbies/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He likes building things.",
+        "file": "hobbies/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like playing cards.",
+        "file": "hobbies/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "She enjoys knitting.",
+        "file": "hobbies/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I love traveling.",
+        "file": "hobbies/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "He enjoys photography.",
+        "file": "hobbies/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I like playing tennis.",
+        "file": "hobbies/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She loves yoga.",
+        "file": "hobbies/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I enjoy meditation.",
+        "file": "hobbies/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He likes running.",
+        "file": "hobbies/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like playing the piano.",
+        "file": "hobbies/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "She enjoys cooking Italian food.",
+        "file": "hobbies/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I love making art.",
+        "file": "hobbies/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "He enjoys watching documentaries.",
+        "file": "hobbies/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I like learning languages.",
+        "file": "hobbies/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She loves doing yoga.",
+        "file": "hobbies/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "I enjoy going to the gym.",
+        "file": "hobbies/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "He likes playing video games.",
+        "file": "hobbies/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "I like gardening.",
+        "file": "hobbies/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "She enjoys painting pictures.",
+        "file": "hobbies/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I love reading comics.",
+        "file": "hobbies/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "He enjoys playing sports.",
+        "file": "hobbies/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I like doing exercise.",
+        "file": "hobbies/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "She loves having fun!",
+        "file": "hobbies/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: What do you do in your free time?",
+          "Person B: I like reading books.",
+          "Person A: What kind of books?",
+          "Person B: I love detective stories."
+        ],
+        "file": "hobbies/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you play any sports?",
+          "Person B: Yes, I play football.",
+          "Person A: How often do you play?",
+          "Person B: Every Saturday with friends."
+        ],
+        "file": "hobbies/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What are your hobbies?",
+          "Person B: I like painting and dancing.",
+          "Person A: That's creative!",
+          "Person B: Yes, it makes me happy."
+        ],
+        "file": "hobbies/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like music?",
+          "Person B: Yes, I play the guitar.",
+          "Person A: Can you play a song?",
+          "Person B: Sure, I'll play for you."
+        ],
+        "file": "hobbies/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What do you do on weekends?",
+          "Person B: I watch movies.",
+          "Person A: What kind of movies?",
+          "Person B: I love comedies."
+        ],
+        "file": "hobbies/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like cooking?",
+          "Person B: Yes, I love it!",
+          "Person A: What do you cook?",
+          "Person B: I make pasta and pizza."
+        ],
+        "file": "hobbies/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you have any hobbies?",
+          "Person B: Yes, I like taking photos.",
+          "Person A: What do you photograph?",
+          "Person B: Nature and animals."
+        ],
+        "file": "hobbies/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What games do you play?",
+          "Person B: I play video games.",
+          "Person A: What's your favorite?",
+          "Person B: I love adventure games."
+        ],
+        "file": "hobbies/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you exercise?",
+          "Person B: Yes, I go to the gym.",
+          "Person A: How often?",
+          "Person B: Three times a week."
+        ],
+        "file": "hobbies/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I love traveling!",
+          "Person B: Me too! Where have you been?",
+          "Person A: I went to Japan.",
+          "Person B: I want to go there!"
+        ],
+        "file": "hobbies/dialogue_10.mp3"
+      }
+    ]
+  },
+  "animals": {
+    "name": "Animals & Pets",
+    "sentences": [
+      {
+        "text": "I have a dog.",
+        "file": "animals/sentence_01.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Cats are cute.",
+        "file": "animals/sentence_02.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "The bird is singing.",
+        "file": "animals/sentence_03.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I like horses.",
+        "file": "animals/sentence_04.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "The fish is swimming.",
+        "file": "animals/sentence_05.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "She has a rabbit.",
+        "file": "animals/sentence_06.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "He likes turtles.",
+        "file": "animals/sentence_07.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "The snake is dangerous.",
+        "file": "animals/sentence_08.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I love animals.",
+        "file": "animals/sentence_09.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Dogs are loyal.",
+        "file": "animals/sentence_10.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Cats are independent.",
+        "file": "animals/sentence_11.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Birds can fly.",
+        "file": "animals/sentence_12.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Fish live in water.",
+        "file": "animals/sentence_13.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Rabbits are soft.",
+        "file": "animals/sentence_14.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Horses are strong.",
+        "file": "animals/sentence_15.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Turtles are slow.",
+        "file": "animals/sentence_16.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Snakes are scary.",
+        "file": "animals/sentence_17.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Monkeys are funny.",
+        "file": "animals/sentence_18.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Elephants are huge.",
+        "file": "animals/sentence_19.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Lions are kings of the jungle.",
+        "file": "animals/sentence_20.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Penguins live in cold places.",
+        "file": "animals/sentence_21.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Dolphins are smart.",
+        "file": "animals/sentence_22.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Whales are the biggest.",
+        "file": "animals/sentence_23.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Bears are very strong.",
+        "file": "animals/sentence_24.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Giraffes have long necks.",
+        "file": "animals/sentence_25.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Zebras are black and white.",
+        "file": "animals/sentence_26.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Kangaroos jump very high.",
+        "file": "animals/sentence_27.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Owls are wise.",
+        "file": "animals/sentence_28.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Butterflies are beautiful.",
+        "file": "animals/sentence_29.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Bees make honey.",
+        "file": "animals/sentence_30.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "Ants are tiny.",
+        "file": "animals/sentence_31.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "Spiders have eight legs.",
+        "file": "animals/sentence_32.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Frogs can jump.",
+        "file": "animals/sentence_33.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "Cows give us milk.",
+        "file": "animals/sentence_34.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "Chickens lay eggs.",
+        "file": "animals/sentence_35.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "Sheep give us wool.",
+        "file": "animals/sentence_36.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Pigs are pink.",
+        "file": "animals/sentence_37.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "I love my pet.",
+        "file": "animals/sentence_38.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "My dog is my best friend.",
+        "file": "animals/sentence_39.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "I feed my cat every day.",
+        "file": "animals/sentence_40.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "I walk my dog in the park.",
+        "file": "animals/sentence_41.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "My cat likes to sleep.",
+        "file": "animals/sentence_42.mp3",
+        "voice": "en-US-JennyNeural"
+      },
+      {
+        "text": "My bird can sing.",
+        "file": "animals/sentence_43.mp3",
+        "voice": "en-US-BrianNeural"
+      },
+      {
+        "text": "I love to play with animals.",
+        "file": "animals/sentence_44.mp3",
+        "voice": "en-US-AnaNeural"
+      },
+      {
+        "text": "Animals need love too.",
+        "file": "animals/sentence_45.mp3",
+        "voice": "en-US-ChristopherNeural"
+      },
+      {
+        "text": "Be kind to animals.",
+        "file": "animals/sentence_46.mp3",
+        "voice": "en-US-AvaNeural"
+      },
+      {
+        "text": "I want a puppy!",
+        "file": "animals/sentence_47.mp3",
+        "voice": "en-US-AndrewNeural"
+      },
+      {
+        "text": "My pet is very cute.",
+        "file": "animals/sentence_48.mp3",
+        "voice": "en-US-EmmaNeural"
+      },
+      {
+        "text": "Animals are amazing!",
+        "file": "animals/sentence_49.mp3",
+        "voice": "en-US-GuyNeural"
+      },
+      {
+        "text": "I love all animals!",
+        "file": "animals/sentence_50.mp3",
+        "voice": "en-US-JennyNeural"
+      }
+    ],
+    "dialogues": [
+      {
+        "lines": [
+          "Person A: Do you have a pet?",
+          "Person B: Yes, I have a dog.",
+          "Person A: What's its name?",
+          "Person B: His name is Max."
+        ],
+        "file": "animals/dialogue_01.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I love cats!",
+          "Person B: Me too! They're so cute.",
+          "Person A: How many cats do you have?",
+          "Person B: I have two cats."
+        ],
+        "file": "animals/dialogue_02.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's your favorite animal?",
+          "Person B: I love dolphins.",
+          "Person A: They are smart!",
+          "Person B: Yes, and they're friendly."
+        ],
+        "file": "animals/dialogue_03.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Can I pet your dog?",
+          "Person B: Yes, he's friendly.",
+          "Person A: He's so cute!",
+          "Person B: Thank you! He loves people."
+        ],
+        "file": "animals/dialogue_04.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like birds?",
+          "Person B: Yes, they're beautiful.",
+          "Person A: Do you have any?",
+          "Person B: Yes, a parrot named Polly."
+        ],
+        "file": "animals/dialogue_05.mp3"
+      },
+      {
+        "lines": [
+          "Person A: I want to get a pet.",
+          "Person B: What kind?",
+          "Person A: I'm thinking about a cat.",
+          "Person B: Cats are great pets!"
+        ],
+        "file": "animals/dialogue_06.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What animals do you see in the zoo?",
+          "Person B: Lions, elephants, and giraffes.",
+          "Person A: Which one is your favorite?",
+          "Person B: I love the elephants!"
+        ],
+        "file": "animals/dialogue_07.mp3"
+      },
+      {
+        "lines": [
+          "Person A: Do you like snakes?",
+          "Person B: No, I'm scared of them.",
+          "Person A: They're interesting though.",
+          "Person B: Maybe, but from far away!"
+        ],
+        "file": "animals/dialogue_08.mp3"
+      },
+      {
+        "lines": [
+          "Person A: How do you take care of your dog?",
+          "Person B: I feed him and walk him.",
+          "Person A: How often do you walk him?",
+          "Person B: Every morning and evening."
+        ],
+        "file": "animals/dialogue_09.mp3"
+      },
+      {
+        "lines": [
+          "Person A: What's the name of your cat?",
+          "Person B: Her name is Luna.",
+          "Person A: That's a pretty name!",
+          "Person B: Thank you! She's a pretty cat."
+        ],
+        "file": "animals/dialogue_10.mp3"
+      }
+    ]
+  }
+}
